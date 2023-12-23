@@ -1,0 +1,12 @@
+Flask==2.3.3
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.2
+Werkzeug==2.3.7
+flask-paginate==2023.10.24
+pytz==2021.3
+flask_sslify==0.1.4
+flask_wtf==1.1.2
+flask_limiter==3.0.0
+wtforms==3.0.0
+sqlalchemy==2.0.20
+requests==2.26.0

@@ -1,0 +1,1167 @@
+@media screen and (min-width: 1601px) and (max-width: 1919px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.motto {
+		top: 25px; 
+	}
+
+	.btn-danger {
+		top: 3%;
+		right: 5%;
+	}
+
+	.btn-MENU {
+		top: 3%;
+		right: 13%;
+	}
+
+	.btn-MENU_news {
+		top: 1%;
+		right: 13%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 1%;
+		right: 5%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 3.5%;
+		right: 5%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_panel {
+		top: 3.5%;
+		right: 13%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_article {
+		top: 4%;
+		right: 5%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_article {
+		top: 4%;
+		right: 13%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.menu.active {
+		top: 100px;
+	}
+
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.motto {
+		top: 25px; 
+	}
+
+	.btn-danger {
+		top: 3%;
+		right: 5%;
+		font-size: 23px;
+	}
+
+	.btn-MENU {
+		top: 3%;
+		right: 14%;
+		font-size: 23px;
+	}
+
+	.btn-MENU_news {
+		top: 1%;
+		right: 17%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 1%;
+		right: 7%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 3.5%;
+		right: 7%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_panel {
+		top: 3.5%;
+		right: 17%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_article {
+		top: 4%;
+		right: 7%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_article {
+		top: 4%;
+		right: 17%;
+		font-size: 25px;
+		position: absolute;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.motto {
+		top: 25px; 
+	}
+
+	.btn-danger {
+		top: 3%;
+		right: 6%;
+		font-size: 23px;
+	}
+
+	.btn-MENU {
+		top: 3%;
+		right: 15%;
+		font-size: 23px;
+	}
+
+	.btn-MENU_news {
+		top: 1%;
+		right: 19%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 1%;
+		right: 7%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 3.5%;
+		right: 7%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_panel {
+		top: 3.5%;
+		right: 17%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_article {
+		top: 4%;
+		right: 7%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_article {
+		top: 4%;
+		right: 17%;
+		font-size: 25px;
+		position: absolute;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.motto {
+		top: 25px; 
+	}
+
+	.btn-danger {
+		top: 3%;
+		right: 8%;
+		font-size: 23px;
+	}
+
+	.btn-MENU {
+		top: 3%;
+		right: 19%;
+		font-size: 23px;
+	}
+
+	.btn-MENU_news {
+		top: 1%;
+		right: 19%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 1%;
+		right: 7%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 3.5%;
+		right: 7%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_panel {
+		top: 3.5%;
+		right: 19%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_article {
+		top: 4%;
+		right: 7%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_article {
+		top: 4%;
+		right: 17%;
+		font-size: 25px;
+		position: absolute;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.motto {
+		top: 25px; 
+	}
+
+	.btn-danger {
+		top: 3%;
+		right: 8%;
+		font-size: 23px;
+	}
+
+	.btn-MENU {
+		top: 3%;
+		right: 19%;
+		font-size: 23px;
+	}
+
+	.btn-MENU_news {
+		top: 2%;
+		left: 25%;
+		right: auto;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 2%;
+		right: 25%;
+		left: auto;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 3.5%;
+		right: 8%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_panel {
+		top: 3.5%;
+		right: 21%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_article {
+		top: 5%;
+		right: 8%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_article {
+		top: 5%;
+		right: 21%;
+		font-size: 25px;
+		position: absolute;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 801px) and (max-width: 960px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.motto {
+		top: 25px; 
+	}
+
+	.btn-danger {
+		top: 3%;
+		right: 8%;
+		font-size: 21px;
+	}
+
+	.btn-MENU {
+		top: 3%;
+		right: 20%;
+		font-size: 21px;
+	}
+
+	.btn-MENU_news {
+		top: 2.5%;
+		left: 25%;
+		right: auto;
+		font-size: 23px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 2.5%;
+		right: 25%;
+		left: auto;
+		font-size: 23px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 3%;
+		right: 9%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_panel {
+		top: 3%;
+		right: 24%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-danger_article {
+		top: 5%;
+		right: 9%;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	.btn-MENU_article {
+		top: 5%;
+		right: 24%;
+		font-size: 25px;
+		position: absolute;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 721px) and (max-width: 800px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.motto {
+		top: 25px; 
+	}
+
+	.btn-danger {
+		top: 3%;
+		right: 9%;
+		font-size: 19px;
+	}
+
+	.btn-MENU {
+		top: 3%;
+		right: 22%;
+		font-size: 19px;
+	}
+
+	.btn-MENU_news {
+		top: 2.5%;
+		left: 25%;
+		right: auto;
+		font-size: 23px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 2.5%;
+		right: 25%;
+		left: auto;
+		font-size: 23px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 4%;
+		right: 10%;
+		position: absolute;
+		font-size: 19px;
+	}
+
+	.btn-MENU_panel {
+		top: 4%;
+		right: 24%;
+		position: absolute;
+		font-size: 19px;
+	}
+
+	.btn-danger_article {
+		top: 6%;
+		right: 10%;
+		position: absolute;
+		font-size: 19px;
+	}
+
+	.btn-MENU_article {
+		top: 6%;
+		right: 24%;
+		position: absolute;
+		font-size: 19px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 640px) and (max-width: 720px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.motto {
+		top: 25px; 
+	}
+
+	.btn-MENU {
+		top: 100%;
+		left: 30%;
+		right: auto;
+		font-size: 23px;
+		position: absolute;
+	}
+
+	.btn-danger {
+		top: 100%;
+		right: 30%;
+		left: auto;
+		font-size: 23px;
+		position: absolute;
+	}
+
+	.btn-MENU_news {
+		top: 3%;
+		left: 25%;
+		right: auto;
+		font-size: 17px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 3%;
+		right: 25%;
+		left: auto;
+		font-size: 17px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 5%;
+		right: 11%;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-MENU_panel {
+		top: 5%;
+		right: 25%;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-danger_article {
+		top: 7%;
+		right: 11%;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-MENU_article {
+		top: 7%;
+		right: 24%;
+		position: absolute;
+		font-size: 17px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 481px) and (max-width: 639px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.logo_motto {
+	    width: 75px; 
+	    margin-top: 5px;
+	}
+
+	.motto {
+		top: 25px; 
+		left: 85px;
+		font-size: 15px;
+	}
+
+	.btn-MENU {
+		top: 100%;
+		left: 25%;
+		right: auto;
+		font-size: 21px;
+		position: absolute;
+	}
+
+	.btn-danger {
+		top: 100%;
+		right: 25%;
+		left: auto;
+		font-size: 21px;
+		position: absolute;
+	}
+
+	.btn-MENU_news {
+		top: 3%;
+		left: 20%;
+		right: auto;
+		font-size: 17px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 3%;
+		right: 20%;
+		left: auto;
+		font-size: 17px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 15%;
+		right: 25%;
+		left: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-MENU_panel {
+		top: 15%;
+		left: 25%;
+		right: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-danger_article {
+		top: 17%;
+		right: 25%;
+		left: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-MENU_article {
+		top: 17%;
+		left: 25%;
+		right: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.menu_btn {
+		top: 20px;
+	}
+
+	.logo_motto {
+	    width: 75px; 
+	    margin-top: 5px;
+	}
+
+	.motto {
+		top: 25px; 
+		left: 85px;
+		font-size: 15px;
+	}
+
+	.btn-MENU {
+		top: 100%;
+		left: 20%;
+		right: auto;
+		font-size: 19px;
+		position: absolute;
+	}
+
+	.btn-danger {
+		top: 100%;
+		right: 20%;
+		left: auto;
+		font-size: 19px;
+		position: absolute;
+	}
+
+	.btn-MENU_news {
+		top: 4%;
+		left: 20%;
+		right: auto;
+		font-size: 15px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 4%;
+		right: 20%;
+		left: auto;
+		font-size: 15px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 12%;
+		right: 25%;
+		left: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-MENU_panel {
+		top: 12%;
+		left: 25%;
+		right: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-danger_article {
+		top: 17%;
+		right: 25%;
+		left: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-MENU_article {
+		top: 17%;
+		left: 25%;
+		right: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 271px) and (max-width: 359px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.menu_btn {
+		top: 15px;
+		right: 15px;
+	}
+
+	.menu_btn span {
+		width: 20px;
+		height: 2px;
+		top: 0px;
+		right: 1px;
+		position: absolute;
+		background-color: #fff;
+		box-shadow: 3px 2px 2px black;
+	}
+
+	.menu_btn span:nth-of-type(2) {
+		top: 5px;
+	}
+
+	.menu_btn span:nth-of-type(3) {
+		top: 10px;
+	}
+
+	.logo_motto {
+	    width: 50px; 
+	    margin-top: 5px;
+	}
+
+	.motto {
+		top: 15px; 
+		left: 60px;
+		font-size: 11px;
+	}
+
+	.btn-MENU {
+		top: 100%;
+		left: 20%;
+		right: auto;
+		font-size: 13px;
+		position: absolute;
+	}
+
+	.btn-danger {
+		top: 100%;
+		right: 20%;
+		left: auto;
+		font-size: 13px;
+		position: absolute;
+	}
+
+	.btn-MENU_news {
+		top: 3%;
+		left: 20%;
+		right: auto;
+		font-size: 13px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 3%;
+		right: 20%;
+		left: auto;
+		font-size: 13px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 12%;
+		right: 20%;
+		left: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-MENU_panel {
+		top: 12%;
+		left: 20%;
+		right: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-danger_article {
+		top: 17%;
+		right: 20%;
+		left: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-MENU_article {
+		top: 17%;
+		left: 20%;
+		right: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.menu.active {
+		width: 200px;
+		top: 80px;
+		right: 7%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 240px) and (max-width: 270px) {
+	@font-face {
+	    font-family: 'Days One'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+	    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+	}
+
+	body {
+		width: 100%;
+		margin: 0px;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: url('../img/background/fone_1280.png'); 
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.conteiner {
+		width: 100%;
+	}
+
+	.menu_btn {
+		top: 15px;
+		right: 15px;
+	}
+
+	.menu_btn span {
+		width: 20px;
+		height: 2px;
+		top: 0px;
+		right: 1px;
+		position: absolute;
+		background-color: #fff;
+		box-shadow: 3px 2px 2px black;
+	}
+
+	.menu_btn span:nth-of-type(2) {
+		top: 5px;
+	}
+
+	.menu_btn span:nth-of-type(3) {
+		top: 10px;
+	}
+
+	.logo_motto {
+	    width: 50px; 
+	    margin-top: 5px;
+	    margin-top: 5px;
+	    margin-left: 5px;
+	}
+
+	.motto {
+		top: 15px; 
+		left: 45px;
+		font-size: 11px;
+	}
+
+	.btn-MENU {
+		top: 100%;
+		left: 20%;
+		right: auto;
+		font-size: 13px;
+		position: absolute;
+	}
+
+	.btn-danger {
+		top: 100%;
+		right: 20%;
+		left: auto;
+		font-size: 13px;
+		position: absolute;
+	}
+
+	.btn-MENU_news {
+		top: 4%;
+		left: 20%;
+		right: auto;
+		font-size: 11px;
+		position: absolute;
+	}
+
+	.btn-danger_news {
+		top: 4%;
+		right: 20%;
+		left: auto;
+		font-size: 11px;
+		position: absolute;
+	}
+
+	.btn-danger_panel {
+		top: 12%;
+		right: 18%;
+		left: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-MENU_panel {
+		top: 12%;
+		left: 18%;
+		right: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-danger_article {
+		top: 17%;
+		right: 18%;
+		left: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.btn-MENU_article {
+		top: 17%;
+		left: 18%;
+		right: auto;
+		position: absolute;
+		font-size: 17px;
+	}
+
+	.menu.active {
+		width: 200px;
+		top: 80px;
+		right: 2%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */

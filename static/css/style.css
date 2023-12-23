@@ -1,0 +1,1184 @@
+/* /////////////////////////////////////////////////////////////////////// */
+
+
+/* Подключение щрифтов */
+@font-face {
+    font-family: 'Days One'; 
+    font-weight: normal; 
+    font-style: normal; 
+    src: url('../font/DaysOne-Regular.ttf') format('truetype');
+}
+/* Подключение щрифтов */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Общие стили */
+body {
+	width: 100%;
+	margin: 0px;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url('../img/background/fone_1280.png'); 
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+/* Общие стили */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Хедер */
+.logo_motto {
+    width: 90px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    margin-top: 15px;
+    margin-left: 15px; 
+}
+
+.motto {
+	top: 30px; 
+	left: 105px; 
+	letter-spacing: 15%;
+	position: absolute;
+    font-family: 'Days One', sans-serif;
+    font-size: 20px; 
+    color: #fff;
+}
+/* Хедер */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Основные фреймы */
+.box_one {
+	width: 100%;
+	position: relative;
+}
+
+.box_two {
+	width: 100%;
+	position: relative;
+}
+
+.box_admin {
+	width: 100%;
+	position: relative;
+}
+/* Основные фреймы */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Блок стилей для 1-го блока, первой страницы (где находится приветственная информация) */
+.conteiner {
+	width: 100%;
+	position: relative;
+}
+
+.box_rectangle_one {
+	position: absolute;
+	width: 100%;
+	float: left;
+}
+
+.box_rectangle_two {
+	position: absolute;
+	width: 100%;
+	float: right;
+}
+
+.box_rectangle_three {
+	position: absolute;
+	width: 100%;
+	margin-left: 0;
+  	margin-right: 0;
+}
+
+
+.motto_one {
+	top: 130px;
+    left: 40px;
+    float: left;
+    z-index: 1;
+    position: absolute;
+    letter-spacing: 3px;
+	font-family: 'Days One', sans-serif;
+    font-size: 42px; 
+    color: #fff;
+}
+
+.motto_two {
+	top: 370px;
+    right: 75px;
+    z-index: 1;
+    float: right;
+    position: absolute;
+    letter-spacing: 3px;
+	font-family: 'Days One', sans-serif;
+	text-align: center;
+    font-size: 32px; 
+    color: #fff;
+}
+
+.rectangle_one {
+	width: 900px;
+	height: 120px;
+	top: 100px;
+	float: left;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 10px;
+	opacity: 0.3;
+}
+
+.rectangle_two {
+	width: 750px;
+	height: 130px;
+	top: 350px;
+	right: 0px;
+	float: right;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 10px;
+	opacity: 0.3;
+}
+
+.rectangle_three {
+	width: 100%;
+	height: 220px;
+	top: 600px;
+	right: 0px;
+	position: absolute;
+	margin-left: 0;
+  	margin-right: 0;
+	background-color: #fff;
+	border-radius: 10px;
+	opacity: 0.3;
+}
+
+.camera_logo {
+	width: 115px;
+	height: auto;
+	top: 670px;
+	left: 3%;
+	position: absolute;
+}
+
+.postcard_logo {
+	width: 105px;
+	height: auto;
+	top: 650px;
+	left: 28%;
+	position: absolute;
+}
+
+.mask_logo{
+	width: 115px;
+	height: auto;
+	top: 670px;
+	left: 53%;
+	position: absolute;
+}
+
+.guarantee_logo{
+	width: 105px;
+	height: auto;
+	top: 650px;
+	left: 78%;
+	position: absolute;
+}
+
+.camera_label {
+	top: 685px;
+    left: 10%;
+    z-index: 1;
+    position: absolute;
+    letter-spacing: 3px;
+	font-family: 'Days One', sans-serif;
+    font-size: 25px; 
+    color: #434343;
+}
+
+.postcard_label {
+	top: 685px;
+    left: 35%;
+    z-index: 1;
+    position: absolute;
+    letter-spacing: 3px;
+	font-family: 'Days One', sans-serif;
+    font-size: 25px; 
+    color: #434343;
+}
+
+.mask_label{
+	top: 685px;
+    left: 60%;
+    z-index: 1;
+    position: absolute;
+    letter-spacing: 3px;
+	font-family: 'Days One', sans-serif;
+    font-size: 25px; 
+    color: #434343;
+}
+
+.guarantee_label{
+	top: 685px;
+    left: 85%;
+    z-index: 1;
+    position: absolute;
+    letter-spacing: 3px;
+	font-family: 'Days One', sans-serif;
+    font-size: 25px; 
+    color: #434343;
+}
+
+.catralog {
+	left: 33%;
+    top: 1050px;
+    position: absolute;
+	font-family: 'Days One', sans-serif;
+    font-size: 45px;
+    color: #fff;
+}
+/* Блок стилей для 1-го блока, первой страницы (где находится приветственная информация) */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Блок стилей для 2-го блока, первой страницы (где находятся кнопки перехода в разделы) */
+.btn_flowers {
+	width: 350px;
+    height: 350px;
+    top: 1200px;
+	left: 10%;
+	position: absolute;
+	background: url('../img/buttons/flowers.png') no-repeat;
+	background-color: transparent;
+	background-size: 100%;
+	cursor: pointer;
+	border: none;
+	padding: 0;
+    font: inherit;
+	color: inherit;
+}
+
+.btn_bouquets {
+	width: 350px;
+    height: 350px;
+    top: 1200px;
+	left: 30%;
+    position: absolute;
+    background: url('../img/buttons/bouquets.png') no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    cursor: pointer;
+    border: none;
+	padding: 0;
+	font: inherit;
+	color: inherit;
+}
+
+.btn_baskets {
+	width: 350px;
+    height: 350px;
+    top: 1200px;
+	left: 50%;
+    position: absolute;
+    background: url('../img/buttons/baskets.png') no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    cursor: pointer;
+    border: none;
+	padding: 0;
+	font: inherit;
+	color: inherit;
+}
+
+.btn_indoor {
+	width: 350px;
+    height: 350px;
+    top: 1200px;
+	left: 70%;
+    position: absolute;
+    background: url('../img/buttons/indoor.png') no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    cursor: pointer;
+    border: none;
+	padding: 0;
+	font: inherit;
+	color: inherit;
+}
+
+.btn_artificial {
+	width: 350px;
+    height: 350px;
+    top: 1570px;
+	left: 10%;
+    position: absolute;
+    background: url('../img/buttons/artificial.png') no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    cursor: pointer;
+    border: none;
+	padding: 0;
+	font: inherit;
+	color: inherit;
+}
+
+.btn_wreaths {
+	width: 350px;
+    height: 350px;
+    top: 1570px;
+	left: 30%;
+    position: absolute;
+    background: url('../img/buttons/wreaths.png') no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    cursor: pointer;
+    border: none;
+	padding: 0;
+	font: inherit;
+	color: inherit;
+}
+
+.btn_toys {
+	width: 350px;
+    height: 350px;
+    top: 1570px;
+	left: 50%;
+    position: absolute;
+    background: url('../img/buttons/toys.png') no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    cursor: pointer;
+    border: none;
+	padding: 0;
+	font: inherit;
+	color: inherit;
+}
+
+.btn_fireworks {
+	width: 350px;
+    height: 350px;
+    top: 1570px;
+	left: 70%;
+    position: absolute;
+    background: url('../img/buttons/fireworks.png') no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    cursor: pointer;
+    border: none;
+	padding: 0;
+	font: inherit;
+	color: inherit;
+}
+/* Блок стилей для 2-го блока, первой страницы (где находятся кнопки перехода в разделы) */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Блок стилей для 3-го блока, первой страницы (где указана контактная информация) */
+.information {
+	top: 2200px;
+	left: 30%;
+	position: absolute;
+	font-family: 'Days One', sans-serif;
+    font-size: 45px;
+    color: #fff;
+}
+
+.info {
+	top: 2350px;
+	left: 280px;
+	width: 70%;
+	margin: 0 auto;
+	position: absolute;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.info_gray {
+	font-family: 'Days One', sans-serif;
+	font-size: 45px;
+	color: #434343;
+}
+
+
+.info_white {
+	font-family: 'Days One', sans-serif;
+	font-size: 45px;
+	color: #fff;
+}
+/* Блок стилей для 3-го блока, первой страницы (где указана контактная информация) */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Блок стилей для страницы админ панели */
+.box_admin {
+	width: 100%;
+	height: 100%;
+    position: relative;
+}
+
+.admin_label {
+	top: 100px;
+    position: relative;
+    text-align: center;
+	font-family: 'Days One', sans-serif;
+    font-size: 45px;
+    color: #fff;
+}
+
+
+.btn_add {
+	width: 300px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: green;
+	font-family: 'Days One', sans-serif;
+	font-size: 17px;
+	color: #000000;
+}
+
+.admin_form {
+	width: 20em;
+	top: 120px;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+	width: 300px;
+	height: 35px;
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	font-family: 'Days One', sans-serif;
+	font-size: 17px;
+	color: #000000;
+	color: black; 
+}
+
+input::placeholder  {
+	color: black;
+}
+
+.preview {
+	width: 305px;
+	height: 305px;
+}
+
+.instruction {
+	top: 200px;
+	left: 3%;
+	position: absolute;
+	font-family: 'Days One', sans-serif;
+	font-size: 17px;
+	color: #fff;
+}
+
+.admin_label_2 {
+	margin-top: 100px;
+	font-size: 45px;
+	font-family: 'Days One', sans-serif;
+	text-align: center;
+	color: #fff;
+	}
+
+.admin_authorization {
+	width: 450px;
+	height: 200px;
+	top: 100px;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.input_log {
+	top: 10%;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px black;
+    opacity: 0.9;
+}
+
+.input_pass {
+	top: 15%;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px black;
+    opacity: 0.9;
+}
+
+.btn_authorization {
+	opacity: 0.9;
+	width: 120px;
+	height: 45px;
+	top: 20%;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px black;
+}
+/* Блок стилей для страницы админ панели */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Блок стилей для страницы добавления статьи */
+.admin_add_article {
+	top: 50px;
+    position: relative;
+	font-family: 'Days One', sans-serif;
+	text-align: center;
+    font-size: 45px;
+    color: #fff;
+}
+
+.add_article {
+	width: 70em;
+    height: 30em;
+	top: 150px;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;  
+}
+
+.preview_article {
+	width: 30em;
+	height: 30em;
+	position: relative;
+	margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.block_preview {
+	width: 50%;
+	height: 100%;
+}
+
+.block_placeholder_total {
+	width: 50%;
+	height: 100%;
+}
+
+.block_placeholder {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-top: auto;
+    margin-bottom: auto;
+}
+
+.placeholder_name_article {
+	width: 90%;
+	height: 10%;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.placeholder_text_article {
+	width: 90%;
+	height: 30%;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.file_add {
+    margin-top: 30px;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.btn_add_article {
+    margin-top: 30px;
+	margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    border-radius: 10px;
+}
+/* Блок стилей для страницы добавления статьи */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Блок стилей для кнопок админки */
+.btn-danger {
+	top: 3%;
+	right: 5%;
+	position: fixed;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px black;
+	font-size: 25px;
+	color: #fff;
+}
+
+.btn-MENU {
+	top: 3%;
+	right: 12%;
+	position: fixed;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px black;
+	font-size: 25px;
+	color: #fff;
+}
+
+.btn-MENU_news {
+	top: 3%;
+	right: 5%;
+	position: fixed;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px black;
+	font-size: 25px;
+	color: #fff;
+}
+
+.btn-danger_news {
+	top: 3%;
+	right: 12%;
+	position: fixed;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px black;
+	font-size: 25px;
+	color: #fff;
+}
+
+.btn-MENU_panel {
+	top: 4%;
+	right: 5%;
+	position: fixed;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px black;
+	font-size: 25px;
+	color: #fff;
+}
+
+.btn-danger_panel {
+	top: 4%;
+	right: 12%;
+	position: fixed;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px black;
+	font-size: 25px;
+	color: #fff;
+}
+
+.btn-MENU_article {
+	top: 3%;
+	right: 5%;
+	position: fixed;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px black;
+	font-size: 25px;
+	color: #fff;
+}
+
+.btn-danger_article {
+	top: 3%;
+	right: 12%;
+	position: fixed;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px black;
+	font-size: 25px;
+	color: #fff;
+}
+/* Блок стилей для кнопок админки */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Блок стилей для страницы ошибки 404 */
+.error_404 {
+	text-align: center;
+	position: relative;
+}
+
+.title_error {
+	top: 180px;
+	position: relative;
+	font-family: 'Days One', sans-serif;
+	text-align: center;
+	font-size: 45px;
+	color: #fff;
+}
+
+.title_error_two {
+	top: 200px;
+	position: relative;
+	font-family: 'Days One', sans-serif;
+	text-align: center;
+	font-size: 45px;
+	color: #fff;
+}
+
+.menu_error {
+	top: 300px;
+	position: relative;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 3px 2px black;
+	text-align: center;
+	font-size: 33px;
+	list-style: none;
+}
+
+.menu_error a {
+	margin: 10px;
+}
+
+/* Блок стилей для страницы ошибки 404 */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Бургерное меню */
+.main_page {
+	top: 30px;
+    right: 30px;
+    position: absolute;
+    box-shadow: 5px black;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	letter-spacing: 15%;
+    font-size: 17px;
+    color: #fff;
+}
+
+.menu_btn {
+	width: 30px;
+	height: 30px;
+	top: 30px;
+	right: 25px;
+	position: absolute;
+}
+
+.menu_btn span {
+	width: 30px;
+	height: 2px;
+	top: 0px;
+	right: 1px;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 3px 2px 2px black;
+}
+
+.menu_btn span:nth-of-type(2) {
+	top: 10px;
+}
+
+.menu_btn span:nth-of-type(3) {
+	top: 20px;
+}
+
+.menu {
+	width: 200px;
+	top: 70px;
+	right: 65px;
+	position: fixed;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.5);
+	transform: translateX(300%);
+	border-radius: 5px;
+}
+
+.menu li {
+	line-height: 25px;
+	line-height: 30px;
+	list-style-type: none;
+	font-family: 'Days One', sans-serif;
+	text-align: center;
+	color: #fff;
+}
+
+.menu_btn.active span:first-of-type {
+	opacity: 0;
+}
+
+.menu_btn.active span:nth-of-type(2) {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+	box-shadow: 0px 0px 0px black;
+}
+
+.menu_btn.active span:nth-of-type(3) {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);	
+	box-shadow: 0px 0px 0px black;
+}
+
+.menu.active {
+	width: 200px;
+	top: 80px;
+	right: 65px;
+	position: fixed;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.5);
+	transform: translateX(0);
+	border-radius: 5px;
+	border: 1px solid black;
+	text-align: center;
+	z-index: 9999;
+}
+
+.menu a {
+	display: inline-block;
+    margin: 0 10px;
+	font-family: 'Days One', sans-serif;
+	text-decoration: none;
+	font-size: 19px;
+	text-align: center;
+	color: #fff;
+    padding: 10px;
+    text-shadow: 2px 2px black;
+    z-index: 9999; 
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.menu a:hover {
+    z-index: 9999; 
+}
+/* Бургерное меню */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Ошибки */
+.flash.success {
+	top: 200px;
+	position: relative;
+	padding: 5px;
+	margin-left: 2%;
+	font-family: 'Days One', sans-serif;
+	color: red;
+}
+
+.flash.error {
+	top: 200px;
+	position: relative;
+	padding: 5px;
+	margin-left: 2%;
+	font-family: 'Days One', sans-serif;
+	color: red;
+}
+
+.flash.error_user {
+	top: 130px;
+	position: relative;
+	padding: 5px;
+	margin-left: 2%;
+	font-family: 'Days One', sans-serif;
+	margin-left: 0;
+	padding-left: 0;
+	text-align: center;
+	color: red;
+}
+
+.flash.success_panel {
+	top: -25px;
+	padding: 5px;
+	margin-left: 2%;
+	position: relative;
+	font-family: 'Days One', sans-serif;
+	color: green;
+	font-size: 11px;
+	width: 370px;
+}
+
+.flash.error_panel {
+	top: -25px;
+	padding: 5px;
+	margin-left: 2%;
+	position: relative;
+	font-family: 'Days One', sans-serif;
+	color: red;
+	font-size: 11px;
+	width: 370px;
+}
+
+.flash.success_article {
+	top: -75px;
+	padding: 5px;
+	margin-left: 2%;
+	position: relative;
+	font-family: 'Days One', sans-serif;
+	color: green;
+	font-size: 19px;
+	width: 600px;
+}
+
+.flash.error_article {
+	top: -75px;
+	padding: 5px;
+	margin-left: 2%;
+	position: relative;
+	font-family: 'Days One', sans-serif;
+	color: red;
+	font-size: 19px;
+	width: 600px;
+}
+/* Ошибки */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* Карточки товара */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    width: calc(33.33% - 20px); /* 3 карточки в ряд с отступами */
+    margin: 10px;
+}
+
+.container_card {
+	display: grid;
+	grid-column: 3, auto;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 15%;
+}
+
+li {
+	list-style: none;
+}
+.cards_item {
+	width: 350px;
+	height: 450px;
+	position: relative;
+	background-color: #fff;
+	border-radius: 10px;
+	list-style: none;
+	box-shadow: 5px 5px 5px black;
+}
+
+.cards_photo {
+	width: 300px;
+    height: 300px;
+    top: -5%;
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards_name {
+	width: 100%;
+    top: -5%;
+    display: block;
+    position: relative;
+    margin-top: 10px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	text-align: center;
+	font-weight: bold;
+	font-size: 27px;
+    color: black;
+}
+
+.cards_description {
+	width: 100%;
+	display: block;
+	margin-top: -7%;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-weight: normal;
+	text-align: center;
+	font-size: 17px;
+    color: black;
+}
+
+.cards_price {
+	width: 100%;
+	display: block;
+    margin-top: 3%;
+    margin-left: 2%;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-weight: bold;
+	text-align: left;
+	font-size: 23px;
+    color: black;
+}
+
+.horizontal-list{
+	text-align: center;
+	margin-left: 0;
+	padding-left: 0;
+	width: 100%;
+}
+
+ul.horizontal-list li {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 2px 2px 2px black;
+	background-color: #fff;
+}
+
+ul.horizontal-list a {
+	top: 15%;
+	position: relative;
+	align-items: center;
+	font-family: 'Days One', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+}
+
+.delete_item {
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 0, 0, 0.9);
+}
+/* Карточки товара */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* АДМИН МЕНЮ */
+.admin_btn{
+	top: 70px;
+	position: relative;
+	align-items: center;
+	font-family: 'Days One', sans-serif;
+	text-align: center;
+	font-size: 37px;
+	color: #fff;
+}
+
+.btn_admin_item{
+	width: 350px;
+    height: 350px;
+    top: 300px;
+	left: 29%;
+	position: absolute;
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	cursor: pointer;
+	background-color: transparent;
+	box-shadow: 3px 3px 3px black;
+    background: url('../img/buttons/add_item.jpg') no-repeat;
+    background-size: 100%;
+    position: absolute;
+    font: inherit;
+}
+
+.btn_admin_article{
+	width: 350px;
+    height: 350px;
+    top: 300px;
+	right: 29%;
+	position: absolute;
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	cursor: pointer;
+	background-color: transparent;
+	box-shadow: 3px 3px 3px black;
+    background: url('../img/buttons/add_article.jpg') no-repeat;
+    background-size: 100%;
+    position: absolute;
+    font: inherit;
+}
+/* АДМИН МЕНЮ */
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* СТРАНИЧКА С НОВОСТЯМИ */
+.row_news {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.col-md-4_news {
+	flex: 0 0 calc(100% - 20px);
+	margin: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.news_item {
+	width: 46em;
+	height: 60em;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.news_photo {
+	width: 45em;
+	height: 45em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px black;
+}
+.news_name {
+	margin-top: 20px;
+	position: relative;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	color: #fff;
+}
+
+.news_text {
+	width: 84%;
+    margin: 0 auto;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px 2px black;
+	font-size: 22px;
+	color: #fff;
+}
+
+.news_date {
+	width: 84%;
+    margin: 0 auto;
+    margin-top: 15px;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px 2px black;
+	font-weight: normal;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
+
+.delete_news {
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
+/* СТРАНИЧКА С НОВОСТЯМИ */
+
+/* /////////////////////////////////////////////////////////////////////// */

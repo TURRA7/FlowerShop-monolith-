@@ -1,0 +1,553 @@
+@media screen and (min-width: 1601px) and (max-width: 1919px) {
+	.admin_label_2 {
+		margin-top: 130px;
+		font-size: 45px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.input_pass {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 450px;
+		height: 200px;
+		top: 20px;
+		width: 20em;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 0;
+		font-size: 13px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+	.admin_label_2 {
+		margin-top: 130px;
+		font-size: 45px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.input_pass {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 450px;
+		height: 200px;
+		top: 20px;
+		width: 20em;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 0;
+		font-size: 13px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+	.admin_label_2 {
+		margin-top: 130px;
+		font-size: 45px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.input_pass {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 450px;
+		height: 200px;
+		top: 20px;
+		width: 20em;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 0;
+		font-size: 13px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	.admin_label_2 {
+		margin-top: 130px;
+		font-size: 45px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.input_pass {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 450px;
+		height: 200px;
+		top: 20px;
+		width: 20em;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 0;
+		font-size: 13px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+	.admin_label_2 {
+		margin-top: 130px;
+		font-size: 45px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.input_pass {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 450px;
+		height: 200px;
+		top: 20px;
+		width: 20em;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 0;
+		font-size: 13px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 801px) and (max-width: 960px) {
+	.admin_label_2 {
+		margin-top: 130px;
+		font-size: 45px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.input_pass {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 450px;
+		height: 200px;
+		top: 20px;
+		width: 20em;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 0;
+		font-size: 13px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 721px) and (max-width: 800px) {
+	.admin_label_2 {
+		margin-top: 130px;
+		font-size: 45px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.input_pass {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 450px;
+		height: 200px;
+		top: 20px;
+		width: 20em;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 0;
+		font-size: 13px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 640px) and (max-width: 720px) {
+	.admin_label_2 {
+		margin-top: 130px;
+		font-size: 45px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.input_pass {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 450px;
+		height: 200px;
+		top: 50px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 20px;
+		font-size: 13px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 481px) and (max-width: 639px) {
+	.admin_label_2 {
+		margin-top: 130px;
+		font-size: 45px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.input_pass {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 450px;
+		height: 200px;
+		top: 50px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 0;
+		font-size: 13px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+	.admin_label_2 {
+		margin-top: 130px;
+		font-size: 27px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.input_pass {
+		width: 250px;
+		height: 25px;
+		font-size: 17px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 350px;
+		height: 200px;
+		top: 50px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 20px;
+		font-size: 10px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	    text-align: center;
+	    align-items: center;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 271px) and (max-width: 359px) {
+	.admin_label_2 {
+		margin-top: 70px;
+		font-size: 27px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 200px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.input_pass {
+		width: 200px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 200px;
+		height: 200px;
+		top: 0;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 0;
+		font-size: 10px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	    text-align: center;
+	    align-items: center;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 240px) and (max-width: 270px) {
+	.admin_label_2 {
+		margin-top: 70px;
+		font-size: 23px;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		color: #fff;
+	}
+
+	.input_log {
+		width: 200px;
+		height: 20px;
+		font-size: 13px
+	}
+
+	.input_pass {
+		width: 200px;
+		height: 20px;
+		font-size: 13px
+	}
+
+	.btn_authorization {
+		width: 125px;
+		height: 25px;
+		font-size: 15px
+	}
+
+	.admin_authorization {
+		width: 200px;
+		height: 200px;
+		top: 0;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.flash.error_user {
+		top: 0;
+		font-size: 10px;
+		margin-left: 0;
+	    padding-left: 0;
+	    width: 100%;
+	    text-align: center;
+	    align-items: center;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
