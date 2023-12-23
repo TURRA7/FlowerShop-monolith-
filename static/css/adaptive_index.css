@@ -1,0 +1,2293 @@
+@media screen and (min-width: 1601px) and (max-width: 1919px) {
+	.motto_one {
+		top: 95px;
+	    font-size: 35px; 
+	}
+
+	.motto_two {
+		top: 260px;
+	    font-size: 27px; 
+	}
+
+	.rectangle_one {
+		width: 800px;
+		height: 100px;
+		top: 70px;
+	}
+
+	.rectangle_two {
+		width: 700px;
+		height: 100px;
+		top: 250px;
+	}
+
+	.rectangle_three {
+		height: 150px;
+		top: 470px;
+	}
+
+	.camera_logo {
+		width: 100px;
+		top: 500px;
+		left: 3%;
+	}
+
+	.postcard_logo {
+		width: 90px;
+		top: 495px;
+		left: 28%;
+	}
+
+	.mask_logo{
+		width: 95px;
+		top: 520px;
+		left: 53%;
+	}
+
+	.guarantee_logo{
+		width: 90px;
+		top: 495px;
+		left: 78%;
+	}
+
+	.camera_label {
+		top: 515px;
+	    left: 10%;
+	    font-size: 20px; 
+	}
+
+	.postcard_label {
+		top: 515px;
+	    left: 35%;
+	    font-size: 20px; 
+	}
+
+	.mask_label{
+		top: 515px;
+	    left: 60%;
+	    font-size: 20px; 
+	}
+
+	.guarantee_label{
+		top: 515px;
+	    left: 85%;
+	    font-size: 20px; 
+	}
+
+	.catralog {
+		left: 33%;
+	    top: 750px;
+	    font-size: 37px;
+	}
+
+	.btn_flowers {
+		width: 300px;
+	    height: 300px;
+	    top: 830px;
+		left: 10%;
+	}
+
+	.btn_bouquets {
+		width: 300px;
+	    height: 300px;
+	    top: 830px;
+		left: 30%;
+	}
+
+	.btn_baskets {
+		width: 300px;
+	    height: 300px;
+	    top: 830px;
+		left: 50%;
+	}
+
+	.btn_indoor {
+		width: 300px;
+	    height: 300px;
+	    top: 830px;
+		left: 70%;
+	}
+
+	.btn_artificial {
+		width: 300px;
+	    height: 300px;
+	    top: 1130px;
+		left: 10%;
+	}
+
+	.btn_wreaths {
+		width: 300px;
+	    height: 300px;
+	    top: 1130px;
+		left: 30%;
+	}
+
+	.btn_toys {
+		width: 300px;
+	    height: 300px;
+	    top: 1130px;
+		left: 50%;
+	}
+
+	.btn_fireworks {
+		width: 300px;
+	    height: 300px;
+	    top: 1130px;
+		left: 70%;
+	}
+
+	.information {
+		top: 1600px;
+	    font-size: 37px;
+	}
+
+	.info {
+		top: 1650px;
+		left: 240px;
+	}
+
+	.info_gray {
+		font-size: 37px;
+	}
+
+
+	.info_white {
+		font-size: 37px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+	.motto_one {
+		top: 95px;
+	    font-size: 35px; 
+	}
+
+	.motto_two {
+		top: 260px;
+	    font-size: 27px; 
+	}
+
+	.rectangle_one {
+		width: 800px;
+		height: 100px;
+		top: 70px;
+	}
+
+	.rectangle_two {
+		width: 700px;
+		height: 100px;
+		top: 250px;
+	}
+
+	.rectangle_three {
+		height: 150px;
+		top: 470px;
+	}
+
+	.camera_logo {
+		width: 100px;
+		top: 500px;
+		left: 2%;
+	}
+
+	.postcard_logo {
+		width: 90px;
+		top: 495px;
+		left: 28%;
+	}
+
+	.mask_logo{
+		width: 95px;
+		top: 520px;
+		left: 54%;
+	}
+
+	.guarantee_logo{
+		width: 90px;
+		top: 495px;
+		left: 81%;
+	}
+
+	.camera_label {
+		top: 515px;
+	    left: 9%;
+	    font-size: 20px; 
+	}
+
+	.postcard_label {
+		top: 515px;
+	    left: 35%;
+	    font-size: 20px; 
+	}
+
+	.mask_label{
+		top: 515px;
+	    left: 62%;
+	    font-size: 20px; 
+	}
+
+	.guarantee_label{
+		top: 515px;
+	    left: 88%;
+	    font-size: 20px; 
+	}
+
+	.catralog {
+		left: 33%;
+	    top: 750px;
+	    font-size: 37px;
+	}
+
+	.btn_flowers {
+		width: 280px;
+	    height: 280px;
+	    top: 830px;
+		left: 7%;
+	}
+
+	.btn_bouquets {
+		width: 280px;
+	    height: 280px;
+	    top: 830px;
+		left: 29%;
+	}
+
+	.btn_baskets {
+		width: 280px;
+	    height: 280px;
+	    top: 830px;
+		left: 51%;
+	}
+
+	.btn_indoor {
+		width: 280px;
+	    height: 280px;
+	    top: 830px;
+		left: 73%;
+	}
+
+	.btn_artificial {
+		width: 280px;
+	    height: 280px;
+	    top: 1130px;
+		left: 7%;
+	}
+
+	.btn_wreaths {
+		width: 280px;
+	    height: 280px;
+	    top: 1130px;
+		left: 29%;
+	}
+
+	.btn_toys {
+		width: 280px;
+	    height: 280px;
+	    top: 1130px;
+		left: 51%;
+	}
+
+	.btn_fireworks {
+		width: 280px;
+	    height: 280px;
+	    top: 1130px;
+		left: 73%;
+	}
+
+	.information {
+		top: 1600px;
+	    font-size: 37px;
+	}
+
+	.info {
+		top: 1650px;
+		left: 240px;
+	}
+
+	.info_gray {
+		font-size: 37px;
+	}
+
+
+	.info_white {
+		font-size: 37px;
+	}
+
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+	.motto_one {
+		top: 75px;
+	    font-size: 27px; 
+	}
+
+	.motto_two {
+		top: 230px;
+	    font-size: 23px; 
+	}
+
+	.rectangle_one {
+		width: 670px;
+		height: 80px;
+		top: 50px;
+	}
+
+	.rectangle_two {
+		width: 570px;
+		height: 80px;
+		top: 220px;
+	}
+
+	.rectangle_three {
+		height: 150px;
+		top: 380px;
+	}
+
+	.camera_logo {
+		width: 85px;
+		top: 420px;
+		left: 3%;
+	}
+
+	.postcard_logo {
+		width: 80px;
+		top: 415px;
+		left: 28%;
+	}
+
+	.mask_logo{
+		width: 80px;
+		top: 430px;
+		left: 53%;
+	}
+
+	.guarantee_logo{
+		width: 80px;
+		top: 415px;
+		left: 78%;
+	}
+
+	.camera_label {
+		top: 430px;
+	    left: 10%;
+	    font-size: 17px; 
+	}
+
+	.postcard_label {
+		top: 430px;
+	    left: 35%;
+	    font-size: 17px; 
+	}
+
+	.mask_label{
+		top: 430px;
+	    left: 60%;
+	    font-size: 17px; 
+	}
+
+	.guarantee_label{
+		top: 430px;
+	    left: 85%;
+	    font-size: 17px; 
+	}
+
+	.catralog {
+		left: 33%;
+	    top: 650px;
+	    font-size: 35px;
+	}
+
+	.btn_flowers {
+		width: 250px;
+	    height: 250px;
+	    top: 730px;
+		left: 10%;
+	}
+
+	.btn_bouquets {
+		width: 250px;
+	    height: 250px;
+	    top: 730px;
+		left: 30%;
+	}
+
+	.btn_baskets {
+		width: 250px;
+	    height: 250px;
+	    top: 730px;
+		left: 50%;
+	}
+
+	.btn_indoor {
+		width: 250px;
+	    height: 250px;
+	    top: 730px;
+		left: 70%;
+	}
+
+	.btn_artificial {
+		width: 250px;
+	    height: 250px;
+	    top: 990px;
+		left: 10%;
+	}
+
+	.btn_wreaths {
+		width: 250px;
+	    height: 250px;
+	    top: 990px;
+		left: 30%;
+	}
+
+	.btn_toys {
+		width: 250px;
+	    height: 250px;
+	    top: 990px;
+		left: 50%;
+	}
+
+	.btn_fireworks {
+		width: 250px;
+	    height: 250px;
+	    top: 990px;
+		left: 70%;
+	}
+
+	.information {
+		top: 1420px;
+	    font-size: 32px;
+	}
+
+	.info {
+		top: 1470px;
+		left: 200px;
+	}
+
+	.info_gray {
+		font-size: 32px;
+	}
+
+
+	.info_white {
+		font-size: 32px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	.motto_one {
+		top: 75px;
+	    font-size: 27px; 
+	}
+
+	.motto_two {
+		top: 230px;
+	    font-size: 23px; 
+	}
+
+	.rectangle_one {
+		width: 670px;
+		height: 80px;
+		top: 50px;
+	}
+
+	.rectangle_two {
+		width: 570px;
+		height: 80px;
+		top: 220px;
+	}
+
+	.rectangle_three {
+		height: 150px;
+		top: 380px;
+	}
+
+	.camera_logo {
+		width: 85px;
+		top: 420px;
+		left: 0%;
+	}
+
+	.postcard_logo {
+		width: 80px;
+		top: 415px;
+		left: 27%;
+	}
+
+	.mask_logo{
+		width: 80px;
+		top: 430px;
+		left: 55%;
+	}
+
+	.guarantee_logo{
+		width: 80px;
+		top: 415px;
+		left: 82%;
+	}
+
+	.camera_label {
+		top: 435px;
+	    left: 8%;
+	    font-size: 15px; 
+	}
+
+	.postcard_label {
+		top: 435px;
+	    left: 34%;
+	    font-size: 15px; 
+	}
+
+	.mask_label{
+		top: 435px;
+	    left: 63%;
+	    font-size: 15px; 
+	}
+
+	.guarantee_label{
+		top: 435px;
+	    left: 89%;
+	    font-size: 15px; 
+	}
+
+	.catralog {
+		left: 30%;
+	    top: 650px;
+	    font-size: 35px;
+	}
+
+	.btn_flowers {
+		width: 200px;
+	    height: 200px;
+	    top: 730px;
+		left: 11%;
+	}
+
+	.btn_bouquets {
+		width: 200px;
+	    height: 200px;
+	    top: 730px;
+		left: 31%;
+	}
+
+	.btn_baskets {
+		width: 200px;
+	    height: 200px;
+	    top: 730px;
+		left: 51%;
+	}
+
+	.btn_indoor {
+		width: 200px;
+	    height: 200px;
+	    top: 730px;
+		left: 71%;
+	}
+
+	.btn_artificial {
+		width: 200px;
+	    height: 200px;
+	    top: 950px;
+		left: 11%;
+	}
+
+	.btn_wreaths {
+		width: 200px;
+	    height: 200px;
+	    top: 950px;
+		left: 31%;
+	}
+
+	.btn_toys {
+		width: 200px;
+	    height: 200px;
+	    top: 950px;
+		left: 51%;
+	}
+
+	.btn_fireworks {
+		width: 200px;
+	    height: 200px;
+	    top: 950px;
+		left: 71%;
+	}
+
+	.information {
+		top: 1350px;
+	    font-size: 27px;
+	    left: 30%
+	}
+
+	.info {
+		top: 1400px;
+		left: 170px;
+	}
+
+	.info_gray {
+		font-size: 25px;
+	}
+
+
+	.info_white {
+		font-size: 25px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+	.motto_one {
+		top: 75px;
+	    font-size: 27px; 
+	}
+
+	.motto_two {
+		top: 230px;
+	    font-size: 23px; 
+	}
+
+	.rectangle_one {
+		width: 670px;
+		height: 80px;
+		top: 50px;
+	}
+
+	.rectangle_two {
+		width: 570px;
+		height: 80px;
+		top: 220px;
+	}
+
+	.rectangle_three {
+		height: 120px;
+		top: 380px;
+	}
+
+	.camera_logo {
+		width: 75px;
+		top: 410px;
+		left: 1%;
+	}
+
+	.postcard_logo {
+		width: 70px;
+		top: 405px;
+		left: 27%;
+	}
+
+	.mask_logo{
+		width: 75px;
+		top: 420px;
+		left: 54%;
+	}
+
+	.guarantee_logo{
+		width: 70px;
+		top: 405px;
+		left: 81%;
+	}
+
+	.camera_label {
+		top: 420px;
+	    left: 9%;
+	    font-size: 13px; 
+	}
+
+	.postcard_label {
+		top: 420px;
+	    left: 34%;
+	    font-size: 13px; 
+	}
+
+	.mask_label{
+		top: 420px;
+	    left: 62%;
+	    font-size: 13px; 
+	}
+
+	.guarantee_label{
+		top: 420px;
+	    left: 88%;
+	    font-size: 14px; 
+	}
+
+	.catralog {
+		left: 29%;
+	    top: 650px;
+	    font-size: 27px;
+	}
+
+	.btn_flowers {
+		width: 180px;
+	    height: 180px;
+	    top: 730px;
+		left: 10%;
+	}
+
+	.btn_bouquets {
+		width: 180px;
+	    height: 180px;
+	    top: 730px;
+		left: 30%;
+	}
+
+	.btn_baskets {
+		width: 180px;
+	    height: 180px;
+	    top: 730px;
+		left: 50%;
+	}
+
+	.btn_indoor {
+		width: 180px;
+	    height: 180px;
+	    top: 730px;
+		left: 70%;
+	}
+
+	.btn_artificial {
+		width: 180px;
+	    height: 180px;
+	    top: 950px;
+		left: 10%;
+	}
+
+	.btn_wreaths {
+		width: 180px;
+	    height: 180px;
+	    top: 950px;
+		left: 30%;
+	}
+
+	.btn_toys {
+		width: 180px;
+	    height: 180px;
+	    top: 950px;
+		left: 50%;
+	}
+
+	.btn_fireworks {
+		width: 180px;
+	    height: 180px;
+	    top: 950px;
+		left: 70%;
+	}
+
+	.information {
+		top: 1330px;
+	    font-size: 27px;
+	    left: 28%;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info {
+		top: 1380px;
+		left: 155px;
+		text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info_gray {
+		font-size: 27px;
+	}
+
+
+	.info_white {
+		font-size: 27px;
+	}
+
+
+	.box_three {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 801px) and (max-width: 960px) {
+	.motto_one {
+		top: 75px;
+	    font-size: 27px; 
+	}
+
+	.motto_two {
+		top: 230px;
+	    font-size: 23px; 
+	}
+
+	.rectangle_one {
+		width: 670px;
+		height: 80px;
+		top: 50px;
+	}
+
+	.rectangle_two {
+		width: 570px;
+		height: 80px;
+		top: 220px;
+	}
+
+	.rectangle_three {
+		height: 120px;
+		top: 380px;
+	}
+
+	.camera_logo {
+		width: 70px;
+		top: 410px;
+		left: 0%;
+	}
+
+	.postcard_logo {
+		width: 65px;
+		top: 405px;
+		left: 27%;
+	}
+
+	.mask_logo{
+		width: 70px;
+		top: 420px;
+		left: 54%;
+	}
+
+	.guarantee_logo{
+		width: 65px;
+		top: 405px;
+		left: 82%;
+	}
+
+	.camera_label {
+		top: 425px;
+	    left: 8%;
+	    font-size: 10px; 
+	}
+
+	.postcard_label {
+		top: 425px;
+	    left: 34%;
+	    font-size: 10px; 
+	}
+
+	.mask_label{
+		top: 425px;
+	    left: 63%;
+	    font-size: 10px; 
+	}
+
+	.guarantee_label{
+		top: 425px;
+	    left: 90%;
+	    font-size: 10px; 
+	}
+
+	.catralog {
+	    top: 650px;
+	    font-size: 27px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.btn_flowers {
+		width: 180px;
+	    height: 180px;
+	    top: 730px;
+		left: 3%;
+	}
+
+	.btn_bouquets {
+		width: 180px;
+	    height: 180px;
+	    top: 730px;
+		left: 27%;
+	}
+
+	.btn_baskets {
+		width: 180px;
+	    height: 180px;
+	    top: 730px;
+		left: 51%;
+	}
+
+	.btn_indoor {
+		width: 180px;
+	    height: 180px;
+	    top: 730px;
+		left: 75%;
+	}
+
+	.btn_artificial {
+		width: 180px;
+	    height: 180px;
+	    top: 950px;
+		left: 3%;
+	}
+
+	.btn_wreaths {
+		width: 180px;
+	    height: 180px;
+	    top: 950px;
+		left: 27%;
+	}
+
+	.btn_toys {
+		width: 180px;
+	    height: 180px;
+	    top: 950px;
+		left: 51%;
+	}
+
+	.btn_fireworks {
+		width: 180px;
+	    height: 180px;
+	    top: 950px;
+		left: 75%;
+	}
+
+	.information {
+		top: 1340px;
+	    font-size: 27px;
+	    left: 28%;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info {
+		top: 1400px;
+		left: 155px;
+		text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info_gray {
+		font-size: 27px;
+	}
+
+
+	.info_white {
+		font-size: 27px;
+	}
+
+
+	.box_three {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.box_two {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 721px) and (max-width: 800px) {
+	.motto_one {
+		top: 70px;
+	    font-size: 23px; 
+	}
+
+	.motto_two {
+		top: 210px;
+	    font-size: 20px;
+	    right: 30px; 
+	}
+
+	.rectangle_one {
+		width: 550px;
+		height: 70px;
+		top: 50px;
+	}
+
+	.rectangle_two {
+		width: 460px;
+		height: 80px;
+		top: 200px;
+	}
+
+	.rectangle_three {
+		height: 100px;
+		top: 380px;
+	}
+
+	.camera_logo {
+		width: 60px;
+		top: 400px;
+		left: 1%;
+	}
+
+	.postcard_logo {
+		width: 55px;
+		top: 400px;
+		left: 27%;
+	}
+
+	.mask_logo{
+		width: 60px;
+		top: 410px;
+		left: 54%;
+	}
+
+	.guarantee_logo{
+		width: 55px;
+		top: 400px;
+		left: 82%;
+	}
+
+	.camera_label {
+		top: 420px;
+	    left: 9%;
+	    font-size: 9px; 
+	}
+
+	.postcard_label {
+		top: 420px;
+	    left: 34%;
+	    font-size: 9px; 
+	}
+
+	.mask_label{
+		top: 420px;
+	    left: 63%;
+	    font-size: 9px; 
+	}
+
+	.guarantee_label{
+		top: 420px;
+	    left: 89%;
+	    font-size: 9px; 
+	}
+
+	.catralog {
+		left: 26%;
+	    top: 650px;
+	    font-size: 27px;
+	}
+
+	.btn_flowers {
+		width: 150px;
+	    height: 150px;
+	    top: 730px;
+		left: 8%;
+	}
+
+	.btn_bouquets {
+		width: 150px;
+	    height: 150px;
+	    top: 730px;
+		left: 29%;
+	}
+
+	.btn_baskets {
+		width: 150px;
+	    height: 150px;
+	    top: 730px;
+		left: 51%;
+	}
+
+	.btn_indoor {
+		width: 150px;
+	    height: 150px;
+	    top: 730px;
+		left: 72%;
+	}
+
+	.btn_artificial {
+		width: 150px;
+	    height: 150px;
+	    top: 900px;
+		left: 8%;
+	}
+
+	.btn_wreaths {
+		width: 150px;
+	    height: 150px;
+	    top: 900px;
+		left: 29%;
+	}
+
+	.btn_toys {
+		width: 150px;
+	    height: 150px;
+	    top: 900px;
+		left: 51%;
+	}
+
+	.btn_fireworks {
+		width: 150px;
+	    height: 150px;
+	    top: 900px;
+		left: 72%;
+	}
+
+	.information {
+		top: 1200px;
+	    font-size: 27px;
+	    left: 20%;
+	}
+
+	.info {
+		top: 1250px;
+		left: 120px;
+	}
+
+	.info_gray {
+		font-size: 23px;
+	}
+
+
+	.info_white {
+		font-size: 23px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 640px) and (max-width: 720px) {
+	.box_rectangle_one {
+		width: 100%;
+	}
+
+	.motto_one {
+		width: 100%;
+		height: 50px;
+		top: 35px;
+		text-align: center;
+		left: auto;
+		right: auto;
+		font-size: 17px; 
+		margin-top: 2.5em;
+	}
+
+	.box_rectangle_two {
+		width: 100%;
+	}
+
+	.motto_two {
+		width: 100%;
+		height: 80px;
+		top: 170px;
+		left: 0em;
+	    font-size: 17px;
+	    margin-top: 1em;
+	}
+
+	.rectangle_one {
+		width: 100%;
+		height: 70px;
+		top: 50px;
+		border-radius: 0;
+	}
+
+	.rectangle_two {
+		width: 100%;
+		height: 80px;
+		top: 170px;
+		border-radius: 0;
+	}
+
+	.rectangle_three {
+		height: 180px;
+		top: 350px;
+		border-radius: 0;
+	}
+
+	.camera_logo {
+		width: 75px;
+		top: 370px;
+		left: 1%;
+	}
+
+	.postcard_logo {
+		width: 70px;
+		top: 450px;
+		left: 2%;
+	}
+
+	.mask_logo{
+		width: 75px;
+		top: 380px;
+		left: 57%;
+	}
+
+	.guarantee_logo{
+		width: 70px;
+		top: 450px;
+		left: 58%;
+	}
+
+	.camera_label {
+		top: 380px;
+	    left: 17%;
+	    font-size: 15px; 
+	}
+
+	.postcard_label {
+		top: 470px;
+	    left: 17%;
+	    font-size: 15px; 
+	}
+
+	.mask_label{
+		top: 375px;
+	    left: 75%;
+	    font-size: 15px; 
+	}
+
+	.guarantee_label{
+		top: 465px;
+	    left: 75%;
+	    font-size: 15px; 
+	}
+
+	.box_two {
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+	}
+
+	.catralog {
+	    top: 620px;
+	    font-size: 23px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.buttons {
+		width: 100%;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+	}
+
+	.btn_flowers {
+		width: 250px;
+	    height: 250px;
+	    top: 680px;
+		left: 7%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_bouquets {
+		width: 250px;
+	    height: 250px;
+	    top: 950px;
+	    left: 7%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_baskets {
+		width: 250px;
+	    height: 250px;
+	    top: 1220px;
+		left: 7%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_indoor {
+		width: 250px;
+	    height: 250px;
+	    top: 1490px;
+		left: 7%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_artificial {
+		width: 250px;
+	    height: 250px;
+	    top: 680px;
+		right: 7%;
+		left: auto;
+		position: absolute;
+	}
+
+	.btn_wreaths {
+		width: 250px;
+	    height: 250px;
+	    top: 950px;
+		right: 7%;
+		left: auto;
+		position: absolute;
+	}
+
+	.btn_toys {
+		width: 250px;
+	    height: 250px;
+	    top: 1220px;
+		right: 7%;
+		left: auto;
+		position: absolute;
+	}
+
+	.btn_fireworks {
+		width: 250px;
+	    height: 250px;
+	    top: 1490px;
+		right: 7%;
+		left: auto;
+		position: absolute;
+	}
+
+	.box_three {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.information {
+		top: 1900px;
+	    font-size: 23px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info {
+		top: 1930px;
+		text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info_gray {
+		font-size: 19px;
+	}
+
+
+	.info_white {
+		font-size: 19px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 481px) and (max-width: 639px) {
+	.box_rectangle_one {
+		width: 100%;
+	}
+
+	.motto_one {
+		width: 100%;
+		height: 50px;
+		top: 35px;
+		text-align: center;
+		left: auto;
+		right: auto;
+		font-size: 13px; 
+		margin-top: 2.5em;
+	}
+
+	.box_rectangle_two {
+		width: 100%;
+	}
+
+	.motto_two {
+		width: 100%;
+		height: 80px;
+		top: 170px;
+		left: 0em;
+	    font-size: 15px;
+	    margin-top: 1em;
+	}
+
+	.rectangle_one {
+		width: 100%;
+		height: 50px;
+		top: 50px;
+		border-radius: 0;
+	}
+
+	.rectangle_two {
+		width: 100%;
+		height: 80px;
+		top: 170px;
+		border-radius: 0;
+	}
+
+	.rectangle_three {
+		height: 180px;
+		top: 350px;
+		border-radius: 0;
+	}
+
+	.camera_logo {
+		width: 60px;
+		top: 370px;
+		left: 1%;
+	}
+
+	.postcard_logo {
+		width: 55px;
+		top: 450px;
+		left: 2%;
+	}
+
+	.mask_logo{
+		width: 60px;
+		top: 380px;
+		left: 57%;
+	}
+
+	.guarantee_logo{
+		width: 55px;
+		top: 450px;
+		left: 57%;
+	}
+
+	.camera_label {
+		top: 380px;
+	    left: 17%;
+	    font-size: 11px; 
+	}
+
+	.postcard_label {
+		top: 470px;
+	    left: 17%;
+	    font-size: 11px; 
+	}
+
+	.mask_label{
+		top: 375px;
+	    left: 75%;
+	    font-size: 11px; 
+	}
+
+	.guarantee_label{
+		top: 465px;
+	    left: 75%;
+	    font-size: 11px; 
+	}
+
+	.box_two {
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+	}
+
+	.catralog {
+	    top: 620px;
+	    font-size: 15px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.buttons {
+		width: 100%;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+	}
+
+	.btn_flowers {
+		width: 200px;
+	    height: 200px;
+	    top: 680px;
+		left: 5%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_bouquets {
+		width: 200px;
+	    height: 200px;
+	    top: 910px;
+	    left: 5%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_baskets {
+		width: 200px;
+	    height: 200px;
+	    top: 1140px;
+		left: 5%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_indoor {
+		width: 200px;
+	    height: 200px;
+	    top: 1370px;
+		left: 5%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_artificial {
+		width: 200px;
+	    height: 200px;
+	    top: 680px;
+		right: 5%;
+		left: auto;
+		position: absolute;
+	}
+
+	.btn_wreaths {
+		width: 200px;
+	    height: 200px;
+	    top: 910px;
+		right: 5%;
+		left: auto;
+		position: absolute;
+	}
+
+	.btn_toys {
+		width: 200px;
+	    height: 200px;
+	    top: 1140px;
+		right: 5%;
+		left: auto;
+		position: absolute;
+	}
+
+	.btn_fireworks {
+		width: 200px;
+	    height: 200px;
+	    top: 1370px;
+		right: 5%;
+		left: auto;
+		position: absolute;
+	}
+
+	.box_three {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.information {
+		top: 1700px;
+	    font-size: 15px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info {
+		top: 1730px;
+		text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info_gray {
+		font-size: 17px;
+	}
+
+	.info_white {
+		font-size: 13px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+	.box_rectangle_one {
+		width: 100%;
+	}
+
+	.motto_one {
+		width: 100%;
+		height: 50px;
+		top: 35px;
+		text-align: center;
+		left: auto;
+		right: auto;
+		font-size: 13px; 
+		margin-top: 2.5em;
+	}
+
+	.box_rectangle_two {
+		width: 100%;
+	}
+
+	.motto_two {
+		width: 100%;
+		height: 80px;
+		top: 170px;
+		left: 0em;
+	    font-size: 15px;
+	    margin-top: 1em;
+	}
+
+	.rectangle_one {
+		width: 100%;
+		height: 50px;
+		top: 50px;
+		border-radius: 0;
+	}
+
+	.rectangle_two {
+		width: 100%;
+		height: 80px;
+		top: 170px;
+		border-radius: 0;
+	}
+
+	.rectangle_three {
+		height: 180px;
+		top: 350px;
+		border-radius: 0;
+	}
+
+	.box_one {
+		background-color: #fff;
+	}
+
+	.camera_logo {
+		width: 60px;
+		top: 370px;
+		left: 1%;
+	}
+
+	.postcard_logo {
+		width: 55px;
+		top: 450px;
+		left: 2%;
+	}
+
+	.mask_logo{
+		width: 60px;
+		top: 380px;
+		left: 57%;
+	}
+
+	.guarantee_logo{
+		width: 55px;
+		top: 450px;
+		left: 58%;
+	}
+
+	.camera_label {
+		top: 380px;
+	    left: 17%;
+	    font-size: 9px; 
+	}
+
+	.postcard_label {
+		top: 470px;
+	    left: 17%;
+	    font-size: 9px; 
+	}
+
+	.mask_label{
+		top: 375px;
+	    left: 75%;
+	    font-size: 9px; 
+	}
+
+	.guarantee_label{
+		top: 465px;
+	    left: 75%;
+	    font-size: 9px; 
+	}
+
+	.box_two {
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+	}
+
+	.catralog {
+	    top: 620px;
+	    font-size: 15px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.buttons {
+		width: 100%;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+	}
+
+	.btn_flowers {
+		width: 150px;
+	    height: 150px;
+	    top: 680px;
+		left: 8%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_bouquets {
+		width: 150px;
+	    height: 150px;
+	    top: 840px;
+	    left: 8%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_baskets {
+		width: 150px;
+	    height: 150px;
+	    top: 1000px;
+		left: 8%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_indoor {
+		width: 150px;
+	    height: 150px;
+	    top: 1160px;
+		left: 8%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_artificial {
+		width: 150px;
+	    height: 150px;
+	    top: 680px;
+		right: 8%;
+		left: auto;
+		position: absolute;
+	}
+
+	.btn_wreaths {
+		width: 150px;
+	    height: 150px;
+	    top: 840px;
+		right: 8%;
+		left: auto;
+		position: absolute;
+	}
+
+	.btn_toys {
+		width: 150px;
+	    height: 150px;
+	    top: 1000px;
+		right: 8%;
+		left: auto;
+		position: absolute;
+	}
+
+	.btn_fireworks {
+		width: 150px;
+	    height: 150px;
+	    top: 1160px;
+		right: 8%;
+		left: auto;
+		position: absolute;
+	}
+
+	.box_three {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.information {
+		top: 1400px;
+	    font-size: 15px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info {
+		top: 1430px;
+		text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info_gray {
+		font-size: 17px;
+	}
+
+
+	.info_white {
+		font-size: 13px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 271px) and (max-width: 359px) {
+	.box_rectangle_one {
+		width: 100%;
+	}
+
+	.box_rectangle_two { 
+		width: 100%;
+	}
+
+	.motto_one {
+		width: 100%;
+		height: 50px;
+		top: 45px;
+		text-align: center;
+		left: auto;
+		right: auto;
+		font-size: 10px; 
+		margin-top: 2.5em;
+	}
+
+	.motto_two {
+		width: 100%;
+		height: 80px;
+		top: 175px;
+		left: 0em;
+	    font-size: 11px;
+	    margin-top: 1em;
+	}
+
+	.rectangle_one {
+		width: 100%;
+		height: 50px;
+		top: 50px;
+		border-radius: 0;
+	}
+
+	.rectangle_two {
+		width: 100%;
+		height: 60px;
+		top: 170px;
+		border-radius: 0;
+	}
+
+	.rectangle_three {
+		height: 165px;
+		top: 350px;
+		border-radius: 0;
+	}
+
+	.camera_logo {
+		width: 35px;
+		top: 375px;
+		left: 0%;
+	}
+
+	.postcard_logo {
+		width: 30px;
+		top: 460px;
+		left: 1%;
+	}
+
+	.mask_logo{
+		width: 35px;
+		top: 380px;
+		left: 58%;
+	}
+
+	.guarantee_logo{
+		width: 30px;
+		top: 455px;
+		left: 59%;
+	}
+
+	.camera_label {
+		top: 380px;
+	    left: 13%;
+	    font-size: 7px; 
+	}
+
+	.postcard_label {
+		top: 465px;
+	    left: 13%;
+	    font-size: 7px; 
+	}
+
+	.mask_label{
+		top: 375px;
+	    left: 73%;
+	    font-size: 7px; 
+	}
+
+	.guarantee_label{
+		top: 465px;
+	    left: 73%;
+	    font-size: 7px; 
+	}
+
+	.box_two {
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+	}
+
+	.catralog {
+	    top: 620px;
+	    font-size: 15px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.buttons {
+		width: 100%;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+	}
+
+	.btn_flowers {
+		width: 200px;
+	    height: 200px;
+	    top: 680px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+		
+	}
+
+	.btn_bouquets {
+		width: 200px;
+	    height: 200px;
+	    top: 900px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_baskets {
+		width: 200px;
+	    height: 200px;
+	    top: 1120px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_indoor {
+		width: 200px;
+	    height: 200px;
+	    top: 1340px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_artificial {
+		width: 200px;
+	    height: 200px;
+	    top: 1560px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_wreaths {
+		width: 200px;
+	    height: 200px;
+	    top: 1780px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_toys {
+		width: 200px;
+	    height: 200px;
+	    top: 2000px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_fireworks {
+		width: 200px;
+	    height: 200px;
+	    top: 2220px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.box_three {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.information {
+		top: 2500px;
+	    font-size: 13px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info {
+		top: 2530px;
+		text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info_gray {
+		font-size: 11px;
+	}
+
+
+	.info_white {
+		font-size: 11px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 240px) and (max-width: 270px) {
+	.box_rectangle_one {
+		width: 100%;
+	}
+
+	.box_rectangle_two {
+		width: 100%;
+	}
+
+	.motto_one {
+		width: 100%;
+		height: 50px;
+		top: 35px;
+		font-size: 9px; 
+		margin-top: 3em;
+		text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.motto_two {
+		width: 100%;
+		height: 80px;
+		top: 135px;
+	    font-size: 9px;
+	    margin-top: 1.5em;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.rectangle_one {
+		width: 100%;
+		height: 35px;
+		top: 50px;
+		border-radius: 0;
+	}
+
+	.rectangle_two {
+		width: 100%;
+		height: 40px;
+		top: 140px;
+		border-radius: 0;
+	}
+
+	.rectangle_three {
+		height: 135px;
+		top: 240px;
+		border-radius: 0;
+	}
+
+	.camera_logo {
+		width: 35px;
+		top: 265px;
+		left: 0%;
+	}
+
+	.postcard_logo {
+		width: 30px;
+		top: 315px;
+		left: 1%;
+	}
+
+	.mask_logo{
+		width: 30px;
+		top: 270px;
+		left: 56%;
+	}
+
+	.guarantee_logo{
+		width: 30px;
+		top: 315px;
+		left: 56%;
+	}
+
+	.camera_label {
+		top: 270px;
+	    left: 14%;
+	    font-size: 6px;
+	    width: 35%; 
+	}
+
+	.postcard_label {
+		top: 320px;
+	    left: 14%;
+	    font-size: 6px;  
+	    width: 35%;
+	}
+
+	.mask_label{
+		top: 265px;
+	    left: 70%;
+	    font-size: 6px; 
+	}
+
+	.guarantee_label{
+		top: 325px;
+	    left: 70%;
+	    font-size: 6px; 
+	}
+
+	.box_one {
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+	}
+
+	.box_two {
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+	}
+
+	.catralog {
+	    top: 450px;
+	    font-size: 15px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.buttons {
+		width: 100%;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+	}
+
+	.btn_flowers {
+		width: 200px;
+	    height: 200px;
+	    top: 500px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+		
+	}
+
+	.btn_bouquets {
+		width: 200px;
+	    height: 200px;
+	    top: 730px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_baskets {
+		width: 200px;
+	    height: 200px;
+	    top: 960px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_indoor {
+		width: 200px;
+	    height: 200px;
+	    top: 1190px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_artificial {
+		width: 200px;
+	    height: 200px;
+	    top: 1420px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_wreaths {
+		width: 200px;
+	    height: 200px;
+	    top: 1650px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_toys {
+		width: 200px;
+	    height: 200px;
+	    top: 1880px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.btn_fireworks {
+		width: 200px;
+	    height: 200px;
+	    top: 2110px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.box_three {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.information {
+		top: 2400px;
+	    font-size: 13px;
+	    text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info {
+		top: 2430px;
+		text-align: center;
+	    left: auto;
+	    right: auto;
+	}
+
+	.info_gray {
+		font-size: 11px;
+	}
+
+
+	.info_white {
+		font-size: 11px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */

@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+
+{% block content %}
+{% if check_total == 'admin' %}
+<a href="{{ url_for('logout') }}" class="btn-danger">ВЫХОД</a>
+<a href="{{ url_for('admin_menu') }}" class="btn-MENU">МЕНЮ</a>
+{% endif %}
+<div class='box_one'>
+	<div class='box_rectangle_one'>
+		<div class='rectangle_one'></div>
+		<div class='motto_one'>
+			МАГАЗИН ЦВЕТОВ В ЕРШОВЕ
+		</div>
+	</div>
+
+	<div class='box_rectangle_two'>
+		<div class='rectangle_two'></div>
+		<div class='motto_two'>
+			Мы дарим улыбки<br>обладателям наших цветов!
+		</div>
+	</div>
+		
+	<div class='box_rectangle_three'>
+		<div class='rectangle_three'></div>
+		<div class='camera'>
+			<img src="../static/img/logo/camera.png" class='camera_logo'>
+			<div class='camera_label'>Сделаем фото<br>перед отправкой!</div>
+		</div>
+		<div class='postcard'>
+			<img src="../static/img/logo/postcard.png" class='postcard_logo'>
+			<div class='postcard_label'>Открытка к букету<br>в подарок!</div>
+		</div>
+		<div class='mask'>
+			<img src="../static/img/logo/mask.png" class='mask_logo'>
+			<div class='mask_label'>Поздравим за вас<br>Анонимно!</div>
+		</div>
+		<div class='guarantee'>
+			<img src="../static/img/logo/guarantee.png" class='guarantee_logo'>
+			<div class='guarantee_label'>Гарантия<br>свежести</div>
+		</div>
+	</div>
+</div>
+
+<div class='box_two'>
+	<div class='catralog' id='catralog_id'>ВЫБЕРИТЕ КАТЕГОРИЮ</div>
+	<div class='buttons'>
+		<button type="button" class="btn_flowers" onclick="window.location.href='flowers'"></button>
+	    <button type="button" class='btn_bouquets' onclick="window.location.href='bouquets'"></button>
+	    <button type="button" class='btn_baskets' onclick="window.location.href='baskets'"></button>
+	    <button type="button" class='btn_indoor' onclick="window.location.href='indoor'"></button>
+	    <button type="button" class='btn_artificial' onclick="window.location.href='artificial'"></button>
+	    <button type="button" class='btn_wreaths' onclick="window.location.href='wreaths'"></button>
+	    <button type="button" class='btn_toys' onclick="window.location.href='toys'"></button>
+	    <button type="button" class='btn_fireworks' onclick="window.location.href='fireworks'"></button>
+	</div>
+</div>
+
+<div class='box_three'>
+	<div class='information' id='information'>
+	КОНТАКТНАЯ ИНФОРМАЦИЯ
+	</div>
+	<div class='info'>
+		<span class='info_gray'>График работы:</span><br>
+		<span class='info_white'>Без выходных с 7:30 до 20:00</span><br><br>
+		<span class='info_gray'>Адрес:</span><span class='info_white'>город Ершов, Мелиоративная 53</span><br><br>
+		<span class='info_gray'>Доставка: :</span><span class='info_white'>осуществляется по городу и<br>области, стоимость доставки не входит<br>
+		в стоимость заказа, цены уточняйте<br>
+		по телефону.</span><br><br>
+		<span class='info_gray'>Телефон:</span><br>
+		<span class='info_white'><a href='tel:+7-903-383-61-44'>8-903-383-61-44</a></span><span class='info_gray'>: Евгения</span><br>
+		<span class='info_white'><a href='tel:+7-906-153-44-78'>8-906-153-44-78</a></span><span class='info_gray'>: Оксана</span><br>
+		<span class='info_white'><a href='tel:+7-996-626-10-25'>8-996-626-10-25</a></span><span class='info_gray'>: Светлана</span><br><br><br><br>
+	</div>
+</div>
+{% endblock %}

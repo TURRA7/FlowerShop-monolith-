@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Вход в админ-панель
+{% endblock %}
+
+{% block content %}
+<div class='admin_login'>
+	<div class='admin_label_2'>АВТОРИЗАЦИЯ</div><br>
+	<form class='admin_authorization' action="{{ url_for('admin_login') }}" method='POST' enctype="multipart/form-data">
+		{{ form.csrf_token }}
+		<input type='text' name='login' id='login' placeholder="Введите логин..." class='input_log'>
+		<input type='text' name='password' id='password' placeholder="Введите пороль..." class='input_pass'>
+		<input type="submit" class ='btn_authorization' value="ВОЙТИ" class='btn_authorization'>
+	</form>
+	{% for cat, msg in get_flashed_messages(True) %}
+	<div class='flash {{cat}}'>{{msg}}</div>
+	{% endfor %}
+</div>
+{% endblock %}

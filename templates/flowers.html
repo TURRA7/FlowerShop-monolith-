@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Цветы
+{% endblock %}
+
+
+{% block content %}
+{% if check_total == 'admin' %}
+    <a href="{{ url_for('logout') }}" class="btn-danger">ВЫХОД</a>
+    <a href="{{ url_for('admin_menu') }}" class="btn-MENU">МЕНЮ</a>
+{% endif %}
+<ul class="row">
+    {% for product in products %}
+    <li class="col-md-4"> 
+        <div class="container_card">
+            <div class="cards_item">
+                <img src="{{ url_for('static', filename='img/uploads/' + product.photo) }}" class="cards_photo">
+                <div class="cards_name">{{ product.name }}</div>
+                <div class="cards_description">{{ product.description }}</div>
+                <div class="cards_price">Цена: {{ product.price }}<b>₽</b></div>
+                {% if check_total == 'admin' %}
+	                <form method="post" action="/flowers">
+                        {{ form.csrf_token }}
+	                	<input class='delete_item' type="submit" value="УДАЛИТЬ">
+	                	<input type="hidden" name="product_id" value="{{ product.id }}">
+	                </form>
+                {% endif %}
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+<div class="pagination">
+	<ul class="horizontal-list">
+        {% for page_num in range(1, total_pages + 1) %}
+            <li>
+                <a href="{{ url_for('flowers', page=page_num) }}">{{ page_num }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

@@ -1,0 +1,338 @@
+@media screen and (min-width: 1601px) and (max-width: 1919px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		left: 25%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_admin_article{
+		right: 25%;
+		left: auto;
+		position: absolute;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		left: 20%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_admin_article{
+		right: 20%;
+		left: auto;
+		position: absolute;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		left: 20%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_admin_article{
+		right: 20%;
+		left: auto;
+		position: absolute;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		left: 13%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_admin_article{
+		right: 13%;
+		left: auto;
+		position: absolute;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		left: 11%;
+		right: auto;
+		position: absolute;
+	}
+
+	.btn_admin_article{
+		right: 11%;
+		left: auto;
+		position: absolute;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 801px) and (max-width: 960px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		left: 11%;
+		right: auto;
+		position: absolute;
+		width: 300px;
+    	height: 300px;
+	}
+
+	.btn_admin_article{
+		right: 11%;
+		left: auto;
+		position: absolute;
+		width: 300px;
+    	height: 300px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 721px) and (max-width: 800px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		left: 10%;
+		right: auto;
+		position: absolute;
+		width: 280px;
+    	height: 280px;
+	}
+
+	.btn_admin_article{
+		right: 10%;
+		left: auto;
+		position: absolute;
+		width: 280px;
+    	height: 280px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 640px) and (max-width: 720px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		top: 270px;
+		left: 10%;
+		right: auto;
+		position: absolute;
+		width: 250px;
+    	height: 250px;
+	}
+
+	.btn_admin_article{
+		top: 270px;
+		right: 10%;
+		left: auto;
+		position: absolute;
+		width: 250px;
+    	height: 250px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 481px) and (max-width: 639px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 35px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		top: 270px;
+		left: 7%;
+		right: auto;
+		position: absolute;
+		width: 200px;
+    	height: 200px;
+	}
+
+	.btn_admin_article{
+		top: 270px;
+		right: 7%;
+		left: auto;
+		position: absolute;
+		width: 200px;
+    	height: 200px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 23px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		top: 180px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+		width: 300px;
+    	height: 300px;
+	}
+
+	.btn_admin_article{
+		top: 500px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+		width: 300px;
+    	height: 300px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 271px) and (max-width: 359px) {
+	.admin_btn{
+		top: 60px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 23px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		top: 150px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+		width: 250px;
+    	height: 250px;
+	}
+
+	.btn_admin_article{
+		top: 420px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+		width: 250px;
+    	height: 250px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 240px) and (max-width: 270px) {
+	.admin_btn{
+		top: 70px;
+		position: relative;
+		align-items: center;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 19px;
+		color: #fff;
+	}
+
+	.btn_admin_item{
+		top: 150px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+		width: 200px;
+    	height: 200px;
+	}
+
+	.btn_admin_article{
+		top: 370px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+		width: 200px;
+    	height: 200px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */

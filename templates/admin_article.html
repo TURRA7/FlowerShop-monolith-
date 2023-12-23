@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Добавить статью
+{% endblock %}
+
+{% block content %}
+{% if check_total == 'admin' %}
+	<a href="{{ url_for('logout') }}" class="btn-danger_article">ВЫХОД</a>
+	<a href="{{ url_for('admin_menu') }}" class="btn-MENU_article">МЕНЮ</a>
+{% endif %}
+<div class='box_article'>
+	<div class='admin_add_article' id='article_add_id'>ДОБАВЛЕНИЕ СТАТЬИ</div>
+	<form class='add_article' action="{{ url_for('admin_article') }}" method='POST' enctype="multipart/form-data">
+		{{ form.csrf_token }}
+		<div class='block_preview'>
+			<img src="../static/img/default/preview.jpg" alt="Дефолтное изображение" class="preview_article" id='preview_article'>
+		</div>
+		<div class='block_placeholder_total'>
+			<div class='block_placeholder'>
+				<input type='text' class='placeholder_name_article' name='name_article' id='name_article' placeholder="Введите название статьи...">
+				<input type='text' class='placeholder_text_article' name='text_article' id='text_article' placeholder="Введите описание статьи...">
+				<input type="file" class='file_add' name="add_photo" id='add_photo' onchange="previewImage_article()">
+				<input type="submit" class ='btn_add_article' value="Добавить статью">
+			</div>
+			{% for cat, msg in get_flashed_messages(True) %}
+				<div class='flash {{cat}}'>{{msg}}</div>
+			{% endfor %}
+		</div>
+	</form>
+</div>
+{% endblock %}

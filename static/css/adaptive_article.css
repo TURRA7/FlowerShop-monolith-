@@ -1,0 +1,1328 @@
+@media screen and (min-width: 1601px) and (max-width: 1919px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 45px;
+	    color: #fff;
+	}
+
+	.add_article {
+		width: 70em;
+	    height: 30em;
+		top: 150px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	    justify-content: space-between;
+	    align-items: center;
+	    display: flex;  
+	}
+
+	.preview_article {
+		width: 30em;
+		height: 30em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 100%;
+		height: 60%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.placeholder_name_article {
+		width: 90%;
+		height: 10%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 90%;
+		height: 30%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	}
+
+	.flash.success_article {
+		top: 0px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 19px;
+		width: 600px;
+	}
+
+	.flash.error_article {
+		top: 0px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 19px;
+		width: 600px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 45px;
+	    color: #fff;
+	}
+
+	.add_article {
+		width: 70em;
+	    height: 30em;
+		top: 150px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	    justify-content: space-between;
+	    align-items: center;
+	    display: flex;  
+	}
+
+	.preview_article {
+		width: 27em;
+		height: 27em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 100%;
+		height: 60%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.placeholder_name_article {
+		width: 90%;
+		height: 10%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 90%;
+		height: 30%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	}
+
+	.flash.success_article {
+		top: 0px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 17px;
+		width: 500px;
+	}
+
+	.flash.error_article {
+		top: 0px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 17px;
+		width: 500px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 45px;
+	    color: #fff;
+	}
+
+	.add_article {
+		width: 60em;
+	    height: 30em;
+		top: 150px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	    justify-content: space-between;
+	    align-items: center;
+	    display: flex;  
+	}
+
+	.preview_article {
+		width: 27em;
+		height: 27em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 100%;
+		height: 55%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.placeholder_name_article {
+		width: 80%;
+		height: 10%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 7px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 80%;
+		height: 30%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 7px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	}
+
+	.flash.success_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 17px;
+		width: 500px;
+	}
+
+	.flash.error_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 17px;
+		width: 500px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 45px;
+	    color: #fff;
+	}
+
+	.add_article {
+		width: 50em;
+	    height: 30em;
+		top: 150px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	    justify-content: space-between;
+	    align-items: center;
+	    display: flex; 
+	}
+
+	.preview_article {
+		width: 25em;
+		height: 25em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 100%;
+		height: 50%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.placeholder_name_article {
+		width: 70%;
+		height: 10%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 70%;
+		height: 20%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	    font-size: 13px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	}
+
+	.flash.success_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 3%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 17px;
+		width: 400px;
+	}
+
+	.flash.error_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 3%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 15px;
+		width: 400px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 45px;
+	    color: #fff;
+	}
+
+	.add_article {
+		width: 45em;
+	    height: 20em;
+		top: 150px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	    justify-content: space-between;
+	    align-items: center;
+	    display: flex; 
+	}
+
+	.preview_article {
+		width: 20em;
+		height: 20em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 100%;
+		height: 65%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.block_placeholder input::placeholder {
+		font-size: 14px;
+	}
+
+	.placeholder_name_article {
+		width: 70%;
+		height: 10%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 7px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 70%;
+		height: 15%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 7px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	    font-size: 13px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	    width: 70%;
+	    height: 13%;
+	}
+
+	.flash.success_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 3%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 17px;
+		width: 400px;
+	}
+
+	.flash.error_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 3%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 15px;
+		width: 400px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 801px) and (max-width: 960px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 45px;
+	    color: #fff;
+	}
+
+	.add_article {
+		width: 42em;
+	    height: 20em;
+		top: 150px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	    justify-content: space-between;
+	    align-items: center;
+	    display: flex; 
+	}
+
+	.preview_article {
+		width: 20em;
+		height: 20em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 100%;
+		height: 65%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.block_placeholder input::placeholder {
+		font-size: 14px;
+	}
+
+	.placeholder_name_article {
+		width: 70%;
+		height: 10%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 7px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 70%;
+		height: 15%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 7px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	    height: 15%;
+	}
+
+	.flash.success_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 3%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 13px;
+		width: 350px;
+	}
+
+	.flash.error_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 3%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 13px;
+		width: 350px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 721px) and (max-width: 800px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 45px;
+	    color: #fff;
+	}
+
+	.add_article {
+		width: 40em;
+	    height: 20em;
+		top: 150px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	    justify-content: space-between;
+	    align-items: center;
+	    display: flex; 
+	}
+
+	.preview_article {
+		width: 18em;
+		height: 18em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 90%;
+		height: 65%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.block_placeholder input::placeholder {
+		font-size: 14px;
+	}
+
+	.placeholder_name_article {
+		width: 90%;
+		height: 10%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 7px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 90%;
+		height: 15%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 7px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	    height: 15%;
+	}
+
+	.flash.success_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 11px;
+		width: 300px;
+	}
+
+	.flash.error_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 11px;
+		width: 300px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 640px) and (max-width: 720px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 37px;
+	    color: #fff;
+	}
+
+	.add_article {
+		width: 37em;
+	    height: 18em;
+		top: 130px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	    justify-content: space-between;
+	    align-items: center;
+	    display: flex; 
+	}
+
+	.preview_article {
+		width: 18em;
+		height: 18em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 100%;
+		height: 65%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.block_placeholder input::placeholder {
+		font-size: 13px;
+	}
+
+	.placeholder_name_article {
+		width: 70%;
+		height: 10%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 70%;
+		height: 13%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	    width: 19em;
+	    font-size: 13px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	}
+
+	.flash.success_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 11px;
+		width: 300px;
+	}
+
+	.flash.error_article {
+		top: 15px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 11px;
+		width: 300px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 481px) and (max-width: 639px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 27px;
+	    color: #fff;
+	}
+
+	.add_article {
+		width: 27em;
+	    height: 15em;
+		top: 130px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	    justify-content: space-between;
+	    align-items: center;
+	    display: flex; 
+	}
+
+	.preview_article {
+		width: 13em;
+		height: 13em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		top: -30px;
+		width: 100%;
+		height: 70%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.block_placeholder input::placeholder {
+		font-size: 11px;
+	}
+
+	.placeholder_name_article {
+		width: 90%;
+		height: 10%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 90%;
+		height: 13%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	    width: 19em;
+	    font-size: 11px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	}
+
+	.flash.success_article {
+		top: 0px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 9px;
+		width: 220px;
+	}
+
+	.flash.error_article {
+		top: 0px;
+		padding: 5px;
+		margin-left: 2%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 9px;
+		width: 220px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+	.admin_add_article {
+		top: 30px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 23px;
+	    color: #fff;
+	}
+
+	.add_article {
+	    width: 18em;
+	    height: 18em;
+	    top: 170px;
+	    position: relative;
+	    margin: 0 auto; 
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    text-align: center; 
+	}
+
+	.preview_article {
+		width: 17em;
+		height: 17em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 100%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 100%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 100%;
+		height: 50%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	    margin-bottom: 40px;
+	}
+
+	.block_placeholder input::placeholder {
+		font-size: 13px;
+	}
+
+	.placeholder_name_article {
+		width: 90%;
+		height: 20%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 90%;
+		height: 20%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	    width: 90%;
+	    font-size: 13px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 5px;
+	    width: 17em;
+	}
+
+	.flash.success_article {
+		top: 10%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 11px;
+		width: 280px;
+		margin-left: 0;
+	    padding-left: 0;
+	}
+
+	.flash.error_article {
+		top: 10%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 11px;
+		width: 280px;
+		margin-left: 0;
+	    padding-left: 0;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 271px) and (max-width: 359px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 23px;
+	    color: #fff;
+	}
+
+	.add_article {
+	    width: 15em;
+	    height: 18em;
+	    top: 170px;
+	    position: relative;
+	    margin: 0 auto; 
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    text-align: center; 
+	}
+
+	.preview_article {
+		width: 13em;
+		height: 13em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 100%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 100%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 100%;
+		height: 60%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.block_placeholder input::placeholder {
+		font-size: 13px;
+	}
+
+	.placeholder_name_article {
+		width: 80%;
+		height: 15%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 80%;
+		height: 15%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	    width: 70%;
+	    font-size: 9px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	    width: 17em;
+	}
+
+	.flash.success_article {
+		top: 10%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 11px;
+		width: 100%;
+		margin-left: 0;
+	    padding-left: 0;
+	}
+
+	.flash.error_article {
+		top: 10%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 11px;
+		width: 100%;
+		margin-left: 0;
+	    padding-left: 0;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 240px) and (max-width: 270px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+	    font-size: 23px;
+	    color: #fff;
+	}
+
+	.add_article {
+	    width: 15em;
+	    height: 15em;
+	    top: 170px;
+	    position: relative;
+	    margin: 0 auto; 
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    text-align: center; 
+	}
+
+	.preview_article {
+		width: 13em;
+		height: 13em;
+		position: relative;
+		margin-left: 0 auto;
+	    margin-right: 0 auto;
+	}
+
+	.block_preview {
+		width: 100%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 100%;
+		height: 100%;
+	}
+
+	.block_placeholder {
+		width: 100%;
+		height: 60%;
+		position: relative;
+		margin-top: auto;
+	    margin-bottom: auto;
+	}
+
+	.block_placeholder input::placeholder {
+		font-size: 11px;
+	}
+
+	.placeholder_name_article {
+		width: 80%;
+		height: 15%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	    margin-top: 30px;
+	}
+
+	.placeholder_text_article {
+		width: 80%;
+		height: 15%;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 5px;
+	}
+
+	.file_add {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	    width: 70%;
+	    font-size: 9px;
+	}
+
+	.btn_add_article {
+	    margin-top: 30px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	    width: 17em;
+	}
+
+	.flash.success_article {
+		top: 20%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: green;
+		font-size: 11px;
+		width: 100%;
+		margin-left: 0;
+	    padding-left: 0;
+	}
+
+	.flash.error_article {
+		top: 20%;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		color: red;
+		font-size: 11px;
+		width: 100%;
+		margin-left: 0;
+	    padding-left: 0;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */

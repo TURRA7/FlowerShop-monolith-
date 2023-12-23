@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Сделайте выбор!
+{% endblock %}
+
+
+{% block content %}
+{% if check_total == 'admin' %}
+<a href="{{ url_for('logout') }}" class="btn-danger">ВЫХОД</a>
+<a href="{{ url_for('index') }}" class="btn-MENU">ГЛАВНАЯ</a>
+{% endif %}
+<div class='admin_btn' id='btn_id'>ВЫБЕРИТЕ РАЗДЕЛ</div>
+	<div class='admin_buttons'>
+		<button type="button" class="btn_admin_item" onclick="window.location.href='admin_panel'"></button>
+	    <button type="button" class='btn_admin_article' onclick="window.location.href='admin_article'"></button>
+	</div>
+{% endblock %}

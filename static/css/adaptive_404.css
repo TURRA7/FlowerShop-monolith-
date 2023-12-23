@@ -1,0 +1,468 @@
+@media screen and (min-width: 1601px) and (max-width: 1919px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 180px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 45px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 200px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 45px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 300px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 3px 2px black;
+		text-align: center;
+		font-size: 33px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 180px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 45px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 200px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 45px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 300px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 3px 2px black;
+		text-align: center;
+		font-size: 33px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 180px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 45px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 200px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 45px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 300px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 3px 2px black;
+		text-align: center;
+		font-size: 33px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 180px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 200px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 45px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 300px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 3px 2px black;
+		text-align: center;
+		font-size: 33px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 180px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 200px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 32px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 250px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 3px 2px black;
+		text-align: center;
+		font-size: 33px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 801px) and (max-width: 960px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 180px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 200px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 32px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 250px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 3px 2px black;
+		text-align: center;
+		font-size: 33px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 721px) and (max-width: 800px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 180px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 200px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 32px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 250px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 3px 2px black;
+		text-align: center;
+		font-size: 33px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 640px) and (max-width: 720px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 180px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 37px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 200px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 32px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 250px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 3px 2px black;
+		text-align: center;
+		font-size: 33px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 481px) and (max-width: 639px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 180px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 32px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 200px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 27px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 250px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 3px 2px black;
+		text-align: center;
+		font-size: 23px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 120px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 25px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 150px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 23px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 170px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 1px 1px black;
+		text-align: center;
+		font-size: 17px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 271px) and (max-width: 359px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 80px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 17px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 100px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 15px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 120px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 1px 1px black;
+		text-align: center;
+		font-size: 11px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 240px) and (max-width: 270px) {
+	.error_404 {
+		text-align: center;
+		position: relative;
+	}
+
+	.title_error {
+		top: 80px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 15px;
+		color: #fff;
+	}
+
+	.title_error_two {
+		top: 100px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-align: center;
+		font-size: 13px;
+		color: #fff;
+	}
+
+	.menu_error {
+		top: 120px;
+		position: relative;
+		font-family: 'Days One', sans-serif;
+		text-shadow: 1px 1px black;
+		text-align: center;
+		font-size: 9px;
+		list-style: none;
+	}
+
+	.menu_error a {
+		margin: 10px;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
