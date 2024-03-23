@@ -1,5 +1,6 @@
-from database_create.FDataBase import Article, Item, db
-from handlers.handler_flask import app, HomePage, HandlersItem
+from database_create.FDataBase import Article, Item, db, UserAdmin
+from handlers.handler_flask import app, HomePage, \
+    HandlersItem, AdminLogin, Logout, AdminMenu
 
 
 app.add_url_rule("/", view_func=HomePage.as_view(name='index',
@@ -67,6 +68,17 @@ app.add_url_rule("/store_news/",
                                                 table_db=Article,
                                                 name_id='article_id',
                                                 method_pag="news"))
+app.add_url_rule("/admin_login",
+                 view_func=AdminLogin.as_view(name='admin_login',
+                                              name_page='admin_login',
+                                              name_db=UserAdmin,
+                                              redirect_menu='admin_menu'))
+app.add_url_rule("/logout",
+                 view_func=Logout.as_view(name='logout',
+                                          redirect_name='admin_login'))
+app.add_url_rule("/admin_menu",
+                 view_func=AdminMenu.as_view(name='admin_menu',
+                                             name_page='admin_menu'))
 
 
 if __name__ == '__main__':
