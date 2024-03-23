@@ -76,20 +76,21 @@ class WorkingWithHandlers(View):
 class HandlersItem(WorkingWithHandlers):
     '''
     Класс обрабатывает страницы каталога, а так же новостей.
-
-    :param name_page: Название страницы.
-    :param number: Категория товаров (в каталоге).
-    :param amount_item: Количество айтемов на странице.
-    :param table_db: Таблица (её название).
-    :param name_id: Тип айтема на странице (товар/новость).
-    :param method_pag: метод, при котором передаётся либо пагинация,
-    либо айтемы.
-    :param html_path: Название шаблона html(полный путь).
     '''
 
     def __init__(self, name_page: str, number: int, amount_item: int,
                  table_db: Union[Type[Item], Type[Article]],
                  name_id: str, method_pag: str):
+        '''
+        :param name_page: Название страницы.
+        :param number: Категория товаров (в каталоге).
+        :param amount_item: Количество айтемов на странице.
+        :param table_db: Таблица (её название).
+        :param name_id: Тип айтема на странице (товар/новость).
+        :param method_pag: метод, при котором передаётся либо пагинация,
+        либо айтемы.
+        :param html_path: Название шаблона html(полный путь).
+        '''
         super().__init__()
         self.name_page = name_page
         self.number = number
@@ -134,11 +135,12 @@ class HandlersItem(WorkingWithHandlers):
 class HomePage(WorkingWithHandlers):
     '''
     Класс обрабатывает главную страницу 'Index'.
-
-    :param html_path: Название шаблона html(полный путь).
     '''
 
     def __init__(self, html_path):
+        '''
+        :param html_path: Название шаблона html(полный путь).
+        '''
         super().__init__()
         self.html_path = html_path
 
@@ -155,20 +157,25 @@ class HomePage(WorkingWithHandlers):
 class AdminLogin(WorkingWithHandlers):
     '''
     Класс обрабатывает страницу авторизации админов.
-
-    :param name_page: Название страницы.
-    :param name_db: Название таблицы.
-    :param redirect_menu: Название страницы для редиректа.
     '''
 
     def __init__(self, name_page: str, name_db: Type[UserAdmin],
                  redirect_menu: str):
+        '''
+        :param name_page: Название страницы.
+        :param name_db: Название таблицы.
+        :param redirect_menu: Название страницы для редиректа.
+        '''
         super().__init__()
         self.name_page = name_page
         self.name_db = name_db
         self.redirect_menu = redirect_menu
 
     def dispatch_request(self):
+        """
+        Метод реализует обработичик.
+        """
+
         limiter.logger.info('Входящий запрос: %s %s',
                             request.method, request.path)
         form = AdminLoginForm()
@@ -194,18 +201,23 @@ class AdminLogin(WorkingWithHandlers):
 class Logout(WorkingWithHandlers):
     '''
     Класс обрабатывает страницу авторизации админов.
-
-    :param redirect_name: Название страницы для редиректа,
-    после выхода из профиля.
     '''
 
     decorators = [login_required]
 
     def __init__(self, redirect_name: str):
+        '''
+        :param redirect_name: Название страницы для редиректа,
+        после выхода из профиля.
+        '''
         super().__init__()
         self.redirect_name = redirect_name
 
     def dispatch_request(self):
+        """
+        Метод реализует обработичик.
+        """
+
         limiter.logger.info('Входящий запрос: %s %s',
                             request.method, request.path)
         logout_user()
@@ -215,17 +227,22 @@ class Logout(WorkingWithHandlers):
 class AdminMenu(WorkingWithHandlers):
     '''
     Класс обрабатывает страницу админ меню.
-
-    :param name_page: Название страницы админ меню.
     '''
 
     decorators = [login_required]
 
     def __init__(self, name_page: str):
+        '''
+        :param name_page: Название страницы админ меню.
+        '''
         super().__init__()
         self.name_page = name_page
 
     def dispatch_request(self):
+        """
+        Метод реализует обработичик.
+        """
+
         limiter.logger.info('Входящий запрос: %s %s',
                             request.method, request.path)
         return render_template(f'admin/{self.name_page}.html',
