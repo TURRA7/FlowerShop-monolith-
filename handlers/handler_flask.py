@@ -1,11 +1,13 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, \
+    redirect, url_for, flash
 from flask_limiter import Limiter
 from flask.views import View
+from flask_login import login_user, login_required, logout_user
 
 from typing import Union, Type
 
 from pagination_create.paginate_flask import WorkingWithPagination
-from cute_form.form_create import DeleteItemsForm
+from cute_form.form_create import DeleteItemsForm, AdminLoginForm
 from database_create.FDataBase import DeleteItems, UserAdmin, Item, Article, db
 from authorization.auth import check_auth, login_manager
 
@@ -147,4 +149,84 @@ class HomePage(WorkingWithHandlers):
 
         logger.info('Входящий запрос:{self.html_path} выполнен!')
         return render_template(self.html_path,
+                               check_total=check_auth())
+
+
+class AdminLogin(WorkingWithHandlers):
+    '''
+    Класс обрабатывает страницу авторизации админов.
+
+    :param name_page: Название страницы.
+    :param name_db: Название таблицы.
+    :param redirect_menu: Название страницы для редиректа.
+    '''
+
+    def __init__(self, name_page: str, name_db: Type[UserAdmin],
+                 redirect_menu: str):
+        super().__init__()
+        self.name_page = name_page
+        self.name_db = name_db
+        self.redirect_menu = redirect_menu
+
+    def dispatch_request(self):
+        limiter.logger.info('Входящий запрос: %s %s',
+                            request.method, request.path)
+        form = AdminLoginForm()
+
+        if form.validate_on_submit():
+            username = form.login.data
+            password = form.password.data
+
+            user = db.session.execute(
+                db.select(self.name_db).filter_by(
+                    username=username)).scalar_one()
+
+            if user and user.password == password:
+                login_user(user)
+                return redirect(url_for(self.redirect_menu))
+            else:
+                flash('Ошибка входа. Проверьте имя пользователя и пароль.',
+                      'error_user')
+
+        return render_template(f'admin/{self.name_page}.html', form=form)
+
+
+class Logout(WorkingWithHandlers):
+    '''
+    Класс обрабатывает страницу авторизации админов.
+
+    :param redirect_name: Название страницы для редиректа,
+    после выхода из профиля.
+    '''
+
+    decorators = [login_required]
+
+    def __init__(self, redirect_name: str):
+        super().__init__()
+        self.redirect_name = redirect_name
+
+    def dispatch_request(self):
+        limiter.logger.info('Входящий запрос: %s %s',
+                            request.method, request.path)
+        logout_user()
+        return redirect(url_for(self.redirect_name))
+
+
+class AdminMenu(WorkingWithHandlers):
+    '''
+    Класс обрабатывает страницу админ меню.
+
+    :param name_page: Название страницы админ меню.
+    '''
+
+    decorators = [login_required]
+
+    def __init__(self, name_page: str):
+        super().__init__()
+        self.name_page = name_page
+
+    def dispatch_request(self):
+        limiter.logger.info('Входящий запрос: %s %s',
+                            request.method, request.path)
+        return render_template(f'admin/{self.name_page}.html',
                                check_total=check_auth())
