@@ -11,5 +11,7 @@ MAX_COOKIE_SIZE = 0
 ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png'}
 MAX_CONTENT_LENGTH = 16 * 1024 * 1024
 UPLOAD_FOLDER = 'static/img/uploads'
-SQLALCHEMY_DATABASE_URI = "postgresql://postgres:Vbn_78900@localhost:5432"
+# Здесь нужно указать подключение к БД
+SQLALCHEMY_DATABASE_URI = "***"
+#Здесь нужно указать подключение к БД
 SQLALCHEMY_TRACK_MODIFICATIONS = True
