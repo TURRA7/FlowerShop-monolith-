@@ -56,7 +56,7 @@ class CheckingText(CheckingValue):
         """
 
         if not isinstance(self.value, str):
-            logger.error("TypeError")
+            logger.error("TypeError %s", "check_length")
             return False
         if not (min_length <= len(self.value) <= max_length):
             flash(self.message, category=self.category)
@@ -69,9 +69,9 @@ class CheckingText(CheckingValue):
         """
 
         if not isinstance(self.value, str):
-            logger.error("TypeError")
+            logger.error("TypeError %s", "check_check_latin")
             return False
-        if not all(c.isalpha() and c.isascii() for c in self.value):
+        if all(c.isalpha() and c.isascii() for c in self.value):
             flash(self.message, category=self.category)
             return False
         return True
@@ -86,11 +86,13 @@ class CheckingNumber(CheckingValue):
         """
         Проверяет значение, на соответствие одной из категорий.
         """
-
+        '''
         if not isinstance(self.value, int):
-            logger.error("TypeError", exc_info=True)
+            logger.error("TypeError %s", "check_category(isinstance)")
             return False
-        if self.value not in {1, 2, 3, 4, 5, 6, 7, 8}:
+            '''
+        if int(self.value) not in {1, 2, 3, 4, 5, 6, 7, 8}:
+            logger.error("TypeError %s", "check_category(value)")
             flash(self.message,
                   category=self.category)
             return False

@@ -8,7 +8,7 @@ from wtforms import StringField, PasswordField, SubmitField, \
 
 class AdminLoginForm(FlaskForm):
     '''
-    Класс определяет форму входа админов
+    Класс определяет форму входа админов.
     '''
 
     login: str = StringField('Имя пользователя', validators=[DataRequired()])
@@ -18,17 +18,24 @@ class AdminLoginForm(FlaskForm):
 
 class DeleteItemsForm(FlaskForm):
     '''
-    Класс определяет форму удаления айтемов
+    Класс определяет форму удаления товаров.
     '''
 
     product_id: int = HiddenField(validators=[DataRequired()])
     delete_button = SubmitField('Удалить')
 
 
-# Определение формы для добавления новостей
+class DeleteArticleForm(FlaskForm):
+    '''
+    Класс определяет форму удаления новостей.
+    '''
+    article_id = HiddenField(validators=[DataRequired()])
+    delete_button = SubmitField('Удалить')
+
+
 class AddArticleForm(FlaskForm):
     '''
-    Класс определяет форму добавления новостей
+    Класс определяет форму добавления новостей.
     '''
 
     name_article: str = StringField('Название статьи',
@@ -39,10 +46,9 @@ class AddArticleForm(FlaskForm):
     submit = SubmitField('Добавить статью')
 
 
-# Определение формы для добавления товаров
 class AddItemForm(FlaskForm):
     '''
-    Класс определяет форму добавления товаров
+    Класс определяет форму добавления товаров.
     '''
 
     name: str = StringField('Наименование товара',
