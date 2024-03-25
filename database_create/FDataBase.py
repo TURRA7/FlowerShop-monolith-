@@ -155,12 +155,14 @@ class DeleteItems:
                 item = self.table_db.query.get(item_id)
                 if item:
                     try:
+                        logger.debug("Айтем удалён!: %s", self.name_id)
                         db.session.delete(item)
                         db.session.commit()
                         return redirect(url_for(self.name_page))
                     except Exception as ex:
                         # Запись информации об ошибках в логи.
-                        logger.debug("Ошибка при удалении товара: {ex}")
+                        logger.debug("Ошибка при удалении товара: %s %s",
+                                     ex, self.name_id)
                         print(ex)
             else:
                 # !!! ПОСЛЕ ПРОВЕДЕНИЯ ТЕСТОВ, ДАННУЮ СТРОКУ УБРАТЬ !!!
