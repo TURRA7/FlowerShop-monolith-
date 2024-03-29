@@ -1,14 +1,15 @@
+"""Модуль создаёт таблицы и даёт инструменты для работы с ними."""
+import logging
 from datetime import datetime
+from logging.handlers import RotatingFileHandler
 
-from flask import request, redirect, url_for, flash
-
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.orm import DeclarativeBase
+from flask import flash, redirect, request, url_for
 
 from flask_login import UserMixin
 
-import logging
-from logging.handlers import RotatingFileHandler
+from flask_sqlalchemy import SQLAlchemy
+
+from sqlalchemy.orm import DeclarativeBase
 
 
 # Создание логгера
@@ -24,7 +25,7 @@ formatter = logging.Formatter(
 ch.setFormatter(formatter)
 # Добавлении ротации логов
 file_handler = RotatingFileHandler('log_FDataBase.log',
-                                   maxBytes=1024*1024,
+                                   maxBytes=1024 * 1024,
                                    backupCount=5)
 file_handler.setLevel(logging.DEBUG)
 file_handler.setFormatter(formatter)
@@ -37,6 +38,7 @@ logger.addHandler(file_handler)
 class Base(DeclarativeBase):
     """
     Базовый декларативный класс.
+
     Необходим для работы с метаданными таблиц.
     """
 
@@ -47,12 +49,9 @@ class Base(DeclarativeBase):
 db = SQLAlchemy(model_class=Base)
 
 
-# Таблица с админками
 class UserAdmin(UserMixin, db.Model):
     """
-    Класс создаёт таблицу с адмнистраторами проекта,
-    дающую возможность им авторизироваться и пользоваться
-    возможностями администрирования.
+    Класс создаёт таблицу с адмнистраторами проекта.
 
     :param id: Является id индификатором пользователя.
     :param username: логин пользователя.
@@ -64,12 +63,8 @@ class UserAdmin(UserMixin, db.Model):
     password: str = db.Column(db.String(300), nullable=False)
 
 
-# Таблица с товарами
 class Item(UserMixin, db.Model):
-    """
-    Класс создаёт таблицу с товарами для каталога
-    (для карточек товара).
-    """
+    """Класс создаёт таблицу с товарами для каталога."""
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(300), nullable=False)
@@ -81,6 +76,8 @@ class Item(UserMixin, db.Model):
     def __init__(self, name: str, description: str,
                  price: int, category: int, photo: str):
         """
+        Параметры для работы метода.
+
         :param id: Является id индификатором товара.
         :param name: название товара.
         :param description: Описание товара.
@@ -88,7 +85,6 @@ class Item(UserMixin, db.Model):
         :param category: Категория товара.
         :param photo: Название файла с расширением.
         """
-
         self.name = name
         self.description = description
         self.price = price
@@ -96,11 +92,8 @@ class Item(UserMixin, db.Model):
         self.photo = photo
 
 
-# Таблица с статьями
 class Article(UserMixin, db.Model):
-    """
-    Класс создаёт таблицу с новостями.
-    """
+    """Класс создаёт таблицу с новостями."""
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(300), nullable=False)
@@ -111,13 +104,14 @@ class Article(UserMixin, db.Model):
     def __init__(self, name: str, text: str,
                  photo: str, pub_date: datetime):
         """
+        Параметры для работы метода.
+
         :param id: Является id индификатором новости.
         :param name: Заголовок новости.
         :param text: текст новости.
         :param photo: Название файла с расширением.
         :param pub_date: Дата и время загрузки новости.
         """
-
         self.name = name
         self.text = text
         self.photo = photo
@@ -125,30 +119,25 @@ class Article(UserMixin, db.Model):
 
 
 class DeleteItems:
-    '''
-    Класс для удаления айтемов из базы данных.
-    '''
+    """Класс для удаления айтемов из базы данных."""
 
     def __init__(self, name_id: str, table_db: object,
                  name_page: str, delete_form: object):
         """
+        Параметры для работы метода.
+
         :param name_id: Название категории айтема.
         :param table_db: Название таблицы, из которой будет удалён айтем.
         :param name_page: Название страницы с которой будет удалён айтем.
         :param delete_form: Объект класса DeleteItemsForm
-        (формы удаления айтемов).
         """
-
         self.name_id = name_id
         self.table_db = table_db
         self.name_page = name_page
         self.delete_form = delete_form
 
     def delete_items(self):
-        '''
-        Метод удалаяет айтем из базы данных.
-        '''
-
+        """Метод удалаяет айтем из базы данных."""
         if request.method == 'POST':
             if self.delete_form.validate_on_submit():
                 item_id = request.form.get(self.name_id)
@@ -163,7 +152,6 @@ class DeleteItems:
                         # Запись информации об ошибках в логи.
                         logger.debug("Ошибка при удалении товара: %s %s",
                                      ex, self.name_id)
-                        print(ex)
             else:
                 # !!! ПОСЛЕ ПРОВЕДЕНИЯ ТЕСТОВ, ДАННУЮ СТРОКУ УБРАТЬ !!!
                 flash('Ошибка при удалении товара', 'error')

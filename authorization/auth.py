@@ -1,7 +1,9 @@
-from flask_login import LoginManager, current_user
-
+"""Модуль отвечает за аутентификацию администраторов."""
 import logging
 from logging.handlers import RotatingFileHandler
+
+from flask_login import LoginManager, current_user
+
 
 login_manager = LoginManager()
 login_manager.login_view = 'login'
@@ -20,7 +22,7 @@ formatter = logging.Formatter(
 ch.setFormatter(formatter)
 # Добавлении ротации логов
 file_handler = RotatingFileHandler('log_auth.log',
-                                   maxBytes=1024*1024,
+                                   maxBytes=1024 * 1024,
                                    backupCount=5)
 file_handler.setLevel(logging.DEBUG)
 file_handler.setFormatter(formatter)
@@ -31,7 +33,10 @@ logger.addHandler(file_handler)
 
 def check_auth() -> str:
     """
-    Возвращает 'admin', если пользователь авторизован, иначе "no_admin".
+    Функция проверяет авторизирован ли пользователь.
+
+    Возвращает 'admin', если пользователь авторизован,
+    иначе "no_admin".
     """
     if current_user.is_authenticated:
         logger.info("Пользователь авторизирован!")

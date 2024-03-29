@@ -1,3 +1,4 @@
+"""Модуль представляет собой конфигурационный файл."""
 from datetime import timedelta
 
 SECRET_KEY = "5f98079c7458d648234ee38b2d3dbd0ed78817f09f5cf225379dd0d5c8d78f85"

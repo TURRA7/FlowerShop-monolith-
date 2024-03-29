@@ -1,4 +1,9 @@
-from database_create.FDataBase import Article, Item, db, UserAdmin
+"""Это главный исполняемый файл приложения.
+
+Этот файл инициализирует приложение Flask,
+настраивает маршруты и запускает приложение.
+"""
+from database_create.FDataBase import Article, Item, UserAdmin, db
 from handlers.handler_flask import app, HomePage, \
     HandlersItem, AdminLogin, Logout, AdminMenu, AdminPanel, AdminArcticel
 
