@@ -1,27 +1,29 @@
-from flask import Flask, render_template, request, \
-    redirect, url_for, flash
-from flask_limiter import Limiter
-from flask.views import View
-from flask_login import login_user, login_required, logout_user
-from flask_wtf.csrf import CSRFProtect
-from flask_sslify import SSLify
-
+"""Модуль реализует обработчики приложения в стиле Views."""
 import os
-import pytz
 from datetime import datetime
 from typing import Union, Type
-from werkzeug.utils import secure_filename
 
-from pagination_create.paginate_flask import WorkingWithPagination
-from cute_form.form_create import DeleteItemsForm, AdminLoginForm, \
-    AddItemForm, AddArticleForm, DeleteArticleForm
-from database_create.FDataBase import DeleteItems, UserAdmin, Item, Article, db
-from authorization.auth import check_auth, login_manager
-from toolkits.toolkit import CheckingText, CheckingNumber
-from content_flask import cont_error, cont_info
+import pytz
 
 import logging
 from logging.handlers import RotatingFileHandler
+
+from flask import Flask, flash, redirect, render_template, \
+    request, url_for
+from flask.views import View
+from flask_limiter import Limiter
+from flask_login import login_required, login_user, logout_user
+from flask_sslify import SSLify
+from flask_wtf.csrf import CSRFProtect
+from werkzeug.utils import secure_filename
+
+from database_create.FDataBase import DeleteItems, UserAdmin, Item, Article, db
+from pagination_create.paginate_flask import WorkingWithPagination
+from cute_form.form_create import DeleteItemsForm, AdminLoginForm, \
+    AddItemForm, AddArticleForm, DeleteArticleForm
+from authorization.auth import check_auth, login_manager
+from toolkits.toolkit import CheckingText, CheckingNumber
+from content_flask import cont_error, cont_info
 
 
 # Создание экземпляра приложения
@@ -50,7 +52,7 @@ formatter = logging.Formatter(
 ch.setFormatter(formatter)
 # Добавлении ротации логов
 file_handler = RotatingFileHandler('log_handlers.log',
-                                   maxBytes=1024*1024,
+                                   maxBytes=1024 * 1024,
                                    backupCount=5)
 file_handler.setLevel(logging.DEBUG)
 file_handler.setFormatter(formatter)
@@ -61,18 +63,40 @@ logger.addHandler(file_handler)
 
 @login_manager.user_loader
 def load_user(user_id):
-    '''
-    Обработчик используется для загрузки объекта пользователя на основе
-    идентификатора пользователя, который обычно хранится в сессии.
-    '''
+    """
+    Загрузка объекта пользователя на основе идентификатора.
+
+    Функция вызывается Flask-Login для загрузки пользователя по его
+    идентификатору из сеанса пользователя.
+
+    : param user_id: Идентификатор пользователя.
+
+    Returns:
+        UserAdmin: Объект пользователя, найденный по указанному идентификатору.
+    """
     limiter.logger.info('Входящий запрос: %s %s', request.method, request.path)
     return UserAdmin.query.get(int(user_id))
 
 
 class WorkingWithHandlers(View):
-    '''
-    Базовый (родительский) класс, для работы с обработчиками.
-    '''
+    """
+    Базовый (родительский) класс для работы с обработчиками.
+
+    Attributes:
+        init_every_request (bool): Флаг, указывающий, нужно ли инициализировать
+            объект при каждом запросе. По умолчанию установлено значение False.
+        decorators (list): Список декораторов, которые будут применены к методу
+            `dispatch_request`. По умолчанию содержит декоратор, ограничивающий
+            частоту запросов до 100 в минуту.
+        methods (list): Список HTTP-методов, поддерживаемых этим обработчиком.
+            По умолчанию содержит все HTTP-методы: GET, POST, PUT, DELETE.
+
+    Methods:
+        __init__(): Конструктор класса.
+        dispatch_request(): Метод, который вызывается при обработке запроса.
+            Подклассы должны переопределить этот метод для выполнения
+            конкретной логики обработки запроса.
+    """
 
     init_every_request = False
     decorators = [limiter.limit("100 per minute")]
@@ -86,23 +110,22 @@ class WorkingWithHandlers(View):
 
 
 class HandlersItem(WorkingWithHandlers):
-    '''
-    Класс обрабатывает страницы каталога, а так же новостей.
-    '''
+    """Класс обрабатывает страницы каталога, а так же новостей."""
 
     def __init__(self, name_page: str, number: int, amount_item: int,
                  table_db: Union[Type[Item], Type[Article]],
                  name_id: str, method_pag: str):
-        '''
+        """
+        Инициализирует объект класса HandlersItem.
+
         :param name_page: Название страницы.
         :param number: Категория товаров (в каталоге).
         :param amount_item: Количество айтемов на странице.
         :param table_db: Таблица (её название).
         :param name_id: Тип айтема на странице (товар/новость).
-        :param method_pag: метод, при котором передаётся либо пагинация,
-        либо айтемы.
+        :param method_pag: метод, для передачи пагинация/айтемы.
         :param html_path: Название шаблона html(полный путь).
-        '''
+        """
         super().__init__()
         self.name_page = name_page
         self.number = number
@@ -117,10 +140,11 @@ class HandlersItem(WorkingWithHandlers):
 
     def dispatch_request(self):
         """
-        Метод реализует обработичик и через пагинацию,
-        выводит товары на страницу.
-        """
+        Метод реализует обработичик.
 
+        Returns:
+            Через пагинацию выводит товары на страницу.
+        """
         logger.info('Входящий запрос: %s выполнен!', self.name_page)
         pag = WorkingWithPagination(self.amount_item, self.table_db)
 
@@ -153,39 +177,47 @@ class HandlersItem(WorkingWithHandlers):
 
 
 class HomePage(WorkingWithHandlers):
-    '''
+    """
     Класс обрабатывает простые страницы без доп. функционала.
-    '''
+
+    Returns:
+        обработанный html шаблон. Если пользователь
+        является администратором, то добавляет доп кнопки на страницу
+    """
 
     def __init__(self, html_path):
-        '''
+        """
+        Инициализирует объект класса HomePage.
+
         :param html_path: Название шаблона html(полный путь).
-        '''
+        """
         super().__init__()
         self.html_path = html_path
 
     def dispatch_request(self):
-        """
-        Метод реализует обработичик главной страницы.
-        """
-
+        """Метод реализует обработичик главной страницы."""
         logger.info('Входящий запрос: %s выполнен!', self.html_path)
         return render_template(self.html_path,
                                check_total=check_auth())
 
 
 class AdminLogin(WorkingWithHandlers):
-    '''
+    """
     Класс обрабатывает страницу авторизации админов.
-    '''
+
+    Returns:
+        При успешной авторизации, перенаправляет в админ панель.
+    """
 
     def __init__(self, name_page: str, name_db: Type[UserAdmin],
                  redirect_menu: str):
-        '''
+        """
+        Инициализирует объект класса AdminLogin.
+
         :param name_page: Название страницы.
         :param name_db: Название таблицы.
         :param redirect_menu: Название страницы для редиректа.
-        '''
+        """
         super().__init__()
         self.name_page = name_page
         self.name_db = name_db
@@ -193,10 +225,10 @@ class AdminLogin(WorkingWithHandlers):
 
     def dispatch_request(self):
         """
-        Метод сверяет введённые данные с данными в базе,
-        при успешной проверке, авторизирует пользователя.
-        """
+        Метод сверяет введённые данные с данными в базе.
 
+        При успешной проверке, авторизирует пользователя.
+        """
         limiter.logger.info('Входящий запрос: %s %s',
                             request.method, request.path)
         form = AdminLoginForm()
@@ -219,25 +251,30 @@ class AdminLogin(WorkingWithHandlers):
 
 
 class Logout(WorkingWithHandlers):
-    '''
+    """
     Класс обрабатывает выход из админ панели.
-    '''
+
+    Returns:
+        Удаляет пользователя из сессии.
+    """
 
     decorators = [login_required]
 
     def __init__(self, redirect_name: str):
-        '''
-        :param redirect_name: Название страницы для редиректа,
-        после выхода из профиля.
-        '''
+        """
+        Инициализирует объект класса Logout.
+
+        :param redirect_name: Название страницы для редиректа.
+        """
         super().__init__()
         self.redirect_name = redirect_name
 
     def dispatch_request(self):
         """
-        Метод обрабатывает выход из админ панели.
-        """
+        Удаляет пользователя из сессии.
 
+        После удаление, производит редирект на указаную страницу.
+        """
         limiter.logger.info('Входящий запрос: %s %s',
                             request.method, request.path)
         logout_user()
@@ -245,24 +282,26 @@ class Logout(WorkingWithHandlers):
 
 
 class AdminMenu(WorkingWithHandlers):
-    '''
+    """
     Класс обрабатывает страницу админ меню.
-    '''
+
+    Returns:
+        Обрабатывает html шаблон админ паанели.
+    """
 
     decorators = [login_required]
 
     def __init__(self, name_page: str):
-        '''
+        """
+        Инициализирует объект класса AdminMenu.
+
         :param name_page: Название страницы админ меню.
-        '''
+        """
         super().__init__()
         self.name_page = name_page
 
     def dispatch_request(self):
-        """
-        Метод реализует обработичик админ меню.
-        """
-
+        """Метод реализует обработичик админ меню."""
         limiter.logger.info('Входящий запрос: %s %s',
                             request.method, request.path)
         return render_template(f'admin/{self.name_page}.html',
@@ -270,21 +309,28 @@ class AdminMenu(WorkingWithHandlers):
 
 
 class AdminPanel(WorkingWithHandlers):
-    '''
+    """
     Класс для обработки формы добавления товара в базу данных.
-    '''
+
+    Returns:
+        После прохождении всех проверок, добавляет айтем в базу данных.
+    """
 
     decorators = [login_required]
 
     def __init__(self, name_page: str):
-        '''
+        """
+        Инициализирует объект класса AdminPanel.
+
         :param name_page: Название страницы админ панели.
-        '''
+        """
         super().__init__()
         self.name_page = name_page
 
     def dispatch_request(self):
         """
+        Реализует добавление айтема в базу данных.
+
         Метод:
         1. проверяет метод запроса и валидацию формы.
         2. Получает данные из формы проверяет их и проверяет наличие имени фото
@@ -292,7 +338,6 @@ class AdminPanel(WorkingWithHandlers):
         4. Выводит сообщение об успешном добавлении, в противном случае,
         на каждом этапе выводит сообщение об ошибке.
         """
-
         limiter.logger.info('Входящий запрос: %s %s',
                             request.method, request.path)
         form = AddItemForm()
@@ -362,21 +407,28 @@ class AdminPanel(WorkingWithHandlers):
 
 
 class AdminArcticel(WorkingWithHandlers):
-    '''
+    """
     Класс для обработки формы добавления новости в базу данных.
-    '''
+
+    Returns:
+        После прохождении всех проверок, добавляет новость в базу данных.
+    """
 
     decorators = [login_required]
 
     def __init__(self, name_page):
-        '''
+        """
+        Инициализирует объект класса AdminArcticel.
+
         :param name_page: Название страницы добавления статей
-        '''
+        """
         super().__init__()
         self.name_page = name_page
 
     def dispatch_request(self):
         """
+        Реализует добавление новости в базу данных.
+
         Метод:
         1. проверяет метод запроса и валидацию формы.
         2. Получает данные из формы проверяет их и проверяет наличие имени фото
@@ -384,7 +436,6 @@ class AdminArcticel(WorkingWithHandlers):
         4. Выводит сообщение об успешном добавлении, в противном случае,
         на каждом этапе выводит сообщение об ошибке.
         """
-
         app.logger.info('Входящий запрос: %s %s', request.method, request.path)
         form = AddArticleForm()
 
@@ -446,3 +497,11 @@ class AdminArcticel(WorkingWithHandlers):
                 return redirect(url_for(self.name_page))
         return render_template(f'admin/{self.name_page}.html',
                                check_total=check_auth(), form=form)
+
+
+@app.errorhandler(404)
+@limiter.limit("100 per minute")
+def page_not_found(error):
+    """Реализует обработку ошибки 404."""
+    logger.error('Страница не найдена: %s', request.url)
+    return render_template('errors/page_not_found.html'), 404

@@ -1,15 +1,22 @@
-from flask_wtf import FlaskForm
-from wtforms import HiddenField
+"""Модуль определяет формы для приложения Flask.
 
+Модуль содержит следующие классы форм:
+    - AdminLoginForm: Форма входа администратора.
+    - DeleteItemsForm: Форма удаления товаров.
+    - DeleteArticleForm: Форма удаления новостей.
+    - AddArticleForm: Форма добавления новостей.
+    - AddItemForm: Форма добавления товаров.
+"""
+from flask_wtf import FlaskForm
+
+from wtforms import FileField, FloatField, PasswordField, SelectField, \
+    StringField, SubmitField, TextAreaField
+from wtforms import HiddenField
 from wtforms.validators import DataRequired, Length, NumberRange
-from wtforms import StringField, PasswordField, SubmitField, \
-    TextAreaField, FileField, FloatField, SelectField
 
 
 class AdminLoginForm(FlaskForm):
-    '''
-    Класс определяет форму входа админов.
-    '''
+    """Класс определяет форму входа админов."""
 
     login: str = StringField('Имя пользователя', validators=[DataRequired()])
     password: str = PasswordField('Пароль', validators=[DataRequired()])
@@ -17,26 +24,21 @@ class AdminLoginForm(FlaskForm):
 
 
 class DeleteItemsForm(FlaskForm):
-    '''
-    Класс определяет форму удаления товаров.
-    '''
+    """Класс определяет форму удаления товаров."""
 
     product_id: int = HiddenField(validators=[DataRequired()])
     delete_button = SubmitField('Удалить')
 
 
 class DeleteArticleForm(FlaskForm):
-    '''
-    Класс определяет форму удаления новостей.
-    '''
+    """Класс определяет форму удаления новостей."""
+
     article_id = HiddenField(validators=[DataRequired()])
     delete_button = SubmitField('Удалить')
 
 
 class AddArticleForm(FlaskForm):
-    '''
-    Класс определяет форму добавления новостей.
-    '''
+    """Класс определяет форму добавления новостей."""
 
     name_article: str = StringField('Название статьи',
                                     validators=[DataRequired()])
@@ -47,9 +49,7 @@ class AddArticleForm(FlaskForm):
 
 
 class AddItemForm(FlaskForm):
-    '''
-    Класс определяет форму добавления товаров.
-    '''
+    """Класс определяет форму добавления товаров."""
 
     name: str = StringField('Наименование товара',
                             validators=[DataRequired(),
