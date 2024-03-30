@@ -15,6 +15,7 @@ from flask_limiter import Limiter
 from flask_login import login_required, login_user, logout_user
 from flask_sslify import SSLify
 from flask_wtf.csrf import CSRFProtect
+from flask_caching import Cache
 from werkzeug.utils import secure_filename
 
 from database_create.FDataBase import DeleteItems, UserAdmin, Item, Article, db
@@ -31,6 +32,8 @@ app = Flask(__name__)
 app.config.from_pyfile('config.py')
 # Инициализация базы данных
 db.init_app(app)
+# Инициализация кэша
+cache = Cache(app)
 # Создание экземпляра класса лимитера
 limiter = Limiter(app)
 # Инициализация всех запросов Flask-приложению через HTTPS
@@ -105,6 +108,7 @@ class WorkingWithHandlers(View):
     def __init__(self):
         pass
 
+    @cache.cached(timeout=2592000)
     def dispatch_request(self):
         pass
 
@@ -501,6 +505,7 @@ class AdminArcticel(WorkingWithHandlers):
 
 @app.errorhandler(404)
 @limiter.limit("100 per minute")
+@cache.cached(timeout=2592000)
 def page_not_found(error):
     """Реализует обработку ошибки 404."""
     logger.error('Страница не найдена: %s', request.url)
