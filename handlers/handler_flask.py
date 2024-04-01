@@ -26,11 +26,12 @@ from cute_form.form_create import DeleteItemsForm, AdminLoginForm, \
 from authorization.auth import check_auth, login_manager
 from toolkits.toolkit import CheckingText, CheckingNumber
 from content_flask import cont_error, cont_info
+from handlers.config import DevelopmentConfig
 
 
 # Создание экземпляра приложения
 app = Flask(__name__)
-app.config.from_pyfile('config.py')
+app.config.from_object(DevelopmentConfig)
 # Инициализация базы данных
 db.init_app(app)
 # Инициализация кэша
