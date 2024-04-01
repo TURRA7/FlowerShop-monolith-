@@ -1,0 +1,29 @@
+"""
+Данные для примера работы сайта, включают в себя следующие поля:
+ID - Это собственно индификатор админа, который следует вносить 
+в базу данных, колонку id.
+LOGIN - Это логин, который следует занести в базу данных и 
+использовать при авторизации.
+PASS - Это пороль, который стоит использовать ТОЛЬКО для авторизации,
+сам пороль в базу данных захэширован!
+HASH_PASS - Это пороль в виде хэша, который стоит поместить в базу данных
+в колонку password.
+"""
+user_1 {
+	ID:1
+	LOGIN:jenya_1
+	PASS:d7hBfdgrVlWB9
+	HASH_PASS:pbkdf2:sha256:600000$9YhgntcGJ2U5uYRk$df894224d9d00ac8aaf6a8fe2d6beb312d1540661954abb880021945d2887863
+}
+user_2 {
+	ID:2
+	LOGIN:oksana_2
+	PASS:d7hBrVlWB9
+	HASH_PASS:pbkdf2:sha256:600000$Fbb8UbNwhyAA9r0x$2265acd3389e0954f855244ab5cc8260d43b43f6ac9f6646a3e5261b0528a18b
+}
+user_3 {
+	ID:3
+	LOGIN:sveta_3
+	PASS:66MdousCOI
+	HASH_PASS:pbkdf2:sha256:600000$zXN6gonSzTWbk3LK$be2f4e993eb179730a22a3908ba6d83e79fefe3fc47af56f7685d82bc3a209b0
+}

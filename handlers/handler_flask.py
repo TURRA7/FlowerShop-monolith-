@@ -17,6 +17,7 @@ from flask_sslify import SSLify
 from flask_wtf.csrf import CSRFProtect
 from flask_caching import Cache
 from werkzeug.utils import secure_filename
+from werkzeug.security import check_password_hash
 
 from database_create.FDataBase import DeleteItems, UserAdmin, Item, Article, db
 from pagination_create.paginate_flask import WorkingWithPagination
@@ -245,7 +246,7 @@ class AdminLogin(WorkingWithHandlers):
                 db.select(self.name_db).filter_by(
                     username=username)).scalar_one()
 
-            if user and user.password == password:
+            if user and check_password_hash(user.password, password):
                 login_user(user)
                 return redirect(url_for(self.redirect_menu))
             else:
