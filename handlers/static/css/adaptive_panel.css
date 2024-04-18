@@ -1,4 +1,4 @@
-@media screen and (min-width: 1601px) and (max-width: 1919px) {
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
 	.box_admin {
 		width: 100%;
 		height: 100%;
@@ -33,56 +33,24 @@
 	    margin-right: auto;
 	}
 
-	input {
-		width: 300px;
-		height: 35px;
-		display: block;
+	.input_placeholder {
+		width: 100%;
+		height: 2em;
+		display: inline-block;
 		border-radius: 5px;
-		margin-bottom: 10px;
+		margin-bottom: 0;
 		font-family: 'Days One', sans-serif;
 		font-size: 17px;
 		color: #000000;
-		color: black; 
 	}
 
-	input::placeholder  {
-		color: black;
+	.input_placeholder select {
+		font-size: 12px;
 	}
 
 	.preview {
 		width: 305px;
 		height: 305px;
-	}
-
-	.instruction {
-		top: 150px;
-		left: 3%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 17px;
-		color: #fff;
-	}
-
-	.flash.success_panel {
-		top: -45px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 370px;
-	}
-
-	.flash.error_panel {
-		top: -45px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 370px;
 	}
 
 	.photo_choice {
@@ -121,60 +89,29 @@
 		width: 20em;
 		top: 80px;
 		position: relative;
-		margin-left: 25%;
+		margin-left: auto;
 	    margin-right: auto;
 	}
 
-	input {
-		width: 300px;
-		height: 35px;
-		display: block;
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
 		border-radius: 5px;
-		margin-bottom: 10px;
+		margin-bottom: 0;
+		margin-top: 5px;
 		font-family: 'Days One', sans-serif;
 		font-size: 17px;
 		color: #000000;
-		color: black; 
 	}
 
-	input::placeholder  {
-		color: black;
+	.input_placeholder select {
+		font-size: 12px;
 	}
 
 	.preview {
 		width: 305px;
 		height: 305px;
-	}
-
-	.instruction {
-		top: 150px;
-		left: 49%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 17px;
-		color: #fff;
-	}
-
-	.flash.success_panel {
-		top: -45px;
-		padding: 5px;
-		margin-left: 48%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 370px;
-	}
-
-	.flash.error_panel {
-		top: -45px;
-		padding: 5px;
-		margin-left: 48%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 370px;
 	}
 
 	.photo_choice {
@@ -213,60 +150,29 @@
 		width: 20em;
 		top: 80px;
 		position: relative;
-		margin-left: 25%;
+		margin-left: auto;
 	    margin-right: auto;
 	}
 
-	input {
-		width: 300px;
-		height: 35px;
-		display: block;
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
 		border-radius: 5px;
-		margin-bottom: 10px;
+		margin-bottom: 0;
+		margin-top: 5px;
 		font-family: 'Days One', sans-serif;
 		font-size: 17px;
 		color: #000000;
-		color: black; 
 	}
 
-	input::placeholder  {
-		color: black;
+	.input_placeholder select {
+		font-size: 12px;
 	}
 
 	.preview {
 		width: 305px;
 		height: 305px;
-	}
-
-	.instruction {
-		top: 150px;
-		left: 51%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 17px;
-		color: #fff;
-	}
-
-	.flash.success_panel {
-		top: -45px;
-		padding: 5px;
-		margin-left: 50%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 370px;
-	}
-
-	.flash.error_panel {
-		top: -45px;
-		padding: 5px;
-		margin-left: 50%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 370px;
 	}
 
 	.photo_choice {
@@ -292,7 +198,7 @@
 
 
 	.btn_add {
-		width: 300px;
+		width: 95%;
 		height: 35px;
 		border-radius: 5px;
 		background-color: green;
@@ -303,26 +209,26 @@
 
 	.admin_form {
 		width: 20em;
-		top: 80px;
+		top: 70px;
 		position: relative;
-		margin-left: 15%;
+		margin-left: auto;
 	    margin-right: auto;
 	}
 
-	input {
-		width: 300px;
-		height: 35px;
-		display: block;
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
 		border-radius: 5px;
-		margin-bottom: 10px;
+		margin-bottom: 0;
+		margin-top: 5px;
 		font-family: 'Days One', sans-serif;
 		font-size: 17px;
 		color: #000000;
-		color: black; 
 	}
 
-	input::placeholder  {
-		color: black;
+	.input_placeholder select {
+		font-size: 12px;
 	}
 
 	.preview {
@@ -330,42 +236,9 @@
 		height: 305px;
 	}
 
-	.instruction {
-		top: 150px;
-		left: 48%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 17px;
-		color: #fff;
-		width: 490px;
-	}
-
-	.flash.success_panel {
-		top: -35px;
-		padding: 5px;
-		margin-left: 47%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 370px;
-	}
-
-	.flash.error_panel {
-		top: -35px;
-		padding: 5px;
-		margin-left: 47%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 370px;
-	}
-
 	.photo_choice {
 		font-size: 16px;
 	}
-
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 961px) and (max-width: 1024px) {
@@ -386,7 +259,7 @@
 
 
 	.btn_add {
-		width: 300px;
+		width: 95%;
 		height: 35px;
 		border-radius: 5px;
 		background-color: green;
@@ -397,62 +270,31 @@
 
 	.admin_form {
 		width: 20em;
-		top: 80px;
+		top: 70px;
 		position: relative;
-		margin-left: 15%;
+		margin-left: auto;
 	    margin-right: auto;
 	}
 
-	input {
-		width: 300px;
-		height: 35px;
-		display: block;
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
 		border-radius: 5px;
-		margin-bottom: 10px;
+		margin-bottom: 0;
+		margin-top: 5px;
 		font-family: 'Days One', sans-serif;
 		font-size: 17px;
 		color: #000000;
-		color: black; 
 	}
 
-	input::placeholder  {
-		color: black;
+	.input_placeholder select {
+		font-size: 12px;
 	}
 
 	.preview {
 		width: 305px;
 		height: 305px;
-	}
-
-	.instruction {
-		top: 150px;
-		left: 50%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 17px;
-		color: #fff;
-	}
-
-	.flash.success_panel {
-		top: -35px;
-		padding: 5px;
-		margin-left: 49%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 370px;
-	}
-
-	.flash.error_panel {
-		top: -35px;
-		padding: 5px;
-		margin-left: 49%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 370px;
 	}
 
 	.photo_choice {
@@ -478,7 +320,7 @@
 
 
 	.btn_add {
-		width: 300px;
+		width: 95%;
 		height: 35px;
 		border-radius: 5px;
 		background-color: green;
@@ -489,26 +331,26 @@
 
 	.admin_form {
 		width: 20em;
-		top: 80px;
+		top: 70px;
 		position: relative;
-		margin-left: 7%;
+		margin-left: auto;
 	    margin-right: auto;
 	}
 
-	input {
-		width: 300px;
-		height: 35px;
-		display: block;
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
 		border-radius: 5px;
-		margin-bottom: 10px;
+		margin-bottom: 0;
+		margin-top: 5px;
 		font-family: 'Days One', sans-serif;
 		font-size: 17px;
 		color: #000000;
-		color: black; 
 	}
 
-	input::placeholder  {
-		color: black;
+	.input_placeholder select {
+		font-size: 12px;
 	}
 
 	.preview {
@@ -516,41 +358,9 @@
 		height: 305px;
 	}
 
-	.instruction {
-		top: 150px;
-		left: 48%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 17px;
-		color: #fff;
-	}
-
-	.flash.success_panel {
-		top: -15px;
-		padding: 5px;
-		margin-left: 47%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 370px;
-	}
-
-	.flash.error_panel {
-		top: -15px;
-		padding: 5px;
-		margin-left: 47%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 370px;
-	}
-
 	.photo_choice {
 		font-size: 16px;
 	}
-
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 721px) and (max-width: 800px) {
@@ -571,7 +381,7 @@
 
 
 	.btn_add {
-		width: 300px;
+		width: 95%;
 		height: 35px;
 		border-radius: 5px;
 		background-color: green;
@@ -582,26 +392,26 @@
 
 	.admin_form {
 		width: 20em;
-		top: 80px;
+		top: 70px;
 		position: relative;
-		margin-left: 3%;
+		margin-left: auto;
 	    margin-right: auto;
 	}
 
-	input {
-		width: 300px;
-		height: 35px;
-		display: block;
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
 		border-radius: 5px;
-		margin-bottom: 10px;
+		margin-bottom: 0;
+		margin-top: 5px;
 		font-family: 'Days One', sans-serif;
 		font-size: 17px;
 		color: #000000;
-		color: black; 
 	}
 
-	input::placeholder  {
-		color: black;
+	.input_placeholder select {
+		font-size: 12px;
 	}
 
 	.preview {
@@ -609,42 +419,9 @@
 		height: 305px;
 	}
 
-	.instruction {
-		top: 150px;
-		left: 47%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 15px;
-		color: #fff;
-		width: 370px;
-	}
-
 	.photo_choice {
-		font-size: 15px;
+		font-size: 16px;
 	}
-
-	.flash.success_panel {
-		top: -75px;
-		padding: 5px;
-		margin-left: 46%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 370px;
-	}
-
-	.flash.error_panel {
-		top: -75px;
-		padding: 5px;
-		margin-left: 46%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 370px;
-	}
-
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 640px) and (max-width: 720px) {
@@ -665,8 +442,8 @@
 
 
 	.btn_add {
-		width: 250px;
-		height: 30px;
+		width: 95%;
+		height: 35px;
 		border-radius: 5px;
 		background-color: green;
 		font-family: 'Days One', sans-serif;
@@ -676,70 +453,36 @@
 
 	.admin_form {
 		width: 20em;
-		top: 80px;
+		top: 70px;
 		position: relative;
-		margin-left: 3%;
+		margin-left: auto;
 	    margin-right: auto;
 	}
 
-	input {
-		width: 245px;
-		height: 25px;
-		display: block;
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
 		border-radius: 5px;
-		margin-bottom: 10px;
+		margin-bottom: 0;
+		margin-top: 5px;
 		font-family: 'Days One', sans-serif;
-		font-size: 15px;
+		font-size: 17px;
 		color: #000000;
-		color: black; 
 	}
 
-	input::placeholder  {
-		color: black;
+	.input_placeholder select {
+		font-size: 12px;
 	}
 
 	.preview {
-		width: 250px;
-		height: 250px;
-	}
-
-	.instruction {
-		top: 145px;
-		left: 44%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 13px;
-		color: #fff;
-		width: 370px;
-		width: 330px;
+		width: 305px;
+		height: 305px;
 	}
 
 	.photo_choice {
-		font-size: 13px;
+		font-size: 16px;
 	}
-
-	.flash.success_panel {
-		top: -25px;
-		padding: 5px;
-		margin-left: 43%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 330px;
-	}
-
-	.flash.error_panel {
-		top: -25px;
-		padding: 5px;
-		margin-left: 43%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 330px;
-	}
-
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 481px) and (max-width: 639px) {
@@ -751,17 +494,16 @@
 
 	.admin_label {
 		top: 50px;
+	    position: relative;
+	    text-align: center;
 		font-family: 'Days One', sans-serif;
 	    font-size: 25px;
 	    color: #fff;
-	    text-align: center;
-	    left: auto;
-	    right: auto;
-	    width: 100%;
 	}
 
+
 	.btn_add {
-		width: 180px;
+		width: 75%;
 		height: 20px;
 		border-radius: 5px;
 		background-color: green;
@@ -771,168 +513,167 @@
 	}
 
 	.admin_form {
-		width: 20em;
+		width: 100%;
 		top: 70px;
 		position: relative;
-		margin-left: 5%;
+		margin-left: auto;
 	    margin-right: auto;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
 	}
 
-	input {
-		width: 175px;
-		height: 20px;
-		display: block;
+	.input_container {
+		width: 50%;
+		margin-top: 2%;
+	}
+
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
 		border-radius: 5px;
-		margin-bottom: 10px;
+		margin-bottom: 0;
+		margin-top: 0;
 		font-family: 'Days One', sans-serif;
-		font-size: 11px;
+		font-size: 13px;
 		color: #000000;
-		color: black; 
 	}
 
-	.photo_choice {
+	.input_placeholder select {
+		font-size: 12px;
+	}
+
+	.name_plh,
+	.desc_plh,
+	.price_plh {
+		width: 100%;
+		height: 1em;
+		font-size: 15px;
+	}
+
+	.btn_picture {
 		font-size: 10px;
 	}
 
-	input::placeholder  {
-		color: black;
+	.caregory_plh {
+		width: 35%;
+		height: 1.5em;
 	}
+
 
 	.preview {
-		width: 180px;
-		height: 180px;
+		width: 12em;
+		height: 12em;
+		margin-left: 3%;
+		margin-right: 2%;
+		border-radius: 3%;
 	}
 
-	.instruction {
-		top: 120px;
-		left: 44%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
+	.photo_choice {
 		font-size: 12px;
-		color: #fff;
-		width: 260px;
-
 	}
 
-	.flash.success_panel {
-		top: 7px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 330px;
+	.btn-danger_panel {
+		margin-right: 1%;
+		margin-top: 30px;
 	}
-
-	.flash.error_panel {
-		top: 70px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 330px;
+	
+	.btn-MENU_panel {
+		margin-right: 2%;
+		margin-top: 30px;
 	}
-
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 360px) and (max-width: 480px) {
 	.box_admin {
 		width: 100%;
+		height: 100%;
 	    position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.admin_label {
 		top: 50px;
-		font-family: 'Days One', sans-serif;
-	    font-size: 25px;
-	    color: #fff;
+	    position: relative;
 	    text-align: center;
-	    left: auto;
-	    right: auto;
-	    width: 100%;
+		font-family: 'Days One', sans-serif;
+	    font-size: 27px;
+	    color: #fff;
 	}
 
+
 	.btn_add {
-		width: 200px;
-		height: 20px;
+		width: 95%;
+		height: 35px;
 		border-radius: 5px;
 		background-color: green;
 		font-family: 'Days One', sans-serif;
-		font-size: 13px;
+		font-size: 17px;
 		color: #000000;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	.admin_form {
 		width: 20em;
 		top: 70px;
 		position: relative;
-		align-items: center;
-		text-align: center;
-	}
-
-	input {
-		width: 290px;
-		height: 30px;
-		display: block;
-		border-radius: 5px;
-		margin-bottom: 10px;
-		font-family: 'Days One', sans-serif;
-		font-size: 13px;
-		color: #000000;
-		color: black; 
-		position: relative;
 		margin-left: auto;
 	    margin-right: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
-	.photo_choice {
-		font-size: 10px;
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		border-radius: 5px;
+		margin-bottom: 0;
+		margin-top: 5px;
+		font-family: 'Days One', sans-serif;
+		font-size: 17px;
+		color: #000000;
 	}
 
-	input::placeholder  {
-		color: black;
+	.input_placeholder select {
+		font-size: 15px;
 	}
 
 	.preview {
-		width: 300px;
-		height: 300px;
+		width: 305px;
+		height: 305px;
+		border-radius: 3%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
-	.instruction {
-		top: 720px;
-		left: 3%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 12px;
-		color: #fff;
-		width: 340px;
+	.photo_choice {
+		font-size: 16px;
 	}
 
-	.flash.success_panel {
-		top: 450px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 330px;
+	.name_plh,
+	.desc_plh,
+	.price_plh {
+		width: 100%;
+		height: 1.5em;
+		font-size: 15px;
 	}
 
-	.flash.error_panel {
-		top: 450px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 330px;
+	.btn_picture {
+		font-size: 15px;
 	}
 
+	.caregory_plh {
+		width: 35%;
+		height: 1.5em;
+	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 271px) and (max-width: 359px) {
@@ -940,97 +681,95 @@
 		width: 100%;
 		height: 100%;
 	    position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.admin_label {
 		top: 50px;
-		font-family: 'Days One', sans-serif;
-	    font-size: 17px;
-	    color: #fff;
 	    position: relative;
-		align-items: center;
-		text-align: center;
-
+	    text-align: center;
+		font-family: 'Days One', sans-serif;
+	    font-size: 18px;
+	    color: #fff;
 	}
 
+
 	.btn_add {
-		width: 180px;
+		width: 50%;
 		height: 20px;
 		border-radius: 5px;
 		background-color: green;
 		font-family: 'Days One', sans-serif;
-		font-size: 13px;
+		font-size: 10px;
 		color: #000000;
-	}
-
-	.admin_form {
-		width: 100%;
-		top: 70px;
-		position: relative;
-		align-items: center;
+		display: block;
+		margin: 0 auto;
 		text-align: center;
 	}
 
-	input {
-		width: 195px;
-		height: 25px;
-		display: block;
-		border-radius: 5px;
-		margin-bottom: 10px;
-		font-family: 'Days One', sans-serif;
-		font-size: 13px;
-		color: #000000;
-		color: black; 
+	.admin_form {
+		width: 75%;
+		top: 70px;
 		position: relative;
 		margin-left: auto;
 	    margin-right: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		border-radius: 5px;
+		margin-bottom: 0;
+		margin-top: 5px;
+		font-family: 'Days One', sans-serif;
+		font-size: 17px;
+		color: #000000;
+	}
+
+	.input_placeholder select {
+		font-size: 10px;
+	}
+
+	.input_container {
+		width: 100%;
+	}
+
+	.preview {
+		width: 200px;
+		height: 200px;
+		border-radius: 3%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.photo_choice {
 		font-size: 10px;
 	}
 
-	input::placeholder  {
-		color: black;
+	.name_plh,
+	.desc_plh,
+	.price_plh {
+		width: 95%;
+		height: 1.5em;
+		font-size: 10px;
 	}
 
-	.preview {
-		width: 200px;
-		height: 200px;
+	.btn_picture {
+		font-size: 10px;
+		width: 100%;
 	}
 
-	.instruction {
-		top: 570px;
-		left: 3%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 12px;
-		color: #fff;
-		width: 250px;
+	.caregory_plh {
+		width: 35%;
+		height: 1.5em;
 	}
-
-	.flash.success_panel {
-		top: 460px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 9px;
-		width: 250px;
-	}
-
-	.flash.error_panel {
-		top: 460px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 9px;
-		width: 250px;
-	}
-
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 240px) and (max-width: 270px) {
@@ -1038,96 +777,94 @@
 		width: 100%;
 		height: 100%;
 	    position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.admin_label {
 		top: 50px;
-		font-family: 'Days One', sans-serif;
-	    font-size: 17px;
-	    color: #fff;
 	    position: relative;
-		align-items: center;
-		text-align: center;
-
+	    text-align: center;
+		font-family: 'Days One', sans-serif;
+	    font-size: 18px;
+	    color: #fff;
 	}
 
+
 	.btn_add {
-		width: 180px;
+		width: 50%;
 		height: 20px;
 		border-radius: 5px;
 		background-color: green;
 		font-family: 'Days One', sans-serif;
-		font-size: 13px;
+		font-size: 8px;
 		color: #000000;
-	}
-
-	.admin_form {
-		width: 100%;
-		top: 70px;
-		position: relative;
-		align-items: center;
+		display: block;
+		margin: 0 auto;
 		text-align: center;
 	}
 
-	input {
-		width: 195px;
-		height: 25px;
-		display: block;
-		border-radius: 5px;
-		margin-bottom: 10px;
-		font-family: 'Days One', sans-serif;
-		font-size: 13px;
-		color: #000000;
-		color: black; 
+	.admin_form {
+		width: 75%;
+		top: 70px;
 		position: relative;
 		margin-left: auto;
 	    margin-right: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.input_placeholder {
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		border-radius: 5px;
+		margin-bottom: 0;
+		margin-top: 5px;
+		font-family: 'Days One', sans-serif;
+		font-size: 17px;
+		color: #000000;
+	}
+
+	.input_placeholder select {
+		font-size: 10px;
+	}
+
+	.input_container {
+		width: 100%;
+	}
+
+	.preview {
+		width: 200px;
+		height: 200px;
+		border-radius: 3%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.photo_choice {
 		font-size: 10px;
 	}
 
-	input::placeholder  {
-		color: black;
+	.name_plh,
+	.desc_plh,
+	.price_plh {
+		width: 95%;
+		height: 1.5em;
+		font-size: 10px;
 	}
 
-	.preview {
-		width: 200px;
-		height: 200px;
+	.btn_picture {
+		font-size: 10px;
+		width: 100%;
 	}
 
-	.instruction {
-		top: 570px;
-		left: 3%;
-		position: absolute;
-		font-family: 'Days One', sans-serif;
-		font-size: 12px;
-		color: #fff;
-		width: 230px;
+	.caregory_plh {
+		width: 35%;
+		height: 1.5em;
 	}
-
-	.flash.success_panel {
-		top: 480px;
-		padding: 5px;
-		margin-left: 1%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 7px;
-		width: 230px;
-	}
-
-	.flash.error_panel {
-		top: 480px;
-		padding: 5px;
-		margin-left: 1%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 7px;
-		width: 230px;
-	}
-
 }
 /* /////////////////////////////////////////////////////////////////////// */

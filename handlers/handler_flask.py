@@ -18,13 +18,13 @@ from flask_wtf.csrf import CSRFProtect
 from flask_caching import Cache
 from werkzeug.utils import secure_filename
 from werkzeug.security import check_password_hash
+from sqlalchemy.orm.exc import NoResultFound
 
 from database_create.FDataBase import DeleteItems, UserAdmin, Item, Article, db
 from pagination_create.paginate_flask import WorkingWithPagination
 from cute_form.form_create import DeleteItemsForm, AdminLoginForm, \
     AddItemForm, AddArticleForm, DeleteArticleForm
 from authorization.auth import check_auth, login_manager
-from toolkits.toolkit import CheckingText, CheckingNumber
 from content_flask import cont_error, cont_info
 from handlers.config import DevelopmentConfig
 
@@ -243,16 +243,18 @@ class AdminLogin(WorkingWithHandlers):
             username = form.login.data
             password = form.password.data
 
-            user = db.session.execute(
-                db.select(self.name_db).filter_by(
-                    username=username)).scalar_one()
+            try:
+                user = db.session.execute(
+                    db.select(self.name_db).filter_by(
+                        username=username)).scalar_one()
 
-            if user and check_password_hash(user.password, password):
-                login_user(user)
-                return redirect(url_for(self.redirect_menu))
-            else:
+                if user and check_password_hash(user.password, password):
+                    login_user(user)
+                    return redirect(url_for(self.redirect_menu))
+                else:
+                    flash(cont_error[7], 'error_user')
+            except NoResultFound:
                 flash(cont_error[7], 'error_user')
-
         return render_template(f'admin/{self.name_page}.html', form=form)
 
 
@@ -344,70 +346,37 @@ class AdminPanel(WorkingWithHandlers):
         4. Выводит сообщение об успешном добавлении, в противном случае,
         на каждом этапе выводит сообщение об ошибке.
         """
-        limiter.logger.info('Входящий запрос: %s %s',
-                            request.method, request.path)
+        app.logger.info('Входящий запрос: %s %s',
+                        request.method, request.path)
         form = AddItemForm()
 
-        if request.method == 'POST':
-            logger.info("Проверка метода запроса |AddItemForm| успешно!")
-            if form.validate_on_submit():
-                logger.info("Проверка валидации |AddItemForm| успешно!")
-                name = request.form['name']
-                description = request.form['description']
-                price = request.form['price']
-                category = request.form['category']
-                photo = request.files['photo']
+        if form.validate_on_submit():
+            name = request.form['name']
+            description = request.form['description']
+            price = request.form['price']
+            category = request.form['category']
+            photo = request.files['photo']
 
-                if photo:
-                    logger.info("Файл |AddItemForm| получен!")
-                    filename = secure_filename(photo.filename)
-                    photo.save(os.path.join(app.config['UPLOAD_FOLDER'],
-                                            filename))
-                    logger.info("Файл |AddItemForm| сохранён в папку!")
-                else:
-                    logger.info("TypeError %s",
-                                "Имя файла или путь не найдены!| AddItemForm|")
-                    filename = None
+            if photo:
+                filename = secure_filename(photo.filename)
+                photo.save(os.path.join(app.config['UPLOAD_FOLDER'],
+                                        filename))
+            else:
+                filename = None
 
-                check_name = CheckingText(
-                    name, 'error_panel', cont_error[5])
-                check_description = CheckingText(
-                    description, 'error_panel', cont_error[2])
-                check_latin = CheckingText(
-                    description, 'error_panel', cont_error[4])
-                check_category = CheckingNumber(
-                    category, 'error_panel', cont_error[6])
-
-                total = [
-                    check_name.check_length(min_length=3, max_length=15),
-                    check_description.check_length(min_length=3,
-                                                   max_length=1000),
-                    check_latin.check_latin(),
-                    check_category.check_category()]
-
-                if all(total) and filename is not None:
-                    logger.info("Все проверки |AddItemForm| пройденвы!")
-                    try:
-                        new_item = Item(name=name,
-                                        description=description,
-                                        price=price,
-                                        category=category,
-                                        photo=filename)
-                        db.session.add(new_item)
-                        db.session.commit()
-                        logger.info(
-                            "Айтем добавлен в базу данных!|AddItemForm|")
-                        flash(cont_info[1], category='success_panel')
-                    except Exception as ex:
-                        logger.error(
-                            "Exception %s %s",
-                            "Проблема с добавлением файла!|AddItemForm|",
+            try:
+                new_item = Item(name=name,
+                                description=description,
+                                price=price,
+                                category=category,
+                                photo=filename)
+                db.session.add(new_item)
+                db.session.commit()
+            except Exception as ex:
+                logger.info("Exception %s %s",
+                            f"{cont_error[8]}|AddItemForm|",
                             ex)
-                else:
-                    logger.error(
-                        "Exception %s", "Проверки не пройдены!|AddItemForm| ")
-                    flash(cont_info[2], category='error_panel')
-                return redirect(url_for(self.name_page))
+            return redirect(url_for(self.name_page))
         return render_template(f'admin/{self.name_page}.html',
                                check_total=check_auth(), form=form)
 
@@ -445,62 +414,34 @@ class AdminArcticel(WorkingWithHandlers):
         app.logger.info('Входящий запрос: %s %s', request.method, request.path)
         form = AddArticleForm()
 
-        if request.method == 'POST':
-            logger.info("Проверка метода запроса |AdminArcticel| успешно!")
-            if form.validate_on_submit():
-                logger.info("Проверка валидации |AdminArcticel| успешно!")
-                name = request.form['name_article']
-                text = request.form['text_article']
-                photo = request.files['add_photo']
+        if form.validate_on_submit():
+            name = request.form['name_article']
+            text = request.form['text_article']
+            photo = request.files['add_photo']
 
-                utc_timezone = pytz.utc
-                utc_time = datetime.now(utc_timezone)
-                eet_time = utc_time.astimezone(pytz.timezone('EET'))
+            utc_timezone = pytz.utc
+            utc_time = datetime.now(utc_timezone)
+            eet_time = utc_time.astimezone(pytz.timezone('EET'))
 
-                if photo:
-                    logger.info("Файл |AdminArcticel| получен!")
-                    filename = secure_filename(photo.filename)
-                    photo.save(os.path.join(app.config['UPLOAD_FOLDER'],
-                                            filename))
-                    logger.info("Файл |AdminArcticel| сохранён в папку!")
-                else:
-                    logger.info("Файл |AdminArcticel| не сохранён в папку!")
-                    filename = None
+            if photo:
+                filename = secure_filename(photo.filename)
+                photo.save(os.path.join(app.config['UPLOAD_FOLDER'],
+                                        filename))
+            else:
+                filename = None
 
-                check_name_lat = CheckingText(name,
-                                              'error_article', cont_error[1])
-                check_name_des = CheckingText(name,
-                                              'error_article', cont_error[3])
-                check_text_lat = CheckingText(text,
-                                              'error_article', cont_error[4])
-                check_text_des = CheckingText(text,
-                                              'error_article', cont_error[2])
-
-                total = [
-                    check_name_des.check_length(min_length=3, max_length=100),
-                    check_name_lat.check_latin(),
-                    check_text_lat.check_latin(),
-                    check_text_des.check_length(min_length=3, max_length=1000)]
-
-                if all(total) and filename is not None:
-                    logger.info("Проверки |AdminArcticel| пройдены!")
-                    try:
-                        new_article = Article(name=name,
-                                              text=text,
-                                              photo=filename,
-                                              pub_date=eet_time)
-                        db.session.add(new_article)
-                        db.session.commit()
-                        flash('СТАТЬЯ УСПЕШНО ДОБАВЛЕНА!',
-                              category='success_article')
-                    except Exception as ex:
-                        logger.error("Exception %s %s",
-                                     "Проблема с добавлением файла!",
-                                     ex)
-                else:
-                    logger.info("Проверки |AdminArcticel| не пройдены!")
-                    flash('НУЖНО ЗАГРУЗИТЬ ФОТО!', category='error_article')
-                return redirect(url_for(self.name_page))
+            try:
+                new_article = Article(name=name,
+                                      text=text,
+                                      photo=filename,
+                                      pub_date=eet_time)
+                db.session.add(new_article)
+                db.session.commit()
+            except Exception as ex:
+                logger.error("Exception %s %s",
+                             f"{cont_error[8]}|AddArticleForm|",
+                             ex)
+            return redirect(url_for(self.name_page))
         return render_template(f'admin/{self.name_page}.html',
                                check_total=check_auth(), form=form)
 
