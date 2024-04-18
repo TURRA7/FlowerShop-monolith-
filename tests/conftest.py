@@ -2,15 +2,38 @@
 import os
 import pytest
 
-from database_create.FDataBase import UserAdmin, Item, Article
+from flask import g
+
+from database_create.FDataBase import UserAdmin, Item, Article, db
 from app import create_app
+
+
+@pytest.fixture(scope='session')
+def app():
+    """Данная фикстура создаёт контекст приложения Flask."""
+    app = create_app()
+    os.environ['CONFIG_TYPE'] = 'config.TestingConfig'
+
+    with app.app_context():
+        db.drop_all()
+        db.create_all()
+        yield app
+        db.drop_all()
+
+
+@pytest.fixture(scope='session')
+def client(app):
+    """Тестовый клиент Flask."""
+    return app.test_client()
 
 
 @pytest.fixture(scope='module')
 def new_user():
     """Фикстура создаёт пользователя UserAdmin."""
     user = UserAdmin(username="jenya_1",
-                     password="pbkdf2:sha256:600000$9YhgntcGJ2U5uYRk$df894224d9d00ac8aaf6a8fe2d6beb312d1540661954abb880021945d2887863")
+                     password="""pbkdf2:sha256:600000$9YhgntcGJ2
+                     U5uYRk$df894224d9d00ac8aaf6a8fe2d6beb312
+                     d1540661954abb880021945d2887863""")
     return user
 
 
@@ -30,14 +53,3 @@ def new_article():
                       "shop.jpg",
                       "2024-01-01 00:00:00.01")
     return article
-
-
-@pytest.fixture(scope='module')
-def test_client():
-    """Данная фикстура создаёт контекст приложения Flask."""
-    os.environ['CONFIG_TYPE'] = 'config.TestingConfig'
-    flask_app = create_app()
-
-    with flask_app.test_client() as testing_client:
-        with flask_app.app_context():
-            yield testing_client

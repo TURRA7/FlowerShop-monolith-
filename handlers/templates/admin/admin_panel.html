@@ -13,26 +13,33 @@
 <div class='box_admin'>
 	<div class='admin_label'>АДМИН ПАНЕЛЬ</div><br>
 	<form class='admin_form' action="{{ url_for('admin_panel') }}" method='POST' enctype="multipart/form-data">
-		{{ form.csrf_token }}
 		<img src="../static/img/default/preview.jpg" alt="Дефолтное изображение" class="preview" id='preview'>
-		<input type='text' name='name' id='name' placeholder="Введите название товара...">
-		<input type='text' name='description' id='description' placeholder="Введите описание товара...">
-		<input type='number' name='price' id='price' placeholder="Введите цену товара...">
-		<input type='text' name='category' id='category' placeholder="Введите категорию товара...">
-		<input type="file" name="photo" id='photo' onchange="previewImage()" class='photo_choice'>
-		<input type="submit" class ='btn_add' value="Добавить товар">
+		<div class="input_container">
+			{{ form.hidden_tag() }}
+			<p class="input_placeholder">{{ form.name(placeholder="Введите название товара...", class="name_plh")}}</p>
+			{% for error in form.name.errors %}
+				<span class="error">{{ error }}</span>
+			{% endfor %}
+			<br>
+			<p class="input_placeholder">{{ form.description(placeholder="Введите описание товара...", class="desc_plh") }}</p>
+			{% for error in form.description.errors %}
+				<span class="error">{{ error }}</span>
+			{% endfor %}
+			<br>
+			<p class="input_placeholder">{{ form.price(placeholder="Введите цену товара...", class="price_plh") }}</p>
+			{% for error in form.price.errors %}
+				<span class="error">{{ error }}</span>
+			{% endfor %}
+			<br>
+			<p class="input_placeholder">{{ form.category(placeholder="Введите категорию товара...", class="caregory_plh") }}</p>
+			{% for error in form.category.errors %}
+				<span class="error">{{ error }}</span>
+			{% endfor %}
+			<br>
+			<p class='photo_choice'>{{ form.photo(onchange="previewImage()", class="btn_picture") }}</p>
+			<p>{{ form.submit(class ='btn_add', value="Добавить товар") }}</p>
+			<br>
+		</div>
 	</form>
-	{% for cat, msg in get_flashed_messages(True) %}
-	<div class='flash {{cat}}'>{{msg}}</div>
-	{% endfor %}
-	<div class='instruction'>ИНСТРУКЦИЯ:<br><br>1. Название товара должно 
-		насчитвывать<br>от 3-х до 15-ти символов.<br><br>2. Описание товара 
-		может содержать от 3-х символов.<br><br>3. Цена товара может быть 
-		как целой (1, 100, 1500,...),<br>так и дробной (750.7, 341.57,...)<br>
-		<br>4.В поле ввода категории, нужно вводить цифру,<br>соответствующую 
-		категории товара:<br>Цветы - 1<br>Букеты - 2<br>Корзинки - 3<br>
-		Комнатные - 4<br>Искуственные - 5<br>Венки - 6<br>Игрушки - 
-		7<br>Фейерверки - 8
-	</div>
 </div>
 {% endblock %}

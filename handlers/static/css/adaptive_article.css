@@ -1,4 +1,4 @@
-@media screen and (min-width: 1601px) and (max-width: 1919px) {
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
 	.admin_add_article {
 		top: 50px;
 	    position: relative;
@@ -21,11 +21,12 @@
 	}
 
 	.preview_article {
-		width: 30em;
-		height: 30em;
+		width: 28em;
+		height: 28em;
 		position: relative;
 		margin-left: 0 auto;
 	    margin-right: 0 auto;
+		border-radius: 5%;
 	}
 
 	.block_preview {
@@ -36,19 +37,14 @@
 	.block_placeholder_total {
 		width: 50%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 100%;
-		height: 60%;
 		position: relative;
-		margin-top: auto;
+		margin-top: 5%;
 	    margin-bottom: auto;
 	}
 
 	.placeholder_name_article {
-		width: 90%;
-		height: 10%;
+		width: 100%;
+		height: 2em;
 		text-align: center;
 		margin-left: auto;
 	    margin-right: auto;
@@ -57,8 +53,8 @@
 	}
 
 	.placeholder_text_article {
-		width: 90%;
-		height: 30%;
+		width: 100%;
+		height: 3em;
 		text-align: center;
 		margin-top: 20px;
 		margin-left: auto;
@@ -79,28 +75,6 @@
 	    margin-right: auto;
 	    background-color: green;
 	    border-radius: 10px;
-	}
-
-	.flash.success_article {
-		top: 0px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 19px;
-		width: 600px;
-	}
-
-	.flash.error_article {
-		top: 0px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 19px;
-		width: 600px;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
@@ -127,11 +101,12 @@
 	}
 
 	.preview_article {
-		width: 27em;
-		height: 27em;
+		width: 28em;
+		height: 28em;
 		position: relative;
 		margin-left: 0 auto;
 	    margin-right: 0 auto;
+		border-radius: 5%;
 	}
 
 	.block_preview {
@@ -142,19 +117,14 @@
 	.block_placeholder_total {
 		width: 50%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 100%;
-		height: 60%;
 		position: relative;
-		margin-top: auto;
+		margin-top: 5%;
 	    margin-bottom: auto;
 	}
 
 	.placeholder_name_article {
-		width: 90%;
-		height: 10%;
+		width: 100%;
+		height: 2em;
 		text-align: center;
 		margin-left: auto;
 	    margin-right: auto;
@@ -163,8 +133,8 @@
 	}
 
 	.placeholder_text_article {
-		width: 90%;
-		height: 30%;
+		width: 100%;
+		height: 3em;
 		text-align: center;
 		margin-top: 20px;
 		margin-left: auto;
@@ -185,28 +155,6 @@
 	    margin-right: auto;
 	    background-color: green;
 	    border-radius: 10px;
-	}
-
-	.flash.success_article {
-		top: 0px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 17px;
-		width: 500px;
-	}
-
-	.flash.error_article {
-		top: 0px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 17px;
-		width: 500px;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
@@ -221,7 +169,7 @@
 	}
 
 	.add_article {
-		width: 60em;
+		width: 70em;
 	    height: 30em;
 		top: 150px;
 		position: relative;
@@ -233,11 +181,12 @@
 	}
 
 	.preview_article {
-		width: 27em;
-		height: 27em;
+		width: 28em;
+		height: 28em;
 		position: relative;
 		margin-left: 0 auto;
 	    margin-right: 0 auto;
+		border-radius: 5%;
 	}
 
 	.block_preview {
@@ -248,34 +197,29 @@
 	.block_placeholder_total {
 		width: 50%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 100%;
-		height: 55%;
 		position: relative;
-		margin-top: auto;
+		margin-top: 5%;
 	    margin-bottom: auto;
 	}
 
 	.placeholder_name_article {
-		width: 80%;
-		height: 10%;
+		width: 100%;
+		height: 2em;
 		text-align: center;
 		margin-left: auto;
 	    margin-right: auto;
-	    border-radius: 7px;
+	    border-radius: 10px;
 	    margin-top: 30px;
 	}
 
 	.placeholder_text_article {
-		width: 80%;
-		height: 30%;
+		width: 100%;
+		height: 3em;
 		text-align: center;
 		margin-top: 20px;
 		margin-left: auto;
 	    margin-right: auto;
-	    border-radius: 7px;
+	    border-radius: 10px;
 	}
 
 	.file_add {
@@ -291,28 +235,6 @@
 	    margin-right: auto;
 	    background-color: green;
 	    border-radius: 10px;
-	}
-
-	.flash.success_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 17px;
-		width: 500px;
-	}
-
-	.flash.error_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 17px;
-		width: 500px;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
@@ -327,7 +249,7 @@
 	}
 
 	.add_article {
-		width: 50em;
+		width: 57em;
 	    height: 30em;
 		top: 150px;
 		position: relative;
@@ -335,15 +257,16 @@
 	    margin-right: auto;
 	    justify-content: space-between;
 	    align-items: center;
-	    display: flex; 
+	    display: flex;  
 	}
 
 	.preview_article {
 		width: 25em;
 		height: 25em;
 		position: relative;
-		margin-left: 0 auto;
-	    margin-right: 0 auto;
+		margin-left: auto;
+	    margin-right: auto;
+		border-radius: 5%;
 	}
 
 	.block_preview {
@@ -354,19 +277,14 @@
 	.block_placeholder_total {
 		width: 50%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 100%;
-		height: 50%;
 		position: relative;
-		margin-top: auto;
+		margin-top: 5%;
 	    margin-bottom: auto;
 	}
 
 	.placeholder_name_article {
-		width: 70%;
-		height: 10%;
+		width: 100%;
+		height: 2em;
 		text-align: center;
 		margin-left: auto;
 	    margin-right: auto;
@@ -375,8 +293,8 @@
 	}
 
 	.placeholder_text_article {
-		width: 70%;
-		height: 20%;
+		width: 100%;
+		height: 3em;
 		text-align: center;
 		margin-top: 20px;
 		margin-left: auto;
@@ -389,7 +307,6 @@
 		margin-left: auto;
 	    margin-right: auto;
 	    border-radius: 10px;
-	    font-size: 13px;
 	}
 
 	.btn_add_article {
@@ -400,26 +317,12 @@
 	    border-radius: 10px;
 	}
 
-	.flash.success_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 17px;
-		width: 400px;
+	.btn-danger_article {
+		margin-right: 2%;
 	}
 
-	.flash.error_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 15px;
-		width: 400px;
+	.btn-MENU_article {
+		margin-right: 5%;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
@@ -434,23 +337,24 @@
 	}
 
 	.add_article {
-		width: 45em;
-	    height: 20em;
+		width: 55em;
+	    height: 30em;
 		top: 150px;
 		position: relative;
 		margin-left: auto;
 	    margin-right: auto;
 	    justify-content: space-between;
 	    align-items: center;
-	    display: flex; 
+	    display: flex;  
 	}
 
 	.preview_article {
-		width: 20em;
-		height: 20em;
+		width: 23em;
+		height: 23em;
 		position: relative;
-		margin-left: 0 auto;
-	    margin-right: 0 auto;
+		margin-left: auto;
+	    margin-right: auto;
+		border-radius: 5%;
 	}
 
 	.block_preview {
@@ -461,38 +365,29 @@
 	.block_placeholder_total {
 		width: 50%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 100%;
-		height: 65%;
 		position: relative;
-		margin-top: auto;
+		margin-top: 5%;
 	    margin-bottom: auto;
 	}
 
-	.block_placeholder input::placeholder {
-		font-size: 14px;
-	}
-
 	.placeholder_name_article {
-		width: 70%;
-		height: 10%;
+		width: 100%;
+		height: 2em;
 		text-align: center;
 		margin-left: auto;
 	    margin-right: auto;
-	    border-radius: 7px;
+	    border-radius: 10px;
 	    margin-top: 30px;
 	}
 
 	.placeholder_text_article {
-		width: 70%;
-		height: 15%;
+		width: 100%;
+		height: 3em;
 		text-align: center;
 		margin-top: 20px;
 		margin-left: auto;
 	    margin-right: auto;
-	    border-radius: 7px;
+	    border-radius: 10px;
 	}
 
 	.file_add {
@@ -500,7 +395,6 @@
 		margin-left: auto;
 	    margin-right: auto;
 	    border-radius: 10px;
-	    font-size: 13px;
 	}
 
 	.btn_add_article {
@@ -509,30 +403,16 @@
 	    margin-right: auto;
 	    background-color: green;
 	    border-radius: 10px;
-	    width: 70%;
-	    height: 13%;
 	}
 
-	.flash.success_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 17px;
-		width: 400px;
+	.btn-danger_article {
+		margin-right: 1.5%;
+		margin-top: -0.5%;
 	}
 
-	.flash.error_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 15px;
-		width: 400px;
+	.btn-MENU_article {
+		margin-right: 3%;
+		margin-top: -0.5%;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
@@ -542,28 +422,29 @@
 	    position: relative;
 		font-family: 'Days One', sans-serif;
 		text-align: center;
-	    font-size: 45px;
+	    font-size: 37px;
 	    color: #fff;
 	}
 
 	.add_article {
-		width: 42em;
-	    height: 20em;
+		width: 40em;
+	    height: 30em;
 		top: 150px;
 		position: relative;
 		margin-left: auto;
 	    margin-right: auto;
 	    justify-content: space-between;
 	    align-items: center;
-	    display: flex; 
+	    display: flex;  
 	}
 
 	.preview_article {
-		width: 20em;
-		height: 20em;
+		width: 18em;
+		height: 18em;
 		position: relative;
-		margin-left: 0 auto;
-	    margin-right: 0 auto;
+		margin-left: auto;
+	    margin-right: auto;
+		border-radius: 5%;
 	}
 
 	.block_preview {
@@ -574,76 +455,56 @@
 	.block_placeholder_total {
 		width: 50%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 100%;
-		height: 65%;
 		position: relative;
-		margin-top: auto;
+		margin-top: 2%;
 	    margin-bottom: auto;
 	}
 
-	.block_placeholder input::placeholder {
-		font-size: 14px;
-	}
-
 	.placeholder_name_article {
-		width: 70%;
-		height: 10%;
+		width: 100%;
+		height: 20%;
 		text-align: center;
 		margin-left: auto;
 	    margin-right: auto;
-	    border-radius: 7px;
-	    margin-top: 30px;
+	    border-radius: 10px;
+	    margin-top: 5px;
 	}
 
 	.placeholder_text_article {
-		width: 70%;
-		height: 15%;
+		width: 100%;
+		height: 50%;
 		text-align: center;
-		margin-top: 20px;
+		margin-top: 5px;
 		margin-left: auto;
 	    margin-right: auto;
-	    border-radius: 7px;
+	    border-radius: 10px;
 	}
 
 	.file_add {
-	    margin-top: 30px;
+	    margin-top: 5px;
 		margin-left: auto;
 	    margin-right: auto;
 	    border-radius: 10px;
 	}
 
 	.btn_add_article {
-	    margin-top: 30px;
+		width: 65%;
+		height: 20%;
+	    margin-top: 20px;
 		margin-left: auto;
 	    margin-right: auto;
 	    background-color: green;
 	    border-radius: 10px;
-	    height: 15%;
 	}
 
-	.flash.success_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 13px;
-		width: 350px;
+	.btn-danger_article {
+		margin-right: 1.5%;
+		margin-top: -0.5%;
 	}
 
-	.flash.error_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 3%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 13px;
-		width: 350px;
+	.btn-MENU_article {
+		margin-right: 3%;
+		margin-top: -0.5%;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
@@ -653,28 +514,29 @@
 	    position: relative;
 		font-family: 'Days One', sans-serif;
 		text-align: center;
-	    font-size: 45px;
+	    font-size: 37px;
 	    color: #fff;
 	}
 
 	.add_article {
 		width: 40em;
-	    height: 20em;
+	    height: 30em;
 		top: 150px;
 		position: relative;
 		margin-left: auto;
 	    margin-right: auto;
 	    justify-content: space-between;
 	    align-items: center;
-	    display: flex; 
+	    display: flex;  
 	}
 
 	.preview_article {
 		width: 18em;
 		height: 18em;
 		position: relative;
-		margin-left: 0 auto;
-	    margin-right: 0 auto;
+		margin-left: auto;
+	    margin-right: auto;
+		border-radius: 5%;
 	}
 
 	.block_preview {
@@ -685,76 +547,148 @@
 	.block_placeholder_total {
 		width: 50%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 90%;
-		height: 65%;
 		position: relative;
-		margin-top: auto;
+		margin-top: 2%;
 	    margin-bottom: auto;
 	}
 
-	.block_placeholder input::placeholder {
-		font-size: 14px;
-	}
-
 	.placeholder_name_article {
-		width: 90%;
-		height: 10%;
+		width: 100%;
+		height: 20%;
 		text-align: center;
 		margin-left: auto;
 	    margin-right: auto;
-	    border-radius: 7px;
-	    margin-top: 30px;
+	    border-radius: 10px;
+	    margin-top: 5px;
 	}
 
 	.placeholder_text_article {
-		width: 90%;
-		height: 15%;
+		width: 100%;
+		height: 50%;
 		text-align: center;
-		margin-top: 20px;
+		margin-top: 5px;
 		margin-left: auto;
 	    margin-right: auto;
-	    border-radius: 7px;
+	    border-radius: 10px;
 	}
 
 	.file_add {
-	    margin-top: 30px;
+	    margin-top: 5px;
 		margin-left: auto;
 	    margin-right: auto;
 	    border-radius: 10px;
 	}
 
 	.btn_add_article {
-	    margin-top: 30px;
+		width: 65%;
+		height: 20%;
+	    margin-top: 20px;
 		margin-left: auto;
 	    margin-right: auto;
 	    background-color: green;
 	    border-radius: 10px;
-	    height: 15%;
 	}
 
-	.flash.success_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 300px;
+	.btn-danger_article {
+		margin-right: 1.5%;
+		margin-top: -0.5%;
 	}
 
-	.flash.error_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
+	.btn-MENU_article {
+		margin-right: 3%;
+		margin-top: -0.5%;
+	}
+}
+/* /////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 721px) and (max-width: 800px) {
+	.admin_add_article {
+		top: 50px;
+	    position: relative;
 		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 300px;
+		text-align: center;
+	    font-size: 37px;
+	    color: #fff;
+	}
+
+	.add_article {
+		width: 40em;
+	    height: 30em;
+		top: 150px;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+	    justify-content: space-between;
+	    align-items: center;
+	    display: flex;  
+	}
+
+	.preview_article {
+		width: 18em;
+		height: 18em;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+		border-radius: 5%;
+	}
+
+	.block_preview {
+		width: 50%;
+		height: 100%;
+	}
+
+	.block_placeholder_total {
+		width: 50%;
+		height: 100%;
+		position: relative;
+		margin-top: 2%;
+	    margin-bottom: auto;
+	}
+
+	.placeholder_name_article {
+		width: 100%;
+		height: 20%;
+		text-align: center;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	    margin-top: 5px;
+	}
+
+	.placeholder_text_article {
+		width: 100%;
+		height: 50%;
+		text-align: center;
+		margin-top: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.file_add {
+	    margin-top: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.btn_add_article {
+		width: 65%;
+		height: 20%;
+	    margin-top: 20px;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: green;
+	    border-radius: 10px;
+	}
+
+	.btn-danger_article {
+		margin-right: 1.5%;
+		margin-top: -0.5%;
+	}
+
+	.btn-MENU_article {
+		margin-right: 3%;
+		margin-top: -0.5%;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
@@ -769,23 +703,24 @@
 	}
 
 	.add_article {
-		width: 37em;
-	    height: 18em;
-		top: 130px;
+		width: 35em;
+	    height: 30em;
+		top: 150px;
 		position: relative;
 		margin-left: auto;
 	    margin-right: auto;
 	    justify-content: space-between;
 	    align-items: center;
-	    display: flex; 
+	    display: flex;  
 	}
 
 	.preview_article {
-		width: 18em;
-		height: 18em;
+		width: 15em;
+		height: 15em;
 		position: relative;
-		margin-left: 0 auto;
-	    margin-right: 0 auto;
+		margin-left: auto;
+	    margin-right: auto;
+		border-radius: 5%;
 	}
 
 	.block_preview {
@@ -796,533 +731,387 @@
 	.block_placeholder_total {
 		width: 50%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 100%;
-		height: 65%;
 		position: relative;
-		margin-top: auto;
+		margin-top: 0;
 	    margin-bottom: auto;
 	}
 
-	.block_placeholder input::placeholder {
-		font-size: 13px;
-	}
-
 	.placeholder_name_article {
-		width: 70%;
-		height: 10%;
+		width: 100%;
+		height: 15%;
 		text-align: center;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
-	    margin-top: 30px;
-	}
-
-	.placeholder_text_article {
-		width: 70%;
-		height: 13%;
-		text-align: center;
-		margin-top: 20px;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
-	}
-
-	.file_add {
-	    margin-top: 30px;
 		margin-left: auto;
 	    margin-right: auto;
 	    border-radius: 10px;
-	    width: 19em;
-	    font-size: 13px;
+	    margin-top: 0;
+	}
+
+	.placeholder_text_article {
+		width: 100%;
+		height: 35%;
+		text-align: center;
+		margin-top: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.file_add {
+	    margin-top: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 0;
 	}
 
 	.btn_add_article {
-	    margin-top: 30px;
+		width: 65%;
+		height: 20%;
+	    margin-top: 0;
 		margin-left: auto;
 	    margin-right: auto;
 	    background-color: green;
 	    border-radius: 10px;
 	}
 
-	.flash.success_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 300px;
+	.btn-danger_article {
+		margin-right: 1%;
+		margin-top: -2%;
 	}
 
-	.flash.error_article {
-		top: 15px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 300px;
+	.btn-MENU_article {
+		margin-right: 2%;
+		margin-top: -2%;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 481px) and (max-width: 639px) {
 	.admin_add_article {
 		top: 50px;
-	    position: relative;
+		position: relative;
 		font-family: 'Days One', sans-serif;
 		text-align: center;
-	    font-size: 27px;
-	    color: #fff;
+		font-size: 25px;
+		color: #fff;
 	}
-
+	
 	.add_article {
-		width: 27em;
-	    height: 15em;
-		top: 130px;
+		width: 75%;
+		height: 30em;
+		top: 150px;
 		position: relative;
 		margin-left: auto;
-	    margin-right: auto;
-	    justify-content: space-between;
-	    align-items: center;
-	    display: flex; 
+		margin-right: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
 	}
-
+	
 	.preview_article {
-		width: 13em;
-		height: 13em;
-		position: relative;
-		margin-left: 0 auto;
-	    margin-right: 0 auto;
+		width: 20em;
+		height: 20em;
+		border-radius: 5%;
 	}
-
-	.block_preview {
-		width: 50%;
-		height: 100%;
-	}
-
+	
+	.block_preview,
 	.block_placeholder_total {
-		width: 50%;
+		width: 90%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		top: -30px;
-		width: 100%;
-		height: 70%;
 		position: relative;
-		margin-top: auto;
-	    margin-bottom: auto;
 	}
-
-	.block_placeholder input::placeholder {
-		font-size: 11px;
-	}
-
-	.placeholder_name_article {
-		width: 90%;
-		height: 10%;
-		text-align: center;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
-	    margin-top: 30px;
-	}
-
-	.placeholder_text_article {
-		width: 90%;
-		height: 13%;
-		text-align: center;
-		margin-top: 20px;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
-	}
-
+	
+	.placeholder_name_article,
+	.placeholder_text_article,
 	.file_add {
-	    margin-top: 30px;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 10px;
-	    width: 19em;
-	    font-size: 11px;
+		width: 90%;
+		text-align: center;
+		border-radius: 10px;
 	}
-
+	
+	.placeholder_name_article {
+		height: 15%;
+	}
+	
+	.placeholder_text_article {
+		height: 35%;
+		margin-top: 0px;
+	}
+	
+	.file_add {
+		margin-top: 0px;
+		border-radius: 0;
+	}
+	
 	.btn_add_article {
-	    margin-top: 30px;
-		margin-left: auto;
-	    margin-right: auto;
-	    background-color: green;
-	    border-radius: 10px;
+		width: 65%;
+		height: 20%;
+		margin-top: 0;
+		background-color: green;
+		border-radius: 10px;
 	}
-
-	.flash.success_article {
-		top: 0px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 9px;
-		width: 220px;
+	
+	.btn-danger_article {
+		margin-right: 1%;
+		margin-top: -3%;
 	}
-
-	.flash.error_article {
-		top: 0px;
-		padding: 5px;
-		margin-left: 2%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 9px;
-		width: 220px;
+	
+	.btn-MENU_article {
+		margin-right: 2%;
+		margin-top: -3%;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 360px) and (max-width: 480px) {
 	.admin_add_article {
-		top: 30px;
-	    position: relative;
+		top: 70px;
+		position: relative;
 		font-family: 'Days One', sans-serif;
 		text-align: center;
-	    font-size: 23px;
-	    color: #fff;
+		font-size: 21px;
+		color: #fff;
 	}
-
+	
 	.add_article {
-	    width: 18em;
-	    height: 18em;
-	    top: 170px;
-	    position: relative;
-	    margin: 0 auto; 
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: center;
-	    align-items: center;
-	    text-align: center; 
+		width: 75%;
+		height: 30em;
+		top: 110px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
 	}
-
+	
 	.preview_article {
-		width: 17em;
-		height: 17em;
-		position: relative;
-		margin-left: 0 auto;
-	    margin-right: 0 auto;
+		width: 15em;
+		height: 15em;
+		border-radius: 3%;
 	}
-
-	.block_preview {
-		width: 100%;
-		height: 100%;
-	}
-
+	
+	.block_preview,
 	.block_placeholder_total {
-		width: 100%;
+		width: 90%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 100%;
-		height: 50%;
 		position: relative;
-		margin-top: auto;
-	    margin-bottom: auto;
-	    margin-bottom: 40px;
 	}
-
-	.block_placeholder input::placeholder {
+	
+	.placeholder_name_article,
+	.placeholder_text_article,
+	.file_add {
+		width: 90%;
+		text-align: center;
+		border-radius: 5px;
 		font-size: 13px;
 	}
-
+	
 	.placeholder_name_article {
-		width: 90%;
-		height: 20%;
-		text-align: center;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
-	    margin-top: 30px;
+		height: 15%;
 	}
-
+	
 	.placeholder_text_article {
-		width: 90%;
-		height: 20%;
-		text-align: center;
-		margin-top: 20px;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
+		height: 35%;
+		margin-top: 0px;
 	}
-
+	
 	.file_add {
-	    margin-top: 30px;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
-	    width: 90%;
-	    font-size: 13px;
+		margin-top: 0px;
+		border-radius: 0;
+		font-size: 8px;
 	}
 
+	.add_photo {
+		font-size: 12px;
+	}
+	
 	.btn_add_article {
-	    margin-top: 30px;
-		margin-left: auto;
-	    margin-right: auto;
-	    background-color: green;
-	    border-radius: 5px;
-	    width: 17em;
+		width: 75%;
+		height: 20%;
+		margin-top: 0;
+		background-color: green;
+		border-radius: 10px;
 	}
-
-	.flash.success_article {
-		top: 10%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 280px;
-		margin-left: 0;
-	    padding-left: 0;
+	
+	.btn-danger_article {
+		margin-right: 1%;
+		margin-top: -3%;
 	}
-
-	.flash.error_article {
-		top: 10%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 280px;
-		margin-left: 0;
-	    padding-left: 0;
+	
+	.btn-MENU_article {
+		margin-right: 2%;
+		margin-top: -3%;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 271px) and (max-width: 359px) {
 	.admin_add_article {
-		top: 50px;
-	    position: relative;
+		top: 70px;
+		position: relative;
 		font-family: 'Days One', sans-serif;
 		text-align: center;
-	    font-size: 23px;
-	    color: #fff;
+		font-size: 15px;
+		color: #fff;
 	}
-
+	
 	.add_article {
-	    width: 15em;
-	    height: 18em;
-	    top: 170px;
-	    position: relative;
-	    margin: 0 auto; 
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: center;
-	    align-items: center;
-	    text-align: center; 
+		width: 90%;
+		height: 20em;
+		top: 110px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
 	}
-
+	
 	.preview_article {
-		width: 13em;
-		height: 13em;
-		position: relative;
-		margin-left: 0 auto;
-	    margin-right: 0 auto;
+		width: 13.5em;
+		height: 13.5em;
+		border-radius: 3%;
 	}
-
-	.block_preview {
-		width: 100%;
-		height: 100%;
-	}
-
+	
+	.block_preview,
 	.block_placeholder_total {
-		width: 100%;
+		width: 90%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 100%;
-		height: 60%;
 		position: relative;
-		margin-top: auto;
-	    margin-bottom: auto;
 	}
-
-	.block_placeholder input::placeholder {
-		font-size: 13px;
-	}
-
-	.placeholder_name_article {
-		width: 80%;
-		height: 15%;
-		text-align: center;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
-	    margin-top: 30px;
-	}
-
-	.placeholder_text_article {
-		width: 80%;
-		height: 15%;
-		text-align: center;
-		margin-top: 20px;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
-	}
-
+	
+	.placeholder_name_article,
+	.placeholder_text_article,
 	.file_add {
-	    margin-top: 30px;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 10px;
-	    width: 70%;
-	    font-size: 9px;
+		width: 90%;
+		text-align: center;
+		border-radius: 5px;
+		font-size: 10px;
+	}
+	
+	.placeholder_name_article {
+		height: 15%;
+	}
+	
+	.placeholder_text_article {
+		height: 35%;
+		margin-top: 0px;
+	}
+	
+	.file_add {
+		margin-top: 0px;
+		border-radius: 0;
+		width: 100%;
 	}
 
+	.add_photo {
+		font-size: 12px;
+		width: 100%;
+	}
+	
 	.btn_add_article {
-	    margin-top: 30px;
-		margin-left: auto;
-	    margin-right: auto;
-	    background-color: green;
-	    border-radius: 10px;
-	    width: 17em;
+		width: 70%;
+		height: 20%;
+		margin-top: 0;
+		background-color: green;
+		border-radius: 10px;
+		font-size: 10px;
 	}
-
-	.flash.success_article {
-		top: 10%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 100%;
-		margin-left: 0;
-	    padding-left: 0;
+	
+	.btn-danger_article {
+		margin-right: 1%;
+		margin-top: -3%;
 	}
-
-	.flash.error_article {
-		top: 10%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 100%;
-		margin-left: 0;
-	    padding-left: 0;
+	
+	.btn-MENU_article {
+		margin-right: 2%;
+		margin-top: -3%;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 240px) and (max-width: 270px) {
 	.admin_add_article {
-		top: 50px;
-	    position: relative;
+		top: 70px;
+		position: relative;
 		font-family: 'Days One', sans-serif;
 		text-align: center;
-	    font-size: 23px;
-	    color: #fff;
+		font-size: 15px;
+		color: #fff;
 	}
-
+	
 	.add_article {
-	    width: 15em;
-	    height: 15em;
-	    top: 170px;
-	    position: relative;
-	    margin: 0 auto; 
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: center;
-	    align-items: center;
-	    text-align: center; 
+		width: 90%;
+		height: 20em;
+		top: 110px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
 	}
-
+	
 	.preview_article {
-		width: 13em;
-		height: 13em;
-		position: relative;
-		margin-left: 0 auto;
-	    margin-right: 0 auto;
+		width: 12em;
+		height: 12em;
+		border-radius: 3%;
 	}
-
-	.block_preview {
-		width: 100%;
-		height: 100%;
-	}
-
+	
+	.block_preview,
 	.block_placeholder_total {
-		width: 100%;
+		width: 90%;
 		height: 100%;
-	}
-
-	.block_placeholder {
-		width: 100%;
-		height: 60%;
 		position: relative;
-		margin-top: auto;
-	    margin-bottom: auto;
 	}
-
-	.block_placeholder input::placeholder {
-		font-size: 11px;
-	}
-
-	.placeholder_name_article {
-		width: 80%;
-		height: 15%;
-		text-align: center;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
-	    margin-top: 30px;
-	}
-
-	.placeholder_text_article {
-		width: 80%;
-		height: 15%;
-		text-align: center;
-		margin-top: 20px;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 5px;
-	}
-
+	
+	.placeholder_name_article,
+	.placeholder_text_article,
 	.file_add {
-	    margin-top: 30px;
-		margin-left: auto;
-	    margin-right: auto;
-	    border-radius: 10px;
-	    width: 70%;
-	    font-size: 9px;
+		width: 90%;
+		text-align: center;
+		border-radius: 5px;
+		font-size: 10px;
+		margin-top: 0;
+	}
+	
+	.placeholder_name_article {
+		height: 15%;
+	}
+	
+	.placeholder_text_article {
+		height: 35%;
+		margin-top: 0px;
+	}
+	
+	.file_add {
+		margin-top: 0px;
+		border-radius: 0;
+		width: 100%;
 	}
 
+	.add_photo {
+		font-size: 12px;
+		width: 100%;
+	}
+	
 	.btn_add_article {
-	    margin-top: 30px;
-		margin-left: auto;
-	    margin-right: auto;
-	    background-color: green;
-	    border-radius: 10px;
-	    width: 17em;
+		width: 70%;
+		height: 20%;
+		margin-top: 0;
+		background-color: green;
+		border-radius: 10px;
+		font-size: 10px;
 	}
-
-	.flash.success_article {
-		top: 20%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: green;
-		font-size: 11px;
-		width: 100%;
-		margin-left: 0;
-	    padding-left: 0;
+	
+	.btn-danger_article {
+		margin-right: 1%;
+		margin-top: -3%;
 	}
-
-	.flash.error_article {
-		top: 20%;
-		position: relative;
-		font-family: 'Days One', sans-serif;
-		color: red;
-		font-size: 11px;
-		width: 100%;
-		margin-left: 0;
-	    padding-left: 0;
+	
+	.btn-MENU_article {
+		margin-right: 2%;
+		margin-top: -3%;
 	}
 }
 /* /////////////////////////////////////////////////////////////////////// */

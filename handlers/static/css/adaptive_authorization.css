@@ -1,4 +1,4 @@
-@media screen and (min-width: 1601px) and (max-width: 1919px) {
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
 	.admin_label_2 {
 		margin-top: 130px;
 		font-size: 45px;
@@ -8,21 +8,22 @@
 	}
 
 	.input_log {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.input_pass {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 50%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color:green;
 	}
 
 	.admin_authorization {
@@ -54,21 +55,22 @@
 	}
 
 	.input_log {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.input_pass {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 50%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
 	}
 
 	.admin_authorization {
@@ -100,21 +102,22 @@
 	}
 
 	.input_log {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.input_pass {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 50%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
 	}
 
 	.admin_authorization {
@@ -146,21 +149,22 @@
 	}
 
 	.input_log {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.input_pass {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 50%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
 	}
 
 	.admin_authorization {
@@ -192,21 +196,22 @@
 	}
 
 	.input_log {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.input_pass {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 50%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
 	}
 
 	.admin_authorization {
@@ -238,21 +243,22 @@
 	}
 
 	.input_log {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.input_pass {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 50%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
 	}
 
 	.admin_authorization {
@@ -284,21 +290,22 @@
 	}
 
 	.input_log {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.input_pass {
-		width: 250px;
+		width: 100%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 50%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
 	}
 
 	.admin_authorization {
@@ -330,21 +337,22 @@
 	}
 
 	.input_log {
-		width: 250px;
+		width: 75%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.input_pass {
-		width: 250px;
+		width: 75%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 50%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
 	}
 
 	.admin_authorization {
@@ -375,21 +383,22 @@
 	}
 
 	.input_log {
-		width: 250px;
+		width: 70%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.input_pass {
-		width: 250px;
+		width: 70%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 35%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
 	}
 
 	.admin_authorization {
@@ -420,21 +429,22 @@
 	}
 
 	.input_log {
-		width: 250px;
+		width: 70%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.input_pass {
-		width: 250px;
+		width: 70%;
 		height: 25px;
-		font-size: 17px
+		font-size: 17px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 35%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
 	}
 
 	.admin_authorization {
@@ -467,21 +477,22 @@
 	}
 
 	.input_log {
-		width: 200px;
+		width: 75%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
 	}
 
 	.input_pass {
-		width: 200px;
+		width: 75%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 45%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
 	}
 
 	.admin_authorization {
@@ -514,21 +525,23 @@
 	}
 
 	.input_log {
-		width: 200px;
+		width: 75%;
 		height: 20px;
-		font-size: 13px
+		font-size: 13px;
 	}
 
 	.input_pass {
-		width: 200px;
+		width: 75%;
 		height: 20px;
-		font-size: 13px
+		font-size: 13px;
 	}
 
 	.btn_authorization {
-		width: 125px;
+		width: 45%;
 		height: 25px;
-		font-size: 15px
+		font-size: 15px;
+		background-color: green;
+		
 	}
 
 	.admin_authorization {
