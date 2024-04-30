@@ -34,10 +34,10 @@
                 </header>
 
                 <div class='menu'>
-                    <a href="{{url_for('index') }}">Главная</a></li>
-                    <a href="{{ url_for('index') }}#catalog_id">Каталог</a>
-                    <a href="{{ url_for('index') }}#information">Информация</a>
-                    <a href="{{url_for('store_news') }}">НОВОСТИ</a></li>
+                    <a id="index_page" href="{{url_for('index') }}">Главная</a></li>
+                    <a id="index_catalog" href="{{ url_for('index') }}#catalog_id">Каталог</a>
+                    <a id="index_information" href="{{ url_for('index') }}#information">Информация</a>
+                    <a id="store_page" href="{{url_for('store_news') }}">НОВОСТИ</a></li>
                 </div>
 
                 <img src="../static/img/logo/logo.png" alt="Логотип" class='logo_motto'>

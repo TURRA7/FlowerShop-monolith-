@@ -1,55 +1,64 @@
 """Данный модуль содержит фикстуры, для облегчения тестирования кода."""
-import os
 import pytest
+from flask_login import login_user
 
-from flask import g
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
-from database_create.FDataBase import UserAdmin, Item, Article, db
+from database_create.FDataBase import UserAdmin
 from app import create_app
 
 
-@pytest.fixture(scope='session')
-def app():
-    """Данная фикстура создаёт контекст приложения Flask."""
-    app = create_app()
-    os.environ['CONFIG_TYPE'] = 'config.TestingConfig'
-
-    with app.app_context():
-        db.drop_all()
-        db.create_all()
-        yield app
-        db.drop_all()
-
-
-@pytest.fixture(scope='session')
-def client(app):
-    """Тестовый клиент Flask."""
-    return app.test_client()
-
-
-@pytest.fixture(scope='module')
+@pytest.fixture(scope="module")
 def new_user():
     """Фикстура создаёт пользователя UserAdmin."""
-    user = UserAdmin(username="jenya_1",
-                     password="""pbkdf2:sha256:600000$9YhgntcGJ2
-                     U5uYRk$df894224d9d00ac8aaf6a8fe2d6beb312
-                     d1540661954abb880021945d2887863""")
+    user = UserAdmin(id=1,
+                     username="jenya_1",
+                     password=("sha256:600000$9YhgntcGJ2U5uYRk$"
+                               "df894224d9d00ac8aaf6a8fe2d6beb312d1540661"
+                               "954abb880021945d2887863"))
     return user
 
 
-@pytest.fixture(scope='module')
-def new_item():
-    """Фикстура создаёт товар Item."""
-    item = Item("Букет ВЕСНА", "Яркий и свежий букет из разных цветов!",
-                1700, 2, "flowers.jpg")
-    return item
+@pytest.fixture(scope="session")
+def app():
+    """Создание экземпляра приложения."""
+    app = create_app()
+    app.config.update({
+        "TestingConfig": True,
+    })
+    app.testing = True
+    yield app
 
 
-@pytest.fixture(scope='module')
-def new_article():
-    """Фикстура создаёт новость Article."""
-    article = Article("Магазин открылся!",
-                      "Мы рады приветствовать гостей...",
-                      "shop.jpg",
-                      "2024-01-01 00:00:00.01")
-    return article
+@pytest.fixture()
+def client(app, new_user):
+    """Создание тестового клиента."""
+    with app.test_client() as client:
+        login_user(new_user)
+        yield client
+
+
+@pytest.fixture()
+def runner(app):
+    """Саздание клиентского раннера."""
+    return app.test_cli_runner()
+
+
+@pytest.fixture(scope="class")
+def driver():
+    """Инициализация драйвера браузера(без авторизации)."""
+    driver = webdriver.Chrome()
+    yield driver
+    driver.quit()
+
+
+@pytest.fixture(scope="function")
+def driver_auth(driver):
+    """Инициализация драйвера браузера(с авторизацией)."""
+    driver.get('http://127.0.0.1:5000/admin_login')
+    driver.implicitly_wait(2)
+    driver.find_element(By.CLASS_NAME, 'input_log').send_keys("jenya_1")
+    driver.find_element(By.CLASS_NAME, 'input_pass').send_keys("d7hBfdgrVlWB9")
+    driver.find_element(By.CLASS_NAME, 'btn_authorization').click()
+    yield driver

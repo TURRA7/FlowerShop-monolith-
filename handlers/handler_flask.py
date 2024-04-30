@@ -25,7 +25,7 @@ from pagination_create.paginate_flask import WorkingWithPagination
 from cute_form.form_create import DeleteItemsForm, AdminLoginForm, \
     AddItemForm, AddArticleForm, DeleteArticleForm
 from authorization.auth import check_auth, login_manager
-from content_flask import cont_error, cont_info
+from content_flask import cont_error
 from handlers.config import DevelopmentConfig
 
 

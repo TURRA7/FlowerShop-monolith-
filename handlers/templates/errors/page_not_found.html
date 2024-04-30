@@ -10,9 +10,9 @@
 	<div class='title_error'>ТАКНОЙ СТРАНИЦЫ НЕ СУЩЕСТВУЕТ</div>
 	<div class='title_error_two'>выберите нужный пункт</div>
 	<div class='menu_error'>
-		<a href='index'>Главная</a>
-		<a href="index#catralog_id">Каталог</a>
-		<a href='index#information'>Информация</a>
+		<a id=error_index href="{{url_for('index') }}">Главная</a>
+		<a id=error_index#catralog href="{{ url_for('index') }}#catalog_id">Каталог</a>
+		<a id=error_index#information href="{{ url_for('index') }}#information">Информация</a>
 	</div>
 </div>
 {% endblock %}

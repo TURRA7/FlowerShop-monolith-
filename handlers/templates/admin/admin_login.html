@@ -10,9 +10,9 @@
 	<div class='admin_label_2'>АВТОРИЗАЦИЯ</div><br>
 	<form class='admin_authorization' action="{{ url_for('admin_login') }}" method='POST' enctype="multipart/form-data">
 		{{ form.hidden_tag() }}
-		<p>{{ form.login(class='input_log', placeholder="Введите логин...") }}</p>
-		<p>{{ form.password(class='input_pass', placeholder="Введите пороль...") }}</p>
-		<p>{{ form.submit(class ='btn_authorization', value="ВОЙТИ") }}</p>
+		<p id="input_log">{{ form.login(class='input_log', placeholder="Введите логин...") }}</p>
+		<p id="input_pass">{{ form.password(class='input_pass', placeholder="Введите пороль...") }}</p>
+		<p id="btn_authorization">{{ form.submit(class ='btn_authorization', value="ВОЙТИ") }}</p>
 	</form>
 	{% for cat, msg in get_flashed_messages(True) %}
 	<div class='flash {{cat}}'>{{msg}}</div>
