@@ -10,7 +10,16 @@ from selenium.webdriver import Chrome
 
 
 class TestHomePageFunctional:
-    """Класс тестирует стартовую старницу (index)."""
+    """
+    Класс тестирует стартовую старницу (index).
+
+    Methods:
+        test_btn_home_page: Проверяет работоспособность кнопок button,
+        а так же переход с помощью них, на другие страницы.
+        test_href_home_page: Проверяет кнопки, которые появляются
+        при авторизации, а именно 'МЕНЮ' и 'ВЫХОД'.
+        test_hamburger_menu: Проверяет работоспособность 'бургер-меню'.
+    """
 
     @pytest.mark.parametrize("btn_class, check_data", [
         ("btn_flowers", "Цветы"),
@@ -50,7 +59,13 @@ class TestHomePageFunctional:
 
 
 class TestErrorFunctional:
-    """Класс тестирует страницу ошибки 404."""
+    """
+    Класс тестирует страницу ошибки 404.
+
+    Methods:
+        test_href_error: Проверяет переходы по href ссылкам
+        на странице 404.
+    """
 
     def test_href_error(self, driver: Chrome):
         """Метод тестирует переходы по href ссылкам на странице|error|."""
@@ -67,10 +82,21 @@ class TestErrorFunctional:
 
 
 class TestAdminFunctional:
-    """Класс тестирует панель администратора и добавление товаров."""
+    """
+    Класс тестирует панель администратора и добавление товаров.
+
+    Methods:
+        test_panel_add: Проверяет добавление товара в базу данных,
+        через фыорму admin_panel.
+    """
 
     def test_panel_add(self, driver_auth: Chrome):
-        """Метод тестирует панель добавления товаров|admin_panel|."""
+        """
+        Метод тестирует панель добавления товаров|admin_panel|.
+
+        После добавления, driver переходит на страницу товара,
+        проверяет его наличие и удаляет его из базы данных.
+        """
         driver = driver_auth
         driver.find_element(By.CLASS_NAME, "btn_admin_item").click()
 
@@ -99,9 +125,21 @@ class TestAdminFunctional:
 
 
 class TestArticleFunctional:
-    """Класс тестирует панель панель добавления новостей|admin_article|."""
+    """
+    Класс тестирует панель добавления новостей|admin_article|.
+
+    Methods:
+        test_article_add: Проверяет добавление новостей в базу данных,
+        через фыорму admin_article.
+    """
 
     def test_article_add(self, driver_auth: Chrome):
+        """
+        Метод тестирует панель добавления новостей|admin_article|.
+
+        После добавления, driver переходит на страницу новостей,
+        проверяет наличие новости и удаляет её из базы данных.
+        """
         driver = driver_auth
         driver.find_element(By.CLASS_NAME, "btn_admin_article").click()
 

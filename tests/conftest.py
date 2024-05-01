@@ -11,7 +11,7 @@ from app import create_app
 
 @pytest.fixture(scope="module")
 def new_user():
-    """Фикстура создаёт пользователя UserAdmin."""
+    """Фикстура создаёт пользователя по модели UserAdmin."""
     user = UserAdmin(id=1,
                      username="jenya_1",
                      password=("sha256:600000$9YhgntcGJ2U5uYRk$"
@@ -22,18 +22,26 @@ def new_user():
 
 @pytest.fixture(scope="session")
 def app():
-    """Создание экземпляра приложения."""
+    """
+    Фикстура создаёт экземпляр приложения Flask.
+
+    Так же происходит установка конфигурации.
+    """
     app = create_app()
     app.config.update({
         "TestingConfig": True,
     })
-    app.testing = True
     yield app
 
 
 @pytest.fixture()
 def client(app, new_user):
-    """Создание тестового клиента."""
+    """
+    Создание тестового клиента.
+
+    В контексте тестового клиента, происходит
+    авторизация пользователя с помощью login_user().
+    """
     with app.test_client() as client:
         login_user(new_user)
         yield client
@@ -47,7 +55,7 @@ def runner(app):
 
 @pytest.fixture(scope="class")
 def driver():
-    """Инициализация драйвера браузера(без авторизации)."""
+    """Инициализация драйвера браузера от seleium (без авторизации)."""
     driver = webdriver.Chrome()
     yield driver
     driver.quit()
@@ -55,7 +63,7 @@ def driver():
 
 @pytest.fixture(scope="function")
 def driver_auth(driver):
-    """Инициализация драйвера браузера(с авторизацией)."""
+    """Авторизация в приложении, с помощью selenium(webdriver)."""
     driver.get('http://127.0.0.1:5000/admin_login')
     driver.implicitly_wait(2)
     driver.find_element(By.CLASS_NAME, 'input_log').send_keys("jenya_1")
