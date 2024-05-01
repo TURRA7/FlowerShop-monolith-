@@ -1,12 +1,18 @@
 """Тестирует модуль handler_flask."""
 import pytest
+import textwrap
 from bs4 import BeautifulSoup
 
 from flask import Flask
 
 
 class TestHomePageUnit:
-    """Класс тестирует стартовую старницу (index)."""
+    """
+    Класс тестирует стартовую старницу (index).
+
+    Methods:
+        test_elements: Проверяет наличие на странице заданых элементов.
+    """
 
     @pytest.mark.parametrize("value", [
         ("Главная страница"),
@@ -54,7 +60,12 @@ class TestHomePageUnit:
 
 
 class TestErrorUnit:
-    """Класс тестирует страницу ошибки 404."""
+    """
+    Класс тестирует страницу ошибки 404.
+
+    Methods:
+        test_error_elements: Проверяет наличие на странице заданых элементов.
+    """
 
     @pytest.mark.parametrize("value", [
         ("НЕТ ТАКОЙ СТРАНИЦЫ"),
@@ -65,14 +76,20 @@ class TestErrorUnit:
         ("Информация"),
     ])
     def test_error_elements(self, client: Flask, value: str):
-        """Метод проверяет наличие элементов на странице|error|."""
+        """Метод проверяет наличие элементов на странице|404|."""
         response = client.get("http://localhost:5000/page_doesn't_exist")
         assert response.status_code == 404
         assert value.encode("utf-8") in response.data
 
 
 class TestAdminUnit:
-    """Класс тестирует панель администратора и добавление товаров."""
+    """
+    Класс тестирует панель администратора и добавление товаров.
+
+    Methods:
+        test_admin_panel_elements: Проверяет наличие на странице
+        заданых элементов.
+    """
 
     @pytest.mark.parametrize("class_element", [
         ("btn-danger_panel"),
@@ -100,7 +117,13 @@ class TestAdminUnit:
 
 
 class TestArticleUnit:
-    """Класс тестирует панель панель добавления новостей|admin_article|."""
+    """
+    Класс тестирует панель панель добавления новостей|admin_article|.
+
+    Methods:
+        test_article_panel_elements: Проверяет наличие на странице
+        заданых элементов.
+    """
 
     @pytest.mark.parametrize("class_element", [
         ("btn-danger_article"),
@@ -116,7 +139,7 @@ class TestArticleUnit:
         ("btn_add_article"),
     ])
     def test_article_panel_elements(self, client: Flask, class_element: str):
-        """Метод проверяет наличие элементов на странице|admin_panel|."""
+        """Метод проверяет наличие элементов на странице|admin_article|."""
         response = client.get("http://localhost:5000/admin_article")
         assert response.status_code == 200
         soup = BeautifulSoup(response.data, 'html.parser')
