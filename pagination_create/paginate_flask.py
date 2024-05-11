@@ -17,30 +17,11 @@ from sqlalchemy import desc
 from flask_paginate import Pagination
 
 from typing import Union
-import logging
-from logging.handlers import RotatingFileHandler
-
+from ..log_mod import Logger
 
 # Создание логгера
-logger = logging.getLogger('log_paginate.log')
-logger.setLevel(logging.DEBUG)
-# Создание обработчика консоли и установка уровеня отладки
-ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
-# Создание форматтера
-formatter = logging.Formatter(
-    '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-# Добавить форматтер в ch
-ch.setFormatter(formatter)
-# Добавлении ротации логов
-file_handler = RotatingFileHandler('log_paginate.log',
-                                   maxBytes=1024 * 1024,
-                                   backupCount=5)
-file_handler.setLevel(logging.DEBUG)
-file_handler.setFormatter(formatter)
-# Добавить ch в логгер, создание ротации
-logger.addHandler(ch)
-logger.addHandler(file_handler)
+db_logger = Logger("log_paginate.log")
+logger = db_logger.get_logger()
 
 
 class WorkingWithPagination:
