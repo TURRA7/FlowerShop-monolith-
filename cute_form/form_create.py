@@ -10,8 +10,9 @@
 
 from flask_wtf import FlaskForm
 
-from wtforms import FileField, PasswordField, SelectField, \
-    StringField, SubmitField, DecimalField
+from wtforms import (
+    FileField, PasswordField, SelectField, StringField, 
+    SubmitField, DecimalField)
 from wtforms import HiddenField
 from wtforms.validators import DataRequired, Length, NumberRange
 from flask_wtf.file import FileRequired, FileAllowed
