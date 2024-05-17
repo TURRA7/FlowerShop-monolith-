@@ -1,0 +1,59 @@
+version: '1'
+
+services:
+  # Описание сеервиса базы данных PostgreSQL
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: ... # Вместо точек, написать юзернейм базы данных
+      POSTGRES_PASSWORD: ... # Вместо точек, написать пороль базы данных
+      POSTGRES_DB: ... # Вместо точек, написать называние базы данных
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - mynetwork
+
+  flask-flower:
+    # Описание самого приложения
+    build:
+      context: .
+    ports:
+      - "5000:5000"
+    networks:
+      - mynetwork
+    depends_on:
+      - postgres
+
+  nginx:
+    # Описание веб сервера Nginx
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - mynetwork
+    depends_on:
+      - flask-flower
+
+  pgadmin:
+    # Описание панели администрирования базы данных pgAdmin4
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ... # Вместо точек, написать емеил
+      PGADMIN_DEFAULT_PASSWORD: ... # Вместо точек, написать пороль базы данных
+    ports:
+      - "8080:80"
+    networks:
+      - mynetwork
+    depends_on:
+      - postgres
+
+networks:
+  mynetwork:
+    
+
+volumes:
+  postgres-data:

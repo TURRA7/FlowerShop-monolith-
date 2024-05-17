@@ -11,7 +11,7 @@ class Config:
     UPLOAD_FOLDER = 'handlers/static/img/uploads'
     TESTING = False
     SQLALCHEMY_TRACK_MODIFICATIONS = True
-    SECRET_KEY = "..."
+    SECRET_KEY = ""
     CACHE_TYPE = "SimpleCache"
     CACHE_DEFAULT_TIMEOUT = 2592000
     SESSION_COOKIE_NAME = "session"
@@ -24,7 +24,9 @@ class Config:
 class DevelopmentConfig(Config):
     """Настройки для разработки."""
 
-    SQLALCHEMY_DATABASE_URI = "..."
+    # Указать вместо __***__ соответствующие данные.
+    # Параметр 'postgresql' и 'postgres' оставить без изменения.
+    SQLALCHEMY_DATABASE_URI = "postgresql://__name__:__pass__@postgres:__port__/__dbname__"
     DEBUG = True
 
 
@@ -32,7 +34,7 @@ class ProductionConfig(Config):
     """Настройки для продакшена."""
 
     CACHE_TYPE = "..."
-    SECRET_KEY = "..."
+    SECRET_KEY = ""
     SESSION_COOKIE_NAME = "..."
     SQLALCHEMY_DATABASE_URI = "..."
     DEBUG = False
