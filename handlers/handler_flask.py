@@ -19,12 +19,13 @@ from sqlalchemy.orm.exc import NoResultFound
 
 from database_create.FDataBase import DeleteItems, UserAdmin, Item, Article, db
 from pagination_create.paginate_flask import WorkingWithPagination
-from cute_form.form_create import DeleteItemsForm, AdminLoginForm, \
-    AddItemForm, AddArticleForm, DeleteArticleForm
+from cute_form.form_create import (
+    DeleteItemsForm, AdminLoginForm, AddItemForm, AddArticleForm, 
+    DeleteArticleForm)
 from authorization.auth import check_auth, login_manager
 from content_flask import cont_error
 from handlers.config import DevelopmentConfig
-from ..log_mod import Logger
+from log_mod import Logger
 
 
 # Создание экземпляра приложения

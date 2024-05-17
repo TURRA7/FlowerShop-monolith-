@@ -1,7 +1,7 @@
 """Модуль отвечает за аутентификацию администраторов."""
 from flask_login import LoginManager, current_user
 
-from ..log_mod import Logger
+from log_mod import Logger
 
 
 login_manager = LoginManager()

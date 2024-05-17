@@ -1,6 +1,6 @@
 """Модуль создаёт таблицы и даёт инструменты для работы с ними."""
 from datetime import datetime
-from ..log_mod import Logger
+from log_mod import Logger
 
 from flask import flash, redirect, request, url_for
 

@@ -4,8 +4,9 @@
 настраивает маршруты и запускает приложение.
 """
 from database_create.FDataBase import Article, Item, UserAdmin, db
-from handlers.handler_flask import app, HomePage, \
-    HandlersItem, AdminLogin, Logout, AdminMenu, AdminPanel, AdminArcticel
+from handlers.handler_flask import (
+    app, HomePage, HandlersItem, AdminLogin, Logout, 
+    AdminMenu, AdminPanel, AdminArcticel)
 
 
 def create_app():

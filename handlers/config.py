@@ -1,17 +1,25 @@
 """Модуль представляет собой вариации конфигурации."""
+
+import os
 from datetime import timedelta
 
 
 class Config:
     """Общие настройки для разработки и продакшена."""
-
+    
+    name = os.getenv("USER")
+    password = os.getenv("PASSWORD")
+    dbname = os.getenv("DB_NAME")
+    
+    connect_sql = f"postgresql://{name}:{password}@postgres:5432/{dbname}"
+    SQLALCHEMY_DATABASE_URI = connect_sql
     MAX_COOKIE_SIZE = 0
     ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png'}
     MAX_CONTENT_LENGTH = 16 * 1024 * 1024
     UPLOAD_FOLDER = 'handlers/static/img/uploads'
     TESTING = False
     SQLALCHEMY_TRACK_MODIFICATIONS = True
-    SECRET_KEY = ""
+    SECRET_KEY = os.getenv("SECRET_KEY")
     CACHE_TYPE = "SimpleCache"
     CACHE_DEFAULT_TIMEOUT = 2592000
     SESSION_COOKIE_NAME = "session"
@@ -23,10 +31,6 @@ class Config:
 
 class DevelopmentConfig(Config):
     """Настройки для разработки."""
-
-    # Указать вместо __***__ соответствующие данные.
-    # Параметр 'postgresql' и 'postgres' оставить без изменения.
-    SQLALCHEMY_DATABASE_URI = "postgresql://__name__:__pass__@postgres:__port__/__dbname__"
     DEBUG = True
 
 

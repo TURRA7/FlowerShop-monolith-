@@ -17,7 +17,7 @@ from sqlalchemy import desc
 from flask_paginate import Pagination
 
 from typing import Union
-from ..log_mod import Logger
+from log_mod import Logger
 
 # Создание логгера
 db_logger = Logger("log_paginate.log")

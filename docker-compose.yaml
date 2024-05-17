@@ -6,7 +6,7 @@ services:
     image: postgres
     environment:
       POSTGRES_USER: ... # Вместо точек, написать юзернейм базы данных
-      POSTGRES_PASSWORD: ... # Вместо точек, написать пороль базы данных
+      POSTGRES_PASSWORD: ... # Вместо точек, написать пароль базы данных
       POSTGRES_DB: ... # Вместо точек, написать называние базы данных
     ports:
       - "5432:5432"
@@ -21,6 +21,11 @@ services:
       context: .
     ports:
       - "5000:5000"
+    environment:
+      DB_NAME: ... # Вместо точек, написать называние базы данных
+      USER: ... # Вместо точек, написать юзернейм базы данных
+      PASSWORD: ... # Вместо точек, написать пароль базы данных
+      SECRET_KEY: ... # Вместо точек, написать секретный ключ
     networks:
       - mynetwork
     depends_on:
@@ -42,8 +47,8 @@ services:
     # Описание панели администрирования базы данных pgAdmin4
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: ... # Вместо точек, написать емеил
-      PGADMIN_DEFAULT_PASSWORD: ... # Вместо точек, написать пороль базы данных
+      PGADMIN_DEFAULT_EMAIL: ... # Вместо точек указать емаил
+      PGADMIN_DEFAULT_PASSWORD: ... # Вместо точек указать придуманный пароль
     ports:
       - "8080:80"
     networks:
