@@ -2,51 +2,9 @@
 
 Это приложение, представляет собой сайт-витрину на цветочную и сувенирную тематику. Приложение построено на языке PYTHON с использованием фреймворка Flask.
 
-## Структура проекта
-
-```
-.
-└── FlowerShop
-    ├── authorization
-    |   ├── __init__.py
-    |   └── auth.py
-    ├── cute_form
-    |   ├── __init__.py
-    |   └── form_create.py
-    ├── database_create
-    |   ├── __init__.py
-    |   └── FDataBase.py
-    ├── handlers
-    |   ├── static
-    |   ├── templates
-    |   ├── __init__.py
-    |   ├── config.py
-    |   └── handler_flask.py
-    ├── pagination_create
-    |   ├── __init__.py
-    |   └── paginate_flask.py
-    ├── tests
-    |   ├── functional
-    |   ├── unit
-    |   ├── webdriver
-    |   ├── __init__.py
-    |   └── conftest.py
-    ├── app.py
-    ├── content_flask.py
-    ├── docker-compose.yaml
-    ├── Dockerfile
-    ├── hash_pass.py
-    ├── log_mod.py
-    ├── Login details.txt
-    ├── nginx.conf
-    ├── README.md
-    ├── requirements.txt
-    └── setup.cfg
-```
-
 ___
 
-### Краткое описание структуры
+### Краткое описание структуры проекта
 
 * **authorization**: Модуль для работы с авторизацией.
 * **cute_form**: Модуль по работе с формами Flask-wtforms.
