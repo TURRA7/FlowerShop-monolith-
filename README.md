@@ -1,32 +1,32 @@
 # Сайт витрина - FlowerShop
 
-Это приложение, представляет собой сайт-витрину на цветочную и сувенирную тематику. Приложение построено на языке PYTHON с использованием фреймворка Flask.
+Это приложение представляет собой сайт-витрину на цветочную и сувенирную тематику. Приложение построено на языке **Python** с использованием фреймворка **Flask**.
 
-___
+---
 
 ### Краткое описание структуры проекта
 
-* **authorization**: Модуль для работы с авторизацией.
-* **cute_form**: Модуль по работе с формами Flask-wtforms.
-* **database_create**: Модуль для работы с базой данных через Flask-SQLAlchemy.
+* **authorization**: Модуль для работы с авторизацией пользователей.
+* **cute_form**: Модуль для работы с формами на Flask с использованием **Flask-WTForms**.
+* **database_create**: Модуль для работы с базой данных через **Flask-SQLAlchemy**.
 * **handlers**: Модуль с обработчиками, шаблонами и статическими файлами.
-* **pagination_create**: Модуль с пагинацией страниц.
-* **tests**: Модуль с тестированием проекта.
-* **app.py**: Исполнительный файл проекта.
-* **content_flask.py**: Модуль содержит словари с текстовым контентом.
-* **docker-compose.yaml**: Конфигурация docker-compose(запуск нескольких приложений в разных контейнерах вместе).
-* **Dockerfile**: Конфигурация докера(инструкция для запуска контейнера с основным приложением).
-* **hash_pass.py**: Утилита для хеширования пароля.
-* **log_mod.py**: Модуль логирования.
-* **Login details.txt**: Примеры данных в таблице UserAdmin.
-* **nginx.conf**: Конфигурация сервера Nginx.
-* **README.md**: Файл описание проекта.
-* **requirements.txt**: Файл с описанием зависимостей.
-* **setup.cfg**: Конфигурационный файл для Flake8.
+* **pagination_create**: Модуль для создания пагинации страниц.
+* **tests**: Модуль с тестами для проверки функционала проекта.
+* **app.py**: Исполнительный файл проекта, запускающий приложение.
+* **content_flask.py**: Модуль с контентом в виде словарей с текстами.
+* **docker-compose.yaml**: Конфигурация для **Docker Compose**, позволяющая запускать несколько сервисов.
+* **Dockerfile**: Конфигурация для создания контейнера с основным приложением.
+* **hash_pass.py**: Утилита для хеширования паролей.
+* **log_mod.py**: Модуль для логирования работы приложения.
+* **Login details.txt**: Примеры данных для таблицы **UserAdmin**.
+* **nginx.conf**: Конфигурация для веб-сервера **Nginx**.
+* **README.md**: Файл с описанием проекта.
+* **requirements.txt**: Список зависимостей, необходимых для работы проекта.
+* **setup.cfg**: Конфигурационный файл для **Flake8** (инструмент для проверки стиля кода).
 
-___
+---
 
-### Инструменты использованные в проекте
+### Инструменты, использованные в проекте
 
 ![Static Badge](https://img.shields.io/badge/python-3.12.2-badgeContent?style=flat&logo=Python&logoColor=yellow&label=Python&labelColor=blue&color=gray)
 ![Static Badge](https://img.shields.io/badge/python-2.3.7-badgeContent?style=flat&logo=Werkzeug&logoColor=yellow&label=Werkzeug&labelColor=%23f9ab00&color=%23e2683c)
@@ -49,61 +49,41 @@ ___
 ![Static Badge](https://img.shields.io/badge/python-3.0.0-badgeContent?style=flat&logo=Flask_limiter&logoColor=%2381BECE&label=Flask_limiter&labelColor=%23cd9e50&color=%23feeb9e)
 ![Static Badge](https://img.shields.io/badge/python-2.1.0-badgeContent?style=flat&logo=Flask_Caching&logoColor=%2381BECE&label=Flask_Caching&labelColor=%23945D87&color=%23EDD1EC)
 
-![Static Badge](https://img.shields.io/badge/python-7.0.0-badgeContent?style=flat&logo=Flake8&logoColor=%2381BECE&label=Flake8&labelColor=black&color=white)
-![Static Badge](https://img.shields.io/badge/python-0.0.8-badgeContent?style=flat&logo=Flake8-annotations-complexity&logoColor=%2381BECE&label=Flake8-annotations-complexity&labelColor=%23A59CD3&color=%234B2D9F)
-![Static Badge](https://img.shields.io/badge/python-24.2.6-badgeContent?style=flat&logo=Flake8_bugbear&logoColor=%2381BECE&label=Flake8_bugbear&labelColor=%23677C77&color=%23E0EFEA)
-![Static Badge](https://img.shields.io/badge/python-2.3.0-badgeContent?style=flat&logo=Flake8_builtins&logoColor=%2381BECE&label=Flake8_builtins&labelColor=%23EFB9AD&color=%23BC0000)
-![Static Badge](https://img.shields.io/badge/python-3.14.0-badgeContent?style=flat&logo=Flake8_comprehensions&logoColor=%2381BECE&label=Flake8_comprehensions&labelColor=%23ffef03&color=%23ca540c)
-![Static Badge](https://img.shields.io/badge/python-2.1.0-badgeContent?style=flat&logo=Flake8_commas&logoColor=%2381BECE&label=Flake8_commas&labelColor=%23C9D46C&color=%23338309)
-![Static Badge](https://img.shields.io/badge/python-1.7.0-badgeContent?style=flat&logo=Flake8_docstrings&logoColor=%2381BECE&label=Flake8_docstrings&labelColor=%23015366&color=%23A7D1D2)
-![Static Badge](https://img.shields.io/badge/python-1.5.0-badgeContent?style=flat&logo=Flake8_eradicate&logoColor=%2381BECE&label=Flake8_eradicate&labelColor=%23CEAD6D&color=%23E1DCE0)
-![Static Badge](https://img.shields.io/badge/python-0.18.2-badgeContent?style=flat&logo=Flake8_import_order&logoColor=%2381BECE&label=Flake8_import_order&labelColor=%23806491&color=%23B9848C)
-![Static Badge](https://img.shields.io/badge/python-2.1.0-badgeContent?style=flat&logo=Flake8_pep3101&logoColor=%2381BECE&label=Flake8_pep3101&labelColor=%23BC2041&color=%239E8279)
-![Static Badge](https://img.shields.io/badge/python-5.0.0-badgeContent?style=flat&logo=Flake8_print&logoColor=%2381BECE&label=Flake8_print&labelColor=%23F38307&color=%23D5F2ED)
-![Static Badge](https://img.shields.io/badge/python-0.3.0-badgeContent?style=flat&logo=Flake8_rst_docstrings&logoColor=%2381BECE&label=Flake8_rst_docstrings&labelColor=%23DE60CA&color=%23882380)
-![Static Badge](https://img.shields.io/badge/python-0.3.0-badgeContent?style=flat&logo=Flake8_string_format&logoColor=%2381BECE&label=Flake8_string_format&labelColor=%236B99C3&color=%23022E66)
-![Static Badge](https://img.shields.io/badge/python-0.3.0-badgeContent?style=flat&logo=Flake8_string_format&logoColor=%2381BECE&label=Flake8_string_format&labelColor=%23dde4ea&color=%236e7478)
-![Static Badge](https://img.shields.io/badge/python-0.0.6-badgeContent?style=flat&logo=Flake8_variables_names&logoColor=%2381BECE&label=Flake8_variables_names&labelColor=%23adbf8f&color=%23788e3c)
-___
+---
 
-## Структура сайта
+### Установка и запуск проекта
 
-* Страница: index - является главной страницей сайта, на которой расположена приветственная информация, кнопки навигации по каталогу, меню, а так же информация о работе магазина.
-* Страницы: flowers, bouquets, baskets, indoor, artificial, wreaths, toys, fireworks - являются страницами каталога, одинаковыми по своей структуре, но разными по наполнению. В них располагаются карточки товаров (при наличии в базе данных) с фотографией товара, названием, его описанием и ценой. Так же при переполнении страницы более чем на 12 карточек, создаются дополнительные страницы навигации с новыми карточками. У администраторов на карточках имеется кнопка удаления товара.
-* Страница: store_news - Является страницей с новостями магазина, блоки новостей расположены вертикально, по 4шт. на странице. Новость состоит из фото, название новости, текста новости и даты публикации. У администраторов на карточках имеется кнопка удаления новости.
-* Страница: admin_login - Это страница авторизации для администраторов сайта. Админы добавляются в базу данных в ручную. Пароль должен добавляться в БД в виде хэша, для этого в каталоге проекта есть соответствующий инструмент "hash_pass".
-* Страница: admin_menu - Это страница навигации по меню администратора. Здесь вы можете выбрать необходимый раздел.
-* Страница: admin_panel - Представляет собой форму, с помощью которой можно добавить товары.
-* Страница: admin_article - Представляет собой форму, с помощью которой можно добавить новости.
-* Страница: page_not_found - Это страница, которая открывается в случае возникновении ошибки 404(Страница не найдена!)
+1. Клонируйте репозиторий:
 
-> ВАЖНО!: для авторизации администраторов, используется ссылка: https://your-ip/admin_login
+    ```bash
+    git clone https://github.com/username/FlowerShop.git
+    ```
 
-___
+2. Перейдите в папку с проектом:
 
-## Инструкция по установке
+    ```bash
+    cd FlowerShop
+    ```
 
-1. После скачивания репозитория, распакуйте его в удобное место и откройте через ваш IDE.
-2. Установка виртуальной среды и зависимостей:
-    * Если ваш IDE - **VS CODE** или **PyCharm**, создайте виртуальную среду и установите зависимости с помощью файла requirements.txt
-    * Если же вы пользуетесь другими IDE, откройте в корневом каталоге проекта
-    **PowerShell**, через shift+ПКМ(и выберите PowerShell).
-        * Введите команду: ```python -m venv venv```
-        * После установки среды, выполните её активацию: ```venv\Scripts\activate```
-        * Далее установите зависимости: ```pip install -r requirements.txt```
-3. Добавьте свои данные в файл docker-compose.yaml, так же если это необходимо, добавите инструкции в Dockerfile(для работы с docker, данная программа должна быть установлена на вашем ПК), вы можете настроить в файле config.py необходжимый конфиг под ваши задачи и изменить назначение конфига в строке ```app.config.from_object(<конфиг>)``` в файле **handler_flask.py**.
-4. В терминале войдите в папку проекта и выполните команду: ```docker-compose build```
-5. После завершения построения image с вашим проектом, вы можете запустить контейнеры в том же терминале командой ```docker-compose up```, остановить контейнер можно командой ```docker-compose down```, или же в приложении docker.
-6. Добавить администратора вы можете с помощью pgAdmin4 или же через терминал, посредством psql:
-   * Выполните команду ```docker ps -a``` из спика контейнеров найдите тот, image которого имеет название postgres, в колонке NAMES, вы увидите название этого контейнера, скопируйте его.
-   * Далее в терминале выполните команду: ```docker exec -it <название контейнера> bash```
-   * Далее выполните команду ```psql -U <имя_пользователя> -d <имя_базы_данных>```
-   * После этого, вы можете манипулировать таблицами и данными в терминале, с помощью psql путём выполнения SQL команд с использованием диалекта PostgreSQL.
+3. Установите зависимости:
 
-___
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## Контакты
+4. Для запуска приложения используйте команду:
 
-Моя почта: **turra777@mail.ru**
+    ```bash
+    python app.py
+    ```
 
-Мой телеграм: **https://t.me/chicano_712**
+5. Откройте браузер и перейдите по адресу [http://127.0.0.1:5000](http://127.0.0.1:5000).
+
+---
+
+### Логирование и тестирование
+
+Для включения логирования выполните:
+
+```bash
+python log_mod.py
